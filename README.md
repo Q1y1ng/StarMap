@@ -1,3 +1,4 @@
+e-mail：s3431248075@163.com
 # <img src="./docs/images/logo.svg" alt="StarMap" width="32" style="vertical-align: middle" /> StarMap
 
 **StarMap v2.0 — AI Learning Portfolio Platform**
