@@ -1,0 +1,38 @@
+{
+  "fileName": "语文试卷4.jpg",
+  "processingTime": 8160,
+  "extraction": {
+    "page_type": "paper",
+    "questions": [
+      {
+        "number": 14,
+        "type": "choice"
+      },
+      {
+        "number": 15,
+        "type": "choice"
+      },
+      {
+        "number": 16,
+        "type": "choice"
+      },
+      {
+        "number": 17,
+        "type": "choice"
+      },
+      {
+        "number": 18,
+        "type": "subjective"
+      }
+    ],
+    "answers": [],
+    "scores": {
+      "total": null,
+      "max": null
+    },
+    "sections": [
+      "questions"
+    ]
+  },
+  "rawResponse": "{\n  \"page_type\": \"paper\",\n  \"questions\": [\n    {\"number\": 14, \"type\": \"choice\"},\n    {\"number\": 15, \"type\": \"choice\"},\n    {\"number\": 16, \"type\": \"choice\"},\n    {\"number\": 17, \"type\": \"choice\"},\n    {\"number\": 18, \"type\": \"subjective\"}\n  ],\n  \"answers\": [],\n  \"scores\": {\"total\": null, \"max\": null},\n  \"sections\": [\"questions\"]\n}"
+}

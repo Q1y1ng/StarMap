@@ -1,0 +1,216 @@
+{
+  "sampleId": "real-004",
+  "caseId": "case-004",
+  "subject": "化学",
+  "totalPages": 6,
+  "totalProcessingTime": 87856,
+  "totalOutputLength": 3702,
+  "totalPromptTokens": 0,
+  "totalCompletionTokens": 0,
+  "questions": [
+    {
+      "number": 1,
+      "type": "choice"
+    },
+    {
+      "number": 2,
+      "type": "choice"
+    },
+    {
+      "number": 3,
+      "type": "choice"
+    },
+    {
+      "number": 4,
+      "type": "choice"
+    },
+    {
+      "number": 5,
+      "type": "choice"
+    },
+    {
+      "number": 6,
+      "type": "choice"
+    },
+    {
+      "number": 7,
+      "type": "choice"
+    },
+    {
+      "number": 8,
+      "type": "choice"
+    },
+    {
+      "number": 9,
+      "type": "choice"
+    },
+    {
+      "number": 10,
+      "type": "choice"
+    },
+    {
+      "number": 11,
+      "type": "choice"
+    },
+    {
+      "number": 12,
+      "type": "choice"
+    },
+    {
+      "number": 13,
+      "type": "choice"
+    },
+    {
+      "number": 14,
+      "type": "choice"
+    },
+    {
+      "number": 15,
+      "type": "choice"
+    },
+    {
+      "number": 16,
+      "type": "choice"
+    },
+    {
+      "number": 17,
+      "type": "choice"
+    },
+    {
+      "number": 18,
+      "type": "choice"
+    },
+    {
+      "number": 19,
+      "type": "choice"
+    },
+    {
+      "number": 20,
+      "type": "choice"
+    },
+    {
+      "number": 21,
+      "type": "subjective"
+    },
+    {
+      "number": 22,
+      "type": "subjective"
+    },
+    {
+      "number": 23,
+      "type": "subjective"
+    },
+    {
+      "number": 24,
+      "type": "subjective"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "content": "A"
+    },
+    {
+      "number": 2,
+      "content": "B"
+    },
+    {
+      "number": 3,
+      "content": "A"
+    },
+    {
+      "number": 4,
+      "content": "A"
+    },
+    {
+      "number": 5,
+      "content": "A"
+    },
+    {
+      "number": 6,
+      "content": "A"
+    },
+    {
+      "number": 7,
+      "content": "B"
+    },
+    {
+      "number": 8,
+      "content": "A"
+    },
+    {
+      "number": 9,
+      "content": "A"
+    },
+    {
+      "number": 10,
+      "content": "A"
+    },
+    {
+      "number": 11,
+      "content": "A"
+    },
+    {
+      "number": 12,
+      "content": "A"
+    },
+    {
+      "number": 13,
+      "content": "A"
+    },
+    {
+      "number": 14,
+      "content": "A"
+    },
+    {
+      "number": 15,
+      "content": "A"
+    },
+    {
+      "number": 16,
+      "content": "A"
+    },
+    {
+      "number": 17,
+      "content": "A"
+    },
+    {
+      "number": 18,
+      "content": "B"
+    },
+    {
+      "number": 19,
+      "content": "B"
+    },
+    {
+      "number": 20,
+      "content": "A"
+    },
+    {
+      "number": 21,
+      "content": "(1)2,3-二甲基戊烷；(2)苯酚钠与CO₂、H₂O反应生成苯酚和NaHCO₃；(3)CH₂=CH₂ + NaCl + H₂O；(4)1；(5)苯酚与溴水的取代反应；(6)CH₃CH₂Cl与NaOH的水解反应；(7)苯与液溴的取代反应"
+    },
+    {
+      "number": 22,
+      "content": "(1)碳碳双键；(2)加成反应；(3)羟基；(4)羧基；(5)加成反应"
+    },
+    {
+      "number": 23,
+      "content": "(1)③；(2)①；(3)④；(4)②；(5)；(6)①④；(7)③①"
+    },
+    {
+      "number": 24,
+      "content": "I(1)：4-甲基-1-苯酚、能、不能；I(2)：氧化反应；I(3)：；I(4)：B；II(1)：苯酯"
+    }
+  ],
+  "scores": {
+    "total": 58,
+    "max": 100
+  },
+  "sections": [
+    "exam_info",
+    "questions",
+    "answers",
+    "scores"
+  ]
+}

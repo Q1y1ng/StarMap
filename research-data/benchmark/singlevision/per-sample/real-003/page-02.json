@@ -1,0 +1,42 @@
+{
+  "fileName": "物理试卷2.jpg",
+  "processingTime": 14961,
+  "extraction": {
+    "page_type": "paper",
+    "questions": [
+      {
+        "number": 10,
+        "type": "choice"
+      },
+      {
+        "number": 11,
+        "type": "subjective"
+      },
+      {
+        "number": 12,
+        "type": "subjective"
+      },
+      {
+        "number": 13,
+        "type": "subjective"
+      },
+      {
+        "number": 14,
+        "type": "subjective"
+      },
+      {
+        "number": 15,
+        "type": "subjective"
+      }
+    ],
+    "answers": [],
+    "scores": {
+      "total": null,
+      "max": null
+    },
+    "sections": [
+      "questions"
+    ]
+  },
+  "rawResponse": "{\n  \"page_type\": \"paper\",\n  \"questions\": [\n    {\"number\": 10, \"type\": \"choice\"},\n    {\"number\": 11, \"type\": \"subjective\"},\n    {\"number\": 12, \"type\": \"subjective\"},\n    {\"number\": 13, \"type\": \"subjective\"},\n    {\"number\": 14, \"type\": \"subjective\"},\n    {\"number\": 15, \"type\": \"subjective\"}\n  ],\n  \"answers\": [],\n  \"scores\": {\"total\": null, \"max\": null},\n  \"sections\": [\"questions\"]\n}"
+}

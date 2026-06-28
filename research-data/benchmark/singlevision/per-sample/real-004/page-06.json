@@ -1,0 +1,18 @@
+{
+  "fileName": "YL化学小分.png",
+  "processingTime": 7830,
+  "extraction": {
+    "page_type": "score-report",
+    "questions": [],
+    "answers": [],
+    "scores": {
+      "total": 58,
+      "max": 100
+    },
+    "sections": [
+      "exam_info",
+      "scores"
+    ]
+  },
+  "rawResponse": "{\n  \"page_type\": \"score-report\",\n  \"questions\": [],\n  \"answers\": [],\n  \"scores\": {\"total\": 58, \"max\": 100},\n  \"sections\": [\"exam_info\", \"scores\"]\n}"
+}

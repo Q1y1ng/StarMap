@@ -1,0 +1,233 @@
+{
+  "fileName": "YL英语答题卡1.jpg",
+  "processingTime": 39156,
+  "extraction": {
+    "page_type": "answer-sheet",
+    "questions": [
+      {
+        "number": 1,
+        "type": "choice"
+      },
+      {
+        "number": 2,
+        "type": "choice"
+      },
+      {
+        "number": 3,
+        "type": "choice"
+      },
+      {
+        "number": 4,
+        "type": "choice"
+      },
+      {
+        "number": 5,
+        "type": "choice"
+      },
+      {
+        "number": 6,
+        "type": "choice"
+      },
+      {
+        "number": 7,
+        "type": "choice"
+      },
+      {
+        "number": 8,
+        "type": "choice"
+      },
+      {
+        "number": 9,
+        "type": "choice"
+      },
+      {
+        "number": 10,
+        "type": "choice"
+      },
+      {
+        "number": 11,
+        "type": "choice"
+      },
+      {
+        "number": 12,
+        "type": "choice"
+      },
+      {
+        "number": 13,
+        "type": "choice"
+      },
+      {
+        "number": 14,
+        "type": "choice"
+      },
+      {
+        "number": 15,
+        "type": "choice"
+      },
+      {
+        "number": 16,
+        "type": "choice"
+      },
+      {
+        "number": 17,
+        "type": "choice"
+      },
+      {
+        "number": 18,
+        "type": "choice"
+      },
+      {
+        "number": 19,
+        "type": "choice"
+      },
+      {
+        "number": 20,
+        "type": "choice"
+      },
+      {
+        "number": 21,
+        "type": "choice"
+      },
+      {
+        "number": 22,
+        "type": "choice"
+      },
+      {
+        "number": 23,
+        "type": "choice"
+      },
+      {
+        "number": 24,
+        "type": "choice"
+      },
+      {
+        "number": 25,
+        "type": "choice"
+      },
+      {
+        "number": 26,
+        "type": "choice"
+      },
+      {
+        "number": 27,
+        "type": "choice"
+      },
+      {
+        "number": 28,
+        "type": "choice"
+      },
+      {
+        "number": 29,
+        "type": "choice"
+      },
+      {
+        "number": 30,
+        "type": "choice"
+      },
+      {
+        "number": 31,
+        "type": "choice"
+      },
+      {
+        "number": 32,
+        "type": "choice"
+      },
+      {
+        "number": 33,
+        "type": "choice"
+      },
+      {
+        "number": 34,
+        "type": "choice"
+      },
+      {
+        "number": 35,
+        "type": "choice"
+      },
+      {
+        "number": 36,
+        "type": "fill"
+      },
+      {
+        "number": 37,
+        "type": "fill"
+      },
+      {
+        "number": 38,
+        "type": "fill"
+      },
+      {
+        "number": 39,
+        "type": "fill"
+      },
+      {
+        "number": 40,
+        "type": "fill"
+      },
+      {
+        "number": 41,
+        "type": "fill"
+      },
+      {
+        "number": 42,
+        "type": "fill"
+      },
+      {
+        "number": 43,
+        "type": "fill"
+      },
+      {
+        "number": 44,
+        "type": "fill"
+      },
+      {
+        "number": 45,
+        "type": "fill"
+      }
+    ],
+    "answers": [
+      {
+        "number": 36,
+        "content": "to"
+      },
+      {
+        "number": 37,
+        "content": "easily"
+      },
+      {
+        "number": 38,
+        "content": "flexible"
+      },
+      {
+        "number": 39,
+        "content": "painting"
+      },
+      {
+        "number": 40,
+        "content": "a"
+      },
+      {
+        "number": 43,
+        "content": "to adapt"
+      },
+      {
+        "number": 44,
+        "content": "without"
+      },
+      {
+        "number": 45,
+        "content": "but"
+      }
+    ],
+    "scores": {
+      "total": null,
+      "max": 30
+    },
+    "sections": [
+      "exam_info",
+      "questions",
+      "answers"
+    ]
+  },
+  "rawResponse": "{\n  \"page_type\": \"answer-sheet\",\n  \"questions\": [\n    {\"number\": 1, \"type\": \"choice\"},\n    {\"number\": 2, \"type\": \"choice\"},\n    {\"number\": 3, \"type\": \"choice\"},\n    {\"number\": 4, \"type\": \"choice\"},\n    {\"number\": 5, \"type\": \"choice\"},\n    {\"number\": 6, \"type\": \"choice\"},\n    {\"number\": 7, \"type\": \"choice\"},\n    {\"number\": 8, \"type\": \"choice\"},\n    {\"number\": 9, \"type\": \"choice\"},\n    {\"number\": 10, \"type\": \"choice\"},\n    {\"number\": 11, \"type\": \"choice\"},\n    {\"number\": 12, \"type\": \"choice\"},\n    {\"number\": 13, \"type\": \"choice\"},\n    {\"number\": 14, \"type\": \"choice\"},\n    {\"number\": 15, \"type\": \"choice\"},\n    {\"number\": 16, \"type\": \"choice\"},\n    {\"number\": 17, \"type\": \"choice\"},\n    {\"number\": 18, \"type\": \"choice\"},\n    {\"number\": 19, \"type\": \"choice\"},\n    {\"number\": 20, \"type\": \"choice\"},\n    {\"number\": 21, \"type\": \"choice\"},\n    {\"number\": 22, \"type\": \"choice\"},\n    {\"number\": 23, \"type\": \"choice\"},\n    {\"number\": 24, \"type\": \"choice\"},\n    {\"number\": 25, \"type\": \"choice\"},\n    {\"number\": 26, \"type\": \"choice\"},\n    {\"number\": 27, \"type\": \"choice\"},\n    {\"number\": 28, \"type\": \"choice\"},\n    {\"number\": 29, \"type\": \"choice\"},\n    {\"number\": 30, \"type\": \"choice\"},\n    {\"number\": 31, \"type\": \"choice\"},\n    {\"number\": 32, \"type\": \"choice\"},\n    {\"number\": 33, \"type\": \"choice\"},\n    {\"number\": 34, \"type\": \"choice\"},\n    {\"number\": 35, \"type\": \"choice\"},\n    {\"number\": 36, \"type\": \"fill\"},\n    {\"number\": 37, \"type\": \"fill\"},\n    {\"number\": 38, \"type\": \"fill\"},\n    {\"number\": 39, \"type\": \"fill\"},\n    {\"number\": 40, \"type\": \"fill\"},\n    {\"number\": 41, \"type\": \"fill\"},\n    {\"number\": 42, \"type\": \"fill\"},\n    {\"number\": 43, \"type\": \"fill\"},\n    {\"number\": 44, \"type\": \"fill\"},\n    {\"number\": 45, \"type\": \"fill\"}\n  ],\n  \"answers\": [\n    {\"number\": 36, \"content\": \"to\"},\n    {\"number\": 37, \"content\": \"easily\"},\n    {\"number\": 38, \"content\": \"flexible\"},\n    {\"number\": 39, \"content\": \"painting\"},\n    {\"number\": 40, \"content\": \"a\"},\n    {\"number\": 43, \"content\": \"to adapt\"},\n    {\"number\": 44, \"content\": \"without\"},\n    {\"number\": 45, \"content\": \"but\"}\n  ],\n  \"scores\": {\"total\": null, \"max\": 30},\n  \"sections\": [\"exam_info\", \"questions\", \"answers\"]\n}"
+}

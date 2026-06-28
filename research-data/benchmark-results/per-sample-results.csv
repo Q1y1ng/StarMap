@@ -1,0 +1,6 @@
+sampleId,subject,method,QA,AA,SA,DSR,questionsFound,questionsTotal,answersFound,answersTotal,scoresFound,scoresTotal,sectionsFound,sectionsTotal
+real-001,语文,StarMap,100,100,100,100,18,18,18,18,1,1,5,5
+real-002,英语,StarMap,100,100,100,100,37,37,37,37,1,1,5,5
+real-003,物理,StarMap,100,100,100,80,15,15,15,15,1,1,4,5
+real-004,化学,StarMap,100,100,100,80,22,24,24,24,1,1,4,5
+real-005,地理,StarMap,100,100,100,100,33,33,33,33,12,12,5,5

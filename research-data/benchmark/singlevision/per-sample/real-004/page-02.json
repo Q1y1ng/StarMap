@@ -1,0 +1,54 @@
+{
+  "fileName": "化学试卷2.jpg",
+  "processingTime": 8178,
+  "extraction": {
+    "page_type": "paper",
+    "questions": [
+      {
+        "number": 11,
+        "type": "choice"
+      },
+      {
+        "number": 12,
+        "type": "choice"
+      },
+      {
+        "number": 13,
+        "type": "choice"
+      },
+      {
+        "number": 14,
+        "type": "choice"
+      },
+      {
+        "number": 15,
+        "type": "choice"
+      },
+      {
+        "number": 16,
+        "type": "choice"
+      },
+      {
+        "number": 17,
+        "type": "choice"
+      },
+      {
+        "number": 18,
+        "type": "choice"
+      },
+      {
+        "number": 19,
+        "type": "choice"
+      }
+    ],
+    "answers": [],
+    "scores": {
+      "total": null,
+      "max": null
+    },
+    "sections": [
+      "questions"
+    ]
+  },
+  "rawResponse": "{\n  \"page_type\": \"paper\",\n  \"questions\": [\n    {\"number\": 11, \"type\": \"choice\"},\n    {\"number\": 12, \"type\": \"choice\"},\n    {\"number\": 13, \"type\": \"choice\"},\n    {\"number\": 14, \"type\": \"choice\"},\n    {\"number\": 15, \"type\": \"choice\"},\n    {\"number\": 16, \"type\": \"choice\"},\n    {\"number\": 17, \"type\": \"choice\"},\n    {\"number\": 18, \"type\": \"choice\"},\n    {\"number\": 19, \"type\": \"choice\"}\n  ],\n  \"answers\": [],\n  \"scores\": {\"total\": null, \"max\": null},\n  \"sections\": [\"questions\"]\n}"
+}

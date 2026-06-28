@@ -1,0 +1,11 @@
+{
+  "sampleId": "real-006",
+  "subject": "unknown",
+  "grade": "unknown",
+  "examType": "诊断考试",
+  "totalScore": 100,
+  "questionCount": 0,
+  "source": "uploaded-pdf",
+  "hasOutput": false,
+  "hasImages": true
+}

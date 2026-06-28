@@ -1,0 +1,11 @@
+{
+  "sampleId": "real-031",
+  "subject": "英语",
+  "grade": "高三",
+  "examType": "月考",
+  "totalScore": 150,
+  "questionCount": 10,
+  "source": "exambench-v1",
+  "hasOutput": false,
+  "hasImages": false
+}

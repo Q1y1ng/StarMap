@@ -1,0 +1,288 @@
+{
+  "sampleId": "real-005",
+  "caseId": "case-005",
+  "subject": "地理",
+  "totalPages": 5,
+  "totalProcessingTime": 102491,
+  "totalOutputLength": 5987,
+  "totalPromptTokens": 0,
+  "totalCompletionTokens": 0,
+  "questions": [
+    {
+      "number": 1,
+      "type": "choice"
+    },
+    {
+      "number": 2,
+      "type": "choice"
+    },
+    {
+      "number": 3,
+      "type": "choice"
+    },
+    {
+      "number": 4,
+      "type": "choice"
+    },
+    {
+      "number": 5,
+      "type": "choice"
+    },
+    {
+      "number": 6,
+      "type": "choice"
+    },
+    {
+      "number": 7,
+      "type": "choice"
+    },
+    {
+      "number": 8,
+      "type": "choice"
+    },
+    {
+      "number": 9,
+      "type": "choice"
+    },
+    {
+      "number": 10,
+      "type": "choice"
+    },
+    {
+      "number": 11,
+      "type": "choice"
+    },
+    {
+      "number": 12,
+      "type": "choice"
+    },
+    {
+      "number": 13,
+      "type": "choice"
+    },
+    {
+      "number": 14,
+      "type": "choice"
+    },
+    {
+      "number": 15,
+      "type": "choice"
+    },
+    {
+      "number": 16,
+      "type": "choice"
+    },
+    {
+      "number": 17,
+      "type": "choice"
+    },
+    {
+      "number": 18,
+      "type": "choice"
+    },
+    {
+      "number": 19,
+      "type": "choice"
+    },
+    {
+      "number": 20,
+      "type": "choice"
+    },
+    {
+      "number": 21,
+      "type": "choice"
+    },
+    {
+      "number": 22,
+      "type": "choice"
+    },
+    {
+      "number": 23,
+      "type": "choice"
+    },
+    {
+      "number": 24,
+      "type": "choice"
+    },
+    {
+      "number": 25,
+      "type": "choice"
+    },
+    {
+      "number": 26,
+      "type": "choice"
+    },
+    {
+      "number": 27,
+      "type": "choice"
+    },
+    {
+      "number": 28,
+      "type": "choice"
+    },
+    {
+      "number": 29,
+      "type": "choice"
+    },
+    {
+      "number": 30,
+      "type": "choice"
+    },
+    {
+      "number": 31,
+      "type": "subjective"
+    },
+    {
+      "number": 32,
+      "type": "subjective"
+    },
+    {
+      "number": 33,
+      "type": "subjective"
+    }
+  ],
+  "answers": [
+    {
+      "number": 9,
+      "content": "A"
+    },
+    {
+      "number": 15,
+      "content": "A"
+    },
+    {
+      "number": 1,
+      "content": "D"
+    },
+    {
+      "number": 2,
+      "content": "B"
+    },
+    {
+      "number": 3,
+      "content": "B"
+    },
+    {
+      "number": 4,
+      "content": "B"
+    },
+    {
+      "number": 5,
+      "content": "B"
+    },
+    {
+      "number": 6,
+      "content": "B"
+    },
+    {
+      "number": 7,
+      "content": "B"
+    },
+    {
+      "number": 8,
+      "content": "B"
+    },
+    {
+      "number": 10,
+      "content": "B"
+    },
+    {
+      "number": 11,
+      "content": "B"
+    },
+    {
+      "number": 12,
+      "content": "B"
+    },
+    {
+      "number": 13,
+      "content": "A"
+    },
+    {
+      "number": 14,
+      "content": "A"
+    },
+    {
+      "number": 16,
+      "content": "B"
+    },
+    {
+      "number": 17,
+      "content": "B"
+    },
+    {
+      "number": 18,
+      "content": "C"
+    },
+    {
+      "number": 19,
+      "content": "C"
+    },
+    {
+      "number": 20,
+      "content": "B"
+    },
+    {
+      "number": 21,
+      "content": "A"
+    },
+    {
+      "number": 22,
+      "content": "B"
+    },
+    {
+      "number": 23,
+      "content": "A"
+    },
+    {
+      "number": 24,
+      "content": "B"
+    },
+    {
+      "number": 25,
+      "content": "A"
+    },
+    {
+      "number": 26,
+      "content": "B"
+    },
+    {
+      "number": 27,
+      "content": "B"
+    },
+    {
+      "number": 28,
+      "content": "B"
+    },
+    {
+      "number": 29,
+      "content": "A"
+    },
+    {
+      "number": 30,
+      "content": "B"
+    },
+    {
+      "number": 31,
+      "content": "(1) ①东南高西北低 ②整体海拔低，最高处仅694米；(2) ①潮汐能：比利时的海岸线漫长，有丰富的潮汐能；②水能：地势东南高西北低，可以利用落差修水电站；③核能：比利时经济发达，欧洲的核电技术先进；④风能：平原广阔，风能充足；(3) ①气候温和湿润，农业发达，有利于农业发展；②平原面积广阔，可用耕地面积多；③经济高度发达，对外交流密切，可以更好的融通不同风味的美食"
+    },
+    {
+      "number": 32,
+      "content": "(1) 地形：四周高中间低，盆地中间地形平坦；气候：热带草原气候，终年高温，有明显的旱雨两季，降水稀少；(2) 利：①交通方便，有铁路方便运输；②需指：南非经济实力强，需求大；不利：①当地穷苦落后，治安条件不好；②处在国境线边，易被战乱冲突打断生产；(3) 我支持关闭：①传统产业经济效益低，靠补贴；②传统厂采地下海水对当地的生产资源有破坏，易造成地表沉降；③传统厂竞争不过美国产品，生产效率低下，竞争力不行"
+    },
+    {
+      "number": 33,
+      "content": "（1）平原面积小，①当地的耕种面积少，只分布在滨海平原区；②红宝石青柚树冠大，不利于密植提高产量；③当地为热带季风气候，有明显的旱雨两季，因怕涝渍使排水渠占地多。（2）变化：冬季不开花；原因：①广东梅州纬度高于洛坤府，冬季气温低于洛坤府，红宝石青柚喜湿热；②广东梅州纬度较高，降水量不如洛坤府，红宝石青柚喜温。"
+    }
+  ],
+  "scores": {
+    "total": 68,
+    "max": 100
+  },
+  "sections": [
+    "exam_info",
+    "questions",
+    "answers",
+    "scores"
+  ]
+}

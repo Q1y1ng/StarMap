@@ -1,0 +1,13 @@
+{
+  "experimentId": "B-singlevision",
+  "method": "SingleVision",
+  "description": "基线方案 B：单页 Vision API 调用，每页图片独立识别但无跨页关联",
+  "config": {
+    "engine": "VISION",
+    "mode": "HIGH_ACCURACY",
+    "singlePage": true,
+    "semanticParsing": true,
+    "description": "每页图片独立调用 Vision API，逐页理解但丧失跨页关联"
+  },
+  "expectedResults": "单页内容准确但跨页对应易错，QA 尚可，AA/SA 因跨页错位而下降"
+}

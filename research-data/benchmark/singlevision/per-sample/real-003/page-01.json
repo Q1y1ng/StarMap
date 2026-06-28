@@ -1,0 +1,55 @@
+{
+  "fileName": "物理试卷1.jpg",
+  "processingTime": 13932,
+  "extraction": {
+    "page_type": "paper",
+    "questions": [
+      {
+        "number": 1,
+        "type": "choice"
+      },
+      {
+        "number": 2,
+        "type": "choice"
+      },
+      {
+        "number": 3,
+        "type": "choice"
+      },
+      {
+        "number": 4,
+        "type": "choice"
+      },
+      {
+        "number": 5,
+        "type": "choice"
+      },
+      {
+        "number": 6,
+        "type": "choice"
+      },
+      {
+        "number": 7,
+        "type": "choice"
+      },
+      {
+        "number": 8,
+        "type": "choice"
+      },
+      {
+        "number": 9,
+        "type": "choice"
+      }
+    ],
+    "answers": [],
+    "scores": {
+      "total": null,
+      "max": null
+    },
+    "sections": [
+      "exam_info",
+      "questions"
+    ]
+  },
+  "rawResponse": "{\n  \"page_type\": \"paper\",\n  \"questions\": [\n    {\"number\": 1, \"type\": \"choice\"},\n    {\"number\": 2, \"type\": \"choice\"},\n    {\"number\": 3, \"type\": \"choice\"},\n    {\"number\": 4, \"type\": \"choice\"},\n    {\"number\": 5, \"type\": \"choice\"},\n    {\"number\": 6, \"type\": \"choice\"},\n    {\"number\": 7, \"type\": \"choice\"},\n    {\"number\": 8, \"type\": \"choice\"},\n    {\"number\": 9, \"type\": \"choice\"}\n  ],\n  \"answers\": [],\n  \"scores\": {\"total\": null, \"max\": null},\n  \"sections\": [\"exam_info\", \"questions\"]\n}"
+}

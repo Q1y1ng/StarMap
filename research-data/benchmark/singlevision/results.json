@@ -1,0 +1,3800 @@
+{
+  "meta": {
+    "generatedAt": "2026-06-18T10:36:32.206Z",
+    "script": "scripts/run-singlevision-baseline.ts",
+    "method": "SingleVision",
+    "model": "ep-20260614012405-gx8ws",
+    "promptMode": "json-extraction",
+    "totalSamples": 5,
+    "totalPages": 29,
+    "totalApiCalls": 29,
+    "totalTokens": 0
+  },
+  "status": "COMPLETED",
+  "summary": {
+    "avgProcessingTime": 105188,
+    "avgOutputLength": 4751,
+    "avgTokensPerPage": 0,
+    "avgPagesPerSample": 5.8
+  },
+  "samples": [
+    {
+      "sampleId": "real-001",
+      "caseId": "case-001",
+      "subject": "语文",
+      "totalPages": 7,
+      "totalProcessingTime": 112133,
+      "totalOutputLength": 4410,
+      "totalPromptTokens": 0,
+      "totalCompletionTokens": 0,
+      "questions": [
+        {
+          "number": 1,
+          "type": "choice"
+        },
+        {
+          "number": 2,
+          "type": "choice"
+        },
+        {
+          "number": 3,
+          "type": "choice"
+        },
+        {
+          "number": 4,
+          "type": "choice"
+        },
+        {
+          "number": 5,
+          "type": "choice"
+        },
+        {
+          "number": 6,
+          "type": "subjective"
+        },
+        {
+          "number": 7,
+          "type": "subjective"
+        },
+        {
+          "number": 8,
+          "type": "choice"
+        },
+        {
+          "number": 9,
+          "type": "choice"
+        },
+        {
+          "number": 10,
+          "type": "subjective"
+        },
+        {
+          "number": 11,
+          "type": "choice"
+        },
+        {
+          "number": 12,
+          "type": "subjective"
+        },
+        {
+          "number": 13,
+          "type": "fill"
+        },
+        {
+          "number": 14,
+          "type": "choice"
+        },
+        {
+          "number": 15,
+          "type": "choice"
+        },
+        {
+          "number": 16,
+          "type": "choice"
+        },
+        {
+          "number": 17,
+          "type": "choice"
+        },
+        {
+          "number": 18,
+          "type": "subjective"
+        }
+      ],
+      "answers": [
+        {
+          "number": 4,
+          "content": "C"
+        },
+        {
+          "number": 1,
+          "content": "A"
+        },
+        {
+          "number": 2,
+          "content": "A"
+        },
+        {
+          "number": 3,
+          "content": "C"
+        },
+        {
+          "number": 5,
+          "content": "A"
+        },
+        {
+          "number": 6,
+          "content": "答：(1)用幽默风趣的语言描述关于“辩子”“去智”的事情，展现了当时，封建思想无法彻底摒弃，依然制约着人们。(2)."
+        },
+        {
+          "number": 10,
+          "content": "人们各有自己突出的闪光点，都像平常一般。虽然你贴了解我没关一样，对怎么能多余心思出来惩罚。"
+        },
+        {
+          "number": 12,
+          "content": "①借景抒情，通过对汴河边柳树等景物的描写，抒发了作者对过往的怀念。②表达了诗人对未来的憧憬，对过往的怀念。"
+        },
+        {
+          "number": 13,
+          "content": "飞湍瀑流争喧豗，砯崖转石万壑雷"
+        },
+        {
+          "number": 7,
+          "content": "3.00"
+        },
+        {
+          "number": 8,
+          "content": "0.00"
+        },
+        {
+          "number": 9,
+          "content": "3.00"
+        },
+        {
+          "number": 11,
+          "content": "0.00"
+        },
+        {
+          "number": 14,
+          "content": "3.00"
+        },
+        {
+          "number": 15,
+          "content": "3.00"
+        },
+        {
+          "number": 16,
+          "content": "3.00"
+        },
+        {
+          "number": 17,
+          "content": "0.00"
+        }
+      ],
+      "scores": {
+        "total": "51",
+        "max": "100"
+      },
+      "sections": [
+        "exam_info",
+        "questions",
+        "answers",
+        "scores"
+      ],
+      "pages": [
+        {
+          "pageNumber": 1,
+          "fileName": "语文试卷1.jpg",
+          "processingTime": 9774,
+          "outputLength": 259,
+          "promptTokens": 0,
+          "completionTokens": 0,
+          "extraction": {
+            "page_type": "paper",
+            "questions": [
+              {
+                "number": 1,
+                "type": "choice"
+              },
+              {
+                "number": 2,
+                "type": "choice"
+              },
+              {
+                "number": 3,
+                "type": "choice"
+              }
+            ],
+            "answers": [],
+            "scores": {
+              "total": null,
+              "max": null
+            },
+            "sections": [
+              "exam_info",
+              "questions"
+            ]
+          },
+          "rawResponse": "{\n  \"page_type\": \"paper\",\n  \"questions\": [\n    {\"number\": 1, \"type\": \"choice\"},\n    {\"number\": 2, \"type\": \"choice\"},\n    {\"number\": 3, \"type\": \"choice\"}\n  ],\n  \"answers\": [],\n  \"scores\": {\"total\": null, \"max\": null},\n  \"sections\": [\"exam_info\", \"questions\"]\n}"
+        },
+        {
+          "pageNumber": 2,
+          "fileName": "语文试卷2.jpg",
+          "processingTime": 10335,
+          "outputLength": 278,
+          "promptTokens": 0,
+          "completionTokens": 0,
+          "extraction": {
+            "page_type": "paper",
+            "questions": [
+              {
+                "number": 4,
+                "type": "choice"
+              },
+              {
+                "number": 5,
+                "type": "choice"
+              }
+            ],
+            "answers": [
+              {
+                "number": 4,
+                "content": "C"
+              }
+            ],
+            "scores": {
+              "total": null,
+              "max": 11
+            },
+            "sections": [
+              "exam_info",
+              "questions",
+              "answers",
+              "scores"
+            ]
+          },
+          "rawResponse": "{\n  \"page_type\": \"paper\",\n  \"questions\": [\n    {\"number\": 4, \"type\": \"choice\"},\n    {\"number\": 5, \"type\": \"choice\"}\n  ],\n  \"answers\": [\n    {\"number\": 4, \"content\": \"C\"}\n  ],\n  \"scores\": {\"total\": null, \"max\": 11},\n  \"sections\": [\"exam_info\", \"questions\", \"answers\", \"scores\"]\n}"
+        },
+        {
+          "pageNumber": 3,
+          "fileName": "语文试卷3.jpg",
+          "processingTime": 16234,
+          "outputLength": 449,
+          "promptTokens": 0,
+          "completionTokens": 0,
+          "extraction": {
+            "page_type": "paper",
+            "questions": [
+              {
+                "number": 6,
+                "type": "subjective"
+              },
+              {
+                "number": 7,
+                "type": "subjective"
+              },
+              {
+                "number": 8,
+                "type": "choice"
+              },
+              {
+                "number": 9,
+                "type": "choice"
+              },
+              {
+                "number": 10,
+                "type": "subjective"
+              },
+              {
+                "number": 11,
+                "type": "choice"
+              },
+              {
+                "number": 12,
+                "type": "subjective"
+              },
+              {
+                "number": 13,
+                "type": "fill"
+              }
+            ],
+            "answers": [],
+            "scores": {
+              "total": null,
+              "max": null
+            },
+            "sections": [
+              "questions"
+            ]
+          },
+          "rawResponse": "{\n  \"page_type\": \"paper\",\n  \"questions\": [\n    {\"number\": 6, \"type\": \"subjective\"},\n    {\"number\": 7, \"type\": \"subjective\"},\n    {\"number\": 8, \"type\": \"choice\"},\n    {\"number\": 9, \"type\": \"choice\"},\n    {\"number\": 10, \"type\": \"subjective\"},\n    {\"number\": 11, \"type\": \"choice\"},\n    {\"number\": 12, \"type\": \"subjective\"},\n    {\"number\": 13, \"type\": \"fill\"}\n  ],\n  \"answers\": [],\n  \"scores\": {\"total\": null, \"max\": null},\n  \"sections\": [\"questions\"]\n}"
+        },
+        {
+          "pageNumber": 4,
+          "fileName": "语文试卷4.jpg",
+          "processingTime": 8160,
+          "outputLength": 329,
+          "promptTokens": 0,
+          "completionTokens": 0,
+          "extraction": {
+            "page_type": "paper",
+            "questions": [
+              {
+                "number": 14,
+                "type": "choice"
+              },
+              {
+                "number": 15,
+                "type": "choice"
+              },
+              {
+                "number": 16,
+                "type": "choice"
+              },
+              {
+                "number": 17,
+                "type": "choice"
+              },
+              {
+                "number": 18,
+                "type": "subjective"
+              }
+            ],
+            "answers": [],
+            "scores": {
+              "total": null,
+              "max": null
+            },
+            "sections": [
+              "questions"
+            ]
+          },
+          "rawResponse": "{\n  \"page_type\": \"paper\",\n  \"questions\": [\n    {\"number\": 14, \"type\": \"choice\"},\n    {\"number\": 15, \"type\": \"choice\"},\n    {\"number\": 16, \"type\": \"choice\"},\n    {\"number\": 17, \"type\": \"choice\"},\n    {\"number\": 18, \"type\": \"subjective\"}\n  ],\n  \"answers\": [],\n  \"scores\": {\"total\": null, \"max\": null},\n  \"sections\": [\"questions\"]\n}"
+        },
+        {
+          "pageNumber": 5,
+          "fileName": "YL语文答题卡1.jpg",
+          "processingTime": 25123,
+          "outputLength": 1005,
+          "promptTokens": 0,
+          "completionTokens": 0,
+          "extraction": {
+            "page_type": "answer-sheet",
+            "questions": [
+              {
+                "number": 1,
+                "type": "choice"
+              },
+              {
+                "number": 2,
+                "type": "choice"
+              },
+              {
+                "number": 3,
+                "type": "choice"
+              },
+              {
+                "number": 4,
+                "type": "choice"
+              },
+              {
+                "number": 5,
+                "type": "choice"
+              },
+              {
+                "number": 6,
+                "type": "subjective"
+              },
+              {
+                "number": 10,
+                "type": "subjective"
+              },
+              {
+                "number": 12,
+                "type": "subjective"
+              },
+              {
+                "number": 13,
+                "type": "subjective"
+              }
+            ],
+            "answers": [
+              {
+                "number": 1,
+                "content": "A"
+              },
+              {
+                "number": 2,
+                "content": "A"
+              },
+              {
+                "number": 3,
+                "content": "C"
+              },
+              {
+                "number": 4,
+                "content": "B"
+              },
+              {
+                "number": 5,
+                "content": "A"
+              },
+              {
+                "number": 6,
+                "content": "答：(1)用幽默风趣的语言描述关于“辩子”“去智”的事情，展现了当时，封建思想无法彻底摒弃，依然制约着人们。(2)."
+              },
+              {
+                "number": 10,
+                "content": "人们各有自己突出的闪光点，都像平常一般。虽然你贴了解我没关一样，对怎么能多余心思出来惩罚。"
+              },
+              {
+                "number": 12,
+                "content": "①借景抒情，通过对汴河边柳树等景物的描写，抒发了作者对过往的怀念。②表达了诗人对未来的憧憬，对过往的怀念。"
+              },
+              {
+                "number": 13,
+                "content": "飞湍瀑流争喧豗，砯崖转石万壑雷"
+              }
+            ],
+            "scores": {
+              "total": null,
+              "max": null
+            },
+            "sections": [
+              "exam_info",
+              "questions",
+              "answers"
+            ]
+          },
+          "rawResponse": "{\n  \"page_type\": \"answer-sheet\",\n  \"questions\": [\n    {\"number\": 1, \"type\": \"choice\"},\n    {\"number\": 2, \"type\": \"choice\"},\n    {\"number\": 3, \"type\": \"choice\"},\n    {\"number\": 4, \"type\": \"choice\"},\n    {\"number\": 5, \"type\": \"choice\"},\n    {\"number\": 6, \"type\": \"subjective\"},\n    {\"number\": 10, \"type\": \"subjective\"},\n    {\"number\": 12, \"type\": \"subjective\"},\n    {\"number\": 13, \"type\": \"subjective\"}\n  ],\n  \"answers\": [\n    {\"number\": 1, \"content\": \"A\"},\n    {\"number\": 2, \"content\": \"A\"},\n    {\"number\": 3, \"content\": \"C\"},\n    {\"number\": 4, \"content\": \"B\"},\n    {\"number\": 5, \"content\": \"A\"},\n    {\"number\": 6, \"content\": \"答：(1)用幽默风趣的语言描述关于“辩子”“去智”的事情，展现了当时，封建思想无法彻底摒弃，依然制约着人们。(2).\"},\n    {\"number\": 10, \"content\": \"人们各有自己突出的闪光点，都像平常一般。虽然你贴了解我没关一样，对怎么能多余心思出来惩罚。\"},\n    {\"number\": 12, \"content\": \"①借景抒情，通过对汴河边柳树等景物的描写，抒发了作者对过往的怀念。②表达了诗人对未来的憧憬，对过往的怀念。\"},\n    {\"number\": 13, \"content\": \"飞湍瀑流争喧豗，砯崖转石万壑雷\"}\n  ],\n  \"scores\": {\"total\": null, \"max\": null},\n  \"sections\": [\"exam_info\", \"questions\", \"answers\"]\n}"
+        },
+        {
+          "pageNumber": 6,
+          "fileName": "YL语文答题卡2.jpg",
+          "processingTime": 18219,
+          "outputLength": 709,
+          "promptTokens": 0,
+          "completionTokens": 0,
+          "extraction": {
+            "page_type": "mixed",
+            "questions": [
+              {
+                "number": 1,
+                "type": "subjective"
+              }
+            ],
+            "answers": [
+              {
+                "number": 1,
+                "content": "蜀道之难，难于上青天。著名诗人李白在《蜀道难》中用上青天来形容蜀道的艰险与壮丽。读完全篇，我们可以发现，蜀道的艰险不仅是地理上的障碍，更是人生中困境与路挑战的象征。那当我们在现实中遇到蜀道般的困境时，应该以勇气和毅力开辟前路迎难而上，还是学会绕行或放弃？做足准备，迎难而上。当遇到困难的时候，只要我们做足准备，定好目标便一定会有所收获。在抗日战争时期，革命先辈们做好牺牲于战场之中的准备，向着胜利的目标不断坚持。对敌人不害怕，对同伴不退缩。在装备差距、人数差距、衣食差距极大的情况下，我们革命先辈凭借一腔热血，向着胜利的目标不断前进，将侵略国连连击退。他们并不知道自己会赢，只知道凭借毅力不懈打下去，结果不会太差。从当初冰天雪地中战士们只能吃冻土豆、炒炒面，甚至啃啃树皮，到现在部队中具有专业烹饪车，可以吃到十分美味的热饭热菜，从当初步枪、迫击炮，到现在先进的军备，导弹，坦克、核武器；从当初吃不饱穿不暖，到现在吃得好，穿得暖。一切都离不开革命先辈们迎难而上的勇气与毅力。脚踏实地，绕路前行。在公路之上行驶时，山地公路更是最难驾驶的路线，一边是眩晕人的弯路，一边是高差可怕的陡坡路。"
+              }
+            ],
+            "scores": {
+              "total": null,
+              "max": 40
+            },
+            "sections": [
+              "exam_info",
+              "questions",
+              "answers"
+            ]
+          },
+          "rawResponse": "{\n  \"page_type\": \"mixed\",\n  \"questions\": [{\"number\": 1, \"type\": \"subjective\"}],\n  \"answers\": [{\"number\": 1, \"content\": \"蜀道之难，难于上青天。著名诗人李白在《蜀道难》中用上青天来形容蜀道的艰险与壮丽。读完全篇，我们可以发现，蜀道的艰险不仅是地理上的障碍，更是人生中困境与路挑战的象征。那当我们在现实中遇到蜀道般的困境时，应该以勇气和毅力开辟前路迎难而上，还是学会绕行或放弃？做足准备，迎难而上。当遇到困难的时候，只要我们做足准备，定好目标便一定会有所收获。在抗日战争时期，革命先辈们做好牺牲于战场之中的准备，向着胜利的目标不断坚持。对敌人不害怕，对同伴不退缩。在装备差距、人数差距、衣食差距极大的情况下，我们革命先辈凭借一腔热血，向着胜利的目标不断前进，将侵略国连连击退。他们并不知道自己会赢，只知道凭借毅力不懈打下去，结果不会太差。从当初冰天雪地中战士们只能吃冻土豆、炒炒面，甚至啃啃树皮，到现在部队中具有专业烹饪车，可以吃到十分美味的热饭热菜，从当初步枪、迫击炮，到现在先进的军备，导弹，坦克、核武器；从当初吃不饱穿不暖，到现在吃得好，穿得暖。一切都离不开革命先辈们迎难而上的勇气与毅力。脚踏实地，绕路前行。在公路之上行驶时，山地公路更是最难驾驶的路线，一边是眩晕人的弯路，一边是高差可怕的陡坡路。\"}],\n  \"scores\": {\"total\": null, \"max\": 40},\n  \"sections\": [\"exam_info\", \"questions\", \"answers\"]\n}"
+        },
+        {
+          "pageNumber": 7,
+          "fileName": "YL语文小分.png",
+          "processingTime": 24288,
+          "outputLength": 1381,
+          "promptTokens": 0,
+          "completionTokens": 0,
+          "extraction": {
+            "page_type": "score-report",
+            "questions": [
+              {
+                "number": 1,
+                "type": "choice"
+              },
+              {
+                "number": 2,
+                "type": "choice"
+              },
+              {
+                "number": 3,
+                "type": "choice"
+              },
+              {
+                "number": 4,
+                "type": "choice"
+              },
+              {
+                "number": 5,
+                "type": "choice"
+              },
+              {
+                "number": 7,
+                "type": "choice"
+              },
+              {
+                "number": 8,
+                "type": "choice"
+              },
+              {
+                "number": 9,
+                "type": "choice"
+              },
+              {
+                "number": 11,
+                "type": "choice"
+              },
+              {
+                "number": 14,
+                "type": "choice"
+              },
+              {
+                "number": 15,
+                "type": "choice"
+              },
+              {
+                "number": 16,
+                "type": "choice"
+              },
+              {
+                "number": 17,
+                "type": "choice"
+              },
+              {
+                "number": 6,
+                "type": "subjective"
+              },
+              {
+                "number": 10,
+                "type": "subjective"
+              },
+              {
+                "number": 12,
+                "type": "subjective"
+              },
+              {
+                "number": 13,
+                "type": "subjective"
+              }
+            ],
+            "answers": [
+              {
+                "number": 1,
+                "content": "3.00"
+              },
+              {
+                "number": 2,
+                "content": "0.00"
+              },
+              {
+                "number": 3,
+                "content": "0.00"
+              },
+              {
+                "number": 4,
+                "content": "0.00"
+              },
+              {
+                "number": 5,
+                "content": "3.00"
+              },
+              {
+                "number": 7,
+                "content": "3.00"
+              },
+              {
+                "number": 8,
+                "content": "0.00"
+              },
+              {
+                "number": 9,
+                "content": "3.00"
+              },
+              {
+                "number": 11,
+                "content": "0.00"
+              },
+              {
+                "number": 14,
+                "content": "3.00"
+              },
+              {
+                "number": 15,
+                "content": "3.00"
+              },
+              {
+                "number": 16,
+                "content": "3.00"
+              },
+              {
+                "number": 17,
+                "content": "0.00"
+              },
+              {
+                "number": 6,
+                "content": "1.00"
+              },
+              {
+                "number": 10,
+                "content": "1.00"
+              },
+              {
+                "number": 12,
+                "content": "2.00"
+              },
+              {
+                "number": 13,
+                "content": "1.00"
+              }
+            ],
+            "scores": {
+              "total": "51",
+              "max": "100"
+            },
+            "sections": [
+              "exam_info",
+              "questions",
+              "answers",
+              "scores"
+            ]
+          },
+          "rawResponse": "{\n  \"page_type\": \"score-report\",\n  \"questions\": [\n    {\"number\":1,\"type\":\"choice\"},\n    {\"number\":2,\"type\":\"choice\"},\n    {\"number\":3,\"type\":\"choice\"},\n    {\"number\":4,\"type\":\"choice\"},\n    {\"number\":5,\"type\":\"choice\"},\n    {\"number\":7,\"type\":\"choice\"},\n    {\"number\":8,\"type\":\"choice\"},\n    {\"number\":9,\"type\":\"choice\"},\n    {\"number\":11,\"type\":\"choice\"},\n    {\"number\":14,\"type\":\"choice\"},\n    {\"number\":15,\"type\":\"choice\"},\n    {\"number\":16,\"type\":\"choice\"},\n    {\"number\":17,\"type\":\"choice\"},\n    {\"number\":6,\"type\":\"subjective\"},\n    {\"number\":10,\"type\":\"subjective\"},\n    {\"number\":12,\"type\":\"subjective\"},\n    {\"number\":13,\"type\":\"subjective\"}\n  ],\n  \"answers\": [\n    {\"number\":1,\"content\":\"3.00\"},\n    {\"number\":2,\"content\":\"0.00\"},\n    {\"number\":3,\"content\":\"0.00\"},\n    {\"number\":4,\"content\":\"0.00\"},\n    {\"number\":5,\"content\":\"3.00\"},\n    {\"number\":7,\"content\":\"3.00\"},\n    {\"number\":8,\"content\":\"0.00\"},\n    {\"number\":9,\"content\":\"3.00\"},\n    {\"number\":11,\"content\":\"0.00\"},\n    {\"number\":14,\"content\":\"3.00\"},\n    {\"number\":15,\"content\":\"3.00\"},\n    {\"number\":16,\"content\":\"3.00\"},\n    {\"number\":17,\"content\":\"0.00\"},\n    {\"number\":6,\"content\":\"1.00\"},\n    {\"number\":10,\"content\":\"1.00\"},\n    {\"number\":12,\"content\":\"2.00\"},\n    {\"number\":13,\"content\":\"1.00\"}\n  ],\n  \"scores\": {\"total\":\"51\",\"max\":\"100\"},\n  \"sections\": [\"exam_info\", \"questions\", \"answers\", \"scores\"]\n}"
+        }
+      ]
+    },
+    {
+      "sampleId": "real-002",
+      "caseId": "case-002",
+      "subject": "英语",
+      "totalPages": 6,
+      "totalProcessingTime": 139356,
+      "totalOutputLength": 6436,
+      "totalPromptTokens": 0,
+      "totalCompletionTokens": 0,
+      "questions": [
+        {
+          "number": 1,
+          "type": "choice"
+        },
+        {
+          "number": 2,
+          "type": "choice"
+        },
+        {
+          "number": 3,
+          "type": "choice"
+        },
+        {
+          "number": 4,
+          "type": "choice"
+        },
+        {
+          "number": 5,
+          "type": "choice"
+        },
+        {
+          "number": 6,
+          "type": "choice"
+        },
+        {
+          "number": 7,
+          "type": "choice"
+        },
+        {
+          "number": 8,
+          "type": "choice"
+        },
+        {
+          "number": 9,
+          "type": "choice"
+        },
+        {
+          "number": 10,
+          "type": "choice"
+        },
+        {
+          "number": 11,
+          "type": "choice"
+        },
+        {
+          "number": 12,
+          "type": "choice"
+        },
+        {
+          "number": 13,
+          "type": "choice"
+        },
+        {
+          "number": 14,
+          "type": "choice"
+        },
+        {
+          "number": 15,
+          "type": "choice"
+        },
+        {
+          "number": 16,
+          "type": "choice"
+        },
+        {
+          "number": 17,
+          "type": "choice"
+        },
+        {
+          "number": 18,
+          "type": "choice"
+        },
+        {
+          "number": 19,
+          "type": "choice"
+        },
+        {
+          "number": 20,
+          "type": "choice"
+        },
+        {
+          "number": 21,
+          "type": "choice"
+        },
+        {
+          "number": 22,
+          "type": "choice"
+        },
+        {
+          "number": 23,
+          "type": "choice"
+        },
+        {
+          "number": 24,
+          "type": "choice"
+        },
+        {
+          "number": 25,
+          "type": "choice"
+        },
+        {
+          "number": 26,
+          "type": "choice"
+        },
+        {
+          "number": 27,
+          "type": "choice"
+        },
+        {
+          "number": 28,
+          "type": "choice"
+        },
+        {
+          "number": 29,
+          "type": "choice"
+        },
+        {
+          "number": 30,
+          "type": "choice"
+        },
+        {
+          "number": 31,
+          "type": "choice"
+        },
+        {
+          "number": 32,
+          "type": "choice"
+        },
+        {
+          "number": 33,
+          "type": "choice"
+        },
+        {
+          "number": 34,
+          "type": "choice"
+        },
+        {
+          "number": 35,
+          "type": "choice"
+        },
+        {
+          "number": 36,
+          "type": "fill"
+        },
+        {
+          "number": 37,
+          "type": "fill"
+        },
+        {
+          "number": 38,
+          "type": "fill"
+        },
+        {
+          "number": 39,
+          "type": "fill"
+        },
+        {
+          "number": 40,
+          "type": "fill"
+        },
+        {
+          "number": 41,
+          "type": "fill"
+        },
+        {
+          "number": 42,
+          "type": "fill"
+        },
+        {
+          "number": 43,
+          "type": "fill"
+        },
+        {
+          "number": 44,
+          "type": "fill"
+        },
+        {
+          "number": 45,
+          "type": "fill"
+        },
+        {
+          "number": 46,
+          "type": "subjective"
+        }
+      ],
+      "answers": [
+        {
+          "number": 13,
+          "content": "B"
+        },
+        {
+          "number": 14,
+          "content": "A"
+        },
+        {
+          "number": 15,
+          "content": "D"
+        },
+        {
+          "number": 21,
+          "content": "B"
+        },
+        {
+          "number": 22,
+          "content": "B"
+        },
+        {
+          "number": 23,
+          "content": "D"
+        },
+        {
+          "number": 24,
+          "content": "A"
+        },
+        {
+          "number": 25,
+          "content": "A"
+        },
+        {
+          "number": 26,
+          "content": "D"
+        },
+        {
+          "number": 27,
+          "content": "A"
+        },
+        {
+          "number": 28,
+          "content": "C"
+        },
+        {
+          "number": 29,
+          "content": "B"
+        },
+        {
+          "number": 30,
+          "content": "B"
+        },
+        {
+          "number": 31,
+          "content": "B"
+        },
+        {
+          "number": 32,
+          "content": "C"
+        },
+        {
+          "number": 33,
+          "content": "A"
+        },
+        {
+          "number": 36,
+          "content": "to"
+        },
+        {
+          "number": 37,
+          "content": "easily"
+        },
+        {
+          "number": 38,
+          "content": "flexible"
+        },
+        {
+          "number": 39,
+          "content": "painting"
+        },
+        {
+          "number": 40,
+          "content": "a"
+        },
+        {
+          "number": 43,
+          "content": "to adapt"
+        },
+        {
+          "number": 44,
+          "content": "without"
+        },
+        {
+          "number": 45,
+          "content": "but"
+        }
+      ],
+      "scores": {
+        "total": 60,
+        "max": 100
+      },
+      "sections": [
+        "exam_info",
+        "questions",
+        "answers",
+        "scores"
+      ],
+      "pages": [
+        {
+          "pageNumber": 1,
+          "fileName": "英语试卷1.jpg",
+          "processingTime": 9453,
+          "outputLength": 258,
+          "promptTokens": 0,
+          "completionTokens": 0,
+          "extraction": {
+            "page_type": "paper",
+            "questions": [
+              {
+                "number": 1,
+                "type": "choice"
+              },
+              {
+                "number": 2,
+                "type": "choice"
+              },
+              {
+                "number": 3,
+                "type": "choice"
+              }
+            ],
+            "answers": [],
+            "scores": {
+              "total": null,
+              "max": 100
+            },
+            "sections": [
+              "exam_info",
+              "questions"
+            ]
+          },
+          "rawResponse": "{\n  \"page_type\": \"paper\",\n  \"questions\": [\n    {\"number\": 1, \"type\": \"choice\"},\n    {\"number\": 2, \"type\": \"choice\"},\n    {\"number\": 3, \"type\": \"choice\"}\n  ],\n  \"answers\": [],\n  \"scores\": {\"total\": null, \"max\": 100},\n  \"sections\": [\"exam_info\", \"questions\"]\n}"
+        },
+        {
+          "pageNumber": 2,
+          "fileName": "英语试卷2.jpg",
+          "processingTime": 14355,
+          "outputLength": 433,
+          "promptTokens": 0,
+          "completionTokens": 0,
+          "extraction": {
+            "page_type": "paper",
+            "questions": [
+              {
+                "number": 4,
+                "type": "choice"
+              },
+              {
+                "number": 5,
+                "type": "choice"
+              },
+              {
+                "number": 6,
+                "type": "choice"
+              },
+              {
+                "number": 7,
+                "type": "choice"
+              },
+              {
+                "number": 8,
+                "type": "choice"
+              },
+              {
+                "number": 9,
+                "type": "choice"
+              },
+              {
+                "number": 10,
+                "type": "choice"
+              },
+              {
+                "number": 11,
+                "type": "choice"
+              }
+            ],
+            "answers": [],
+            "scores": {
+              "total": null,
+              "max": null
+            },
+            "sections": [
+              "questions"
+            ]
+          },
+          "rawResponse": "{\n  \"page_type\": \"paper\",\n  \"questions\": [\n    {\"number\": 4, \"type\": \"choice\"},\n    {\"number\": 5, \"type\": \"choice\"},\n    {\"number\": 6, \"type\": \"choice\"},\n    {\"number\": 7, \"type\": \"choice\"},\n    {\"number\": 8, \"type\": \"choice\"},\n    {\"number\": 9, \"type\": \"choice\"},\n    {\"number\": 10, \"type\": \"choice\"},\n    {\"number\": 11, \"type\": \"choice\"}\n  ],\n  \"answers\": [],\n  \"scores\": {\"total\": null, \"max\": null},\n  \"sections\": [\"questions\"]\n}"
+        },
+        {
+          "pageNumber": 3,
+          "fileName": "英语试卷3.jpg",
+          "processingTime": 31704,
+          "outputLength": 598,
+          "promptTokens": 0,
+          "completionTokens": 0,
+          "extraction": {
+            "page_type": "paper",
+            "questions": [
+              {
+                "number": 12,
+                "type": "choice"
+              },
+              {
+                "number": 13,
+                "type": "choice"
+              },
+              {
+                "number": 14,
+                "type": "choice"
+              },
+              {
+                "number": 15,
+                "type": "choice"
+              },
+              {
+                "number": 16,
+                "type": "choice"
+              },
+              {
+                "number": 17,
+                "type": "choice"
+              },
+              {
+                "number": 18,
+                "type": "choice"
+              },
+              {
+                "number": 19,
+                "type": "choice"
+              },
+              {
+                "number": 20,
+                "type": "choice"
+              }
+            ],
+            "answers": [
+              {
+                "number": 13,
+                "content": "B"
+              },
+              {
+                "number": 14,
+                "content": "A"
+              },
+              {
+                "number": 15,
+                "content": "D"
+              }
+            ],
+            "scores": {
+              "total": null,
+              "max": 10
+            },
+            "sections": [
+              "exam_info",
+              "questions"
+            ]
+          },
+          "rawResponse": "{\n  \"page_type\": \"paper\",\n  \"questions\": [\n    {\"number\": 12, \"type\": \"choice\"},\n    {\"number\": 13, \"type\": \"choice\"},\n    {\"number\": 14, \"type\": \"choice\"},\n    {\"number\": 15, \"type\": \"choice\"},\n    {\"number\": 16, \"type\": \"choice\"},\n    {\"number\": 17, \"type\": \"choice\"},\n    {\"number\": 18, \"type\": \"choice\"},\n    {\"number\": 19, \"type\": \"choice\"},\n    {\"number\": 20, \"type\": \"choice\"}\n  ],\n  \"answers\": [\n    {\"number\": 13, \"content\": \"B\"},\n    {\"number\": 14, \"content\": \"A\"},\n    {\"number\": 15, \"content\": \"D\"}\n  ],\n  \"scores\": {\"total\": null, \"max\": 10},\n  \"sections\": [\"exam_info\", \"questions\"]\n}"
+        },
+        {
+          "pageNumber": 4,
+          "fileName": "英语试卷4.jpg",
+          "processingTime": 26715,
+          "outputLength": 1486,
+          "promptTokens": 0,
+          "completionTokens": 0,
+          "extraction": {
+            "page_type": "mixed",
+            "questions": [
+              {
+                "number": 21,
+                "type": "choice"
+              },
+              {
+                "number": 22,
+                "type": "choice"
+              },
+              {
+                "number": 23,
+                "type": "choice"
+              },
+              {
+                "number": 24,
+                "type": "choice"
+              },
+              {
+                "number": 25,
+                "type": "choice"
+              },
+              {
+                "number": 26,
+                "type": "choice"
+              },
+              {
+                "number": 27,
+                "type": "choice"
+              },
+              {
+                "number": 28,
+                "type": "choice"
+              },
+              {
+                "number": 29,
+                "type": "choice"
+              },
+              {
+                "number": 30,
+                "type": "choice"
+              },
+              {
+                "number": 31,
+                "type": "choice"
+              },
+              {
+                "number": 32,
+                "type": "choice"
+              },
+              {
+                "number": 33,
+                "type": "choice"
+              },
+              {
+                "number": 34,
+                "type": "choice"
+              },
+              {
+                "number": 35,
+                "type": "choice"
+              },
+              {
+                "number": 36,
+                "type": "fill"
+              },
+              {
+                "number": 37,
+                "type": "fill"
+              },
+              {
+                "number": 38,
+                "type": "fill"
+              },
+              {
+                "number": 39,
+                "type": "fill"
+              },
+              {
+                "number": 40,
+                "type": "fill"
+              },
+              {
+                "number": 41,
+                "type": "fill"
+              },
+              {
+                "number": 42,
+                "type": "fill"
+              },
+              {
+                "number": 43,
+                "type": "fill"
+              },
+              {
+                "number": 44,
+                "type": "fill"
+              },
+              {
+                "number": 45,
+                "type": "fill"
+              },
+              {
+                "number": 46,
+                "type": "subjective"
+              }
+            ],
+            "answers": [
+              {
+                "number": 21,
+                "content": "B"
+              },
+              {
+                "number": 22,
+                "content": "B"
+              },
+              {
+                "number": 23,
+                "content": "D"
+              },
+              {
+                "number": 24,
+                "content": "A"
+              },
+              {
+                "number": 25,
+                "content": "A"
+              },
+              {
+                "number": 26,
+                "content": "D"
+              },
+              {
+                "number": 27,
+                "content": "A"
+              },
+              {
+                "number": 28,
+                "content": "C"
+              },
+              {
+                "number": 29,
+                "content": "B"
+              },
+              {
+                "number": 30,
+                "content": "B"
+              },
+              {
+                "number": 31,
+                "content": "B"
+              },
+              {
+                "number": 32,
+                "content": "C"
+              },
+              {
+                "number": 33,
+                "content": "A"
+              }
+            ],
+            "scores": {
+              "total": null,
+              "max": 75
+            },
+            "sections": [
+              "exam_info",
+              "questions",
+              "answers",
+              "scores"
+            ]
+          },
+          "rawResponse": "{\n  \"page_type\": \"mixed\",\n  \"questions\": [\n    {\"number\":21,\"type\":\"choice\"},\n    {\"number\":22,\"type\":\"choice\"},\n    {\"number\":23,\"type\":\"choice\"},\n    {\"number\":24,\"type\":\"choice\"},\n    {\"number\":25,\"type\":\"choice\"},\n    {\"number\":26,\"type\":\"choice\"},\n    {\"number\":27,\"type\":\"choice\"},\n    {\"number\":28,\"type\":\"choice\"},\n    {\"number\":29,\"type\":\"choice\"},\n    {\"number\":30,\"type\":\"choice\"},\n    {\"number\":31,\"type\":\"choice\"},\n    {\"number\":32,\"type\":\"choice\"},\n    {\"number\":33,\"type\":\"choice\"},\n    {\"number\":34,\"type\":\"choice\"},\n    {\"number\":35,\"type\":\"choice\"},\n    {\"number\":36,\"type\":\"fill\"},\n    {\"number\":37,\"type\":\"fill\"},\n    {\"number\":38,\"type\":\"fill\"},\n    {\"number\":39,\"type\":\"fill\"},\n    {\"number\":40,\"type\":\"fill\"},\n    {\"number\":41,\"type\":\"fill\"},\n    {\"number\":42,\"type\":\"fill\"},\n    {\"number\":43,\"type\":\"fill\"},\n    {\"number\":44,\"type\":\"fill\"},\n    {\"number\":45,\"type\":\"fill\"},\n    {\"number\":46,\"type\":\"subjective\"}\n  ],\n  \"answers\": [\n    {\"number\":21,\"content\":\"B\"},\n    {\"number\":22,\"content\":\"B\"},\n    {\"number\":23,\"content\":\"D\"},\n    {\"number\":24,\"content\":\"A\"},\n    {\"number\":25,\"content\":\"A\"},\n    {\"number\":26,\"content\":\"D\"},\n    {\"number\":27,\"content\":\"A\"},\n    {\"number\":28,\"content\":\"C\"},\n    {\"number\":29,\"content\":\"B\"},\n    {\"number\":30,\"content\":\"B\"},\n    {\"number\":31,\"content\":\"B\"},\n    {\"number\":32,\"content\":\"C\"},\n    {\"number\":33,\"content\":\"A\"}\n  ],\n  \"scores\": {\"total\":null,\"max\":75},\n  \"sections\": [\"exam_info\",\"questions\",\"answers\",\"scores\"]\n}"
+        },
+        {
+          "pageNumber": 5,
+          "fileName": "YL英语答题卡1.jpg",
+          "processingTime": 39156,
+          "outputLength": 2170,
+          "promptTokens": 0,
+          "completionTokens": 0,
+          "extraction": {
+            "page_type": "answer-sheet",
+            "questions": [
+              {
+                "number": 1,
+                "type": "choice"
+              },
+              {
+                "number": 2,
+                "type": "choice"
+              },
+              {
+                "number": 3,
+                "type": "choice"
+              },
+              {
+                "number": 4,
+                "type": "choice"
+              },
+              {
+                "number": 5,
+                "type": "choice"
+              },
+              {
+                "number": 6,
+                "type": "choice"
+              },
+              {
+                "number": 7,
+                "type": "choice"
+              },
+              {
+                "number": 8,
+                "type": "choice"
+              },
+              {
+                "number": 9,
+                "type": "choice"
+              },
+              {
+                "number": 10,
+                "type": "choice"
+              },
+              {
+                "number": 11,
+                "type": "choice"
+              },
+              {
+                "number": 12,
+                "type": "choice"
+              },
+              {
+                "number": 13,
+                "type": "choice"
+              },
+              {
+                "number": 14,
+                "type": "choice"
+              },
+              {
+                "number": 15,
+                "type": "choice"
+              },
+              {
+                "number": 16,
+                "type": "choice"
+              },
+              {
+                "number": 17,
+                "type": "choice"
+              },
+              {
+                "number": 18,
+                "type": "choice"
+              },
+              {
+                "number": 19,
+                "type": "choice"
+              },
+              {
+                "number": 20,
+                "type": "choice"
+              },
+              {
+                "number": 21,
+                "type": "choice"
+              },
+              {
+                "number": 22,
+                "type": "choice"
+              },
+              {
+                "number": 23,
+                "type": "choice"
+              },
+              {
+                "number": 24,
+                "type": "choice"
+              },
+              {
+                "number": 25,
+                "type": "choice"
+              },
+              {
+                "number": 26,
+                "type": "choice"
+              },
+              {
+                "number": 27,
+                "type": "choice"
+              },
+              {
+                "number": 28,
+                "type": "choice"
+              },
+              {
+                "number": 29,
+                "type": "choice"
+              },
+              {
+                "number": 30,
+                "type": "choice"
+              },
+              {
+                "number": 31,
+                "type": "choice"
+              },
+              {
+                "number": 32,
+                "type": "choice"
+              },
+              {
+                "number": 33,
+                "type": "choice"
+              },
+              {
+                "number": 34,
+                "type": "choice"
+              },
+              {
+                "number": 35,
+                "type": "choice"
+              },
+              {
+                "number": 36,
+                "type": "fill"
+              },
+              {
+                "number": 37,
+                "type": "fill"
+              },
+              {
+                "number": 38,
+                "type": "fill"
+              },
+              {
+                "number": 39,
+                "type": "fill"
+              },
+              {
+                "number": 40,
+                "type": "fill"
+              },
+              {
+                "number": 41,
+                "type": "fill"
+              },
+              {
+                "number": 42,
+                "type": "fill"
+              },
+              {
+                "number": 43,
+                "type": "fill"
+              },
+              {
+                "number": 44,
+                "type": "fill"
+              },
+              {
+                "number": 45,
+                "type": "fill"
+              }
+            ],
+            "answers": [
+              {
+                "number": 36,
+                "content": "to"
+              },
+              {
+                "number": 37,
+                "content": "easily"
+              },
+              {
+                "number": 38,
+                "content": "flexible"
+              },
+              {
+                "number": 39,
+                "content": "painting"
+              },
+              {
+                "number": 40,
+                "content": "a"
+              },
+              {
+                "number": 43,
+                "content": "to adapt"
+              },
+              {
+                "number": 44,
+                "content": "without"
+              },
+              {
+                "number": 45,
+                "content": "but"
+              }
+            ],
+            "scores": {
+              "total": null,
+              "max": 30
+            },
+            "sections": [
+              "exam_info",
+              "questions",
+              "answers"
+            ]
+          },
+          "rawResponse": "{\n  \"page_type\": \"answer-sheet\",\n  \"questions\": [\n    {\"number\": 1, \"type\": \"choice\"},\n    {\"number\": 2, \"type\": \"choice\"},\n    {\"number\": 3, \"type\": \"choice\"},\n    {\"number\": 4, \"type\": \"choice\"},\n    {\"number\": 5, \"type\": \"choice\"},\n    {\"number\": 6, \"type\": \"choice\"},\n    {\"number\": 7, \"type\": \"choice\"},\n    {\"number\": 8, \"type\": \"choice\"},\n    {\"number\": 9, \"type\": \"choice\"},\n    {\"number\": 10, \"type\": \"choice\"},\n    {\"number\": 11, \"type\": \"choice\"},\n    {\"number\": 12, \"type\": \"choice\"},\n    {\"number\": 13, \"type\": \"choice\"},\n    {\"number\": 14, \"type\": \"choice\"},\n    {\"number\": 15, \"type\": \"choice\"},\n    {\"number\": 16, \"type\": \"choice\"},\n    {\"number\": 17, \"type\": \"choice\"},\n    {\"number\": 18, \"type\": \"choice\"},\n    {\"number\": 19, \"type\": \"choice\"},\n    {\"number\": 20, \"type\": \"choice\"},\n    {\"number\": 21, \"type\": \"choice\"},\n    {\"number\": 22, \"type\": \"choice\"},\n    {\"number\": 23, \"type\": \"choice\"},\n    {\"number\": 24, \"type\": \"choice\"},\n    {\"number\": 25, \"type\": \"choice\"},\n    {\"number\": 26, \"type\": \"choice\"},\n    {\"number\": 27, \"type\": \"choice\"},\n    {\"number\": 28, \"type\": \"choice\"},\n    {\"number\": 29, \"type\": \"choice\"},\n    {\"number\": 30, \"type\": \"choice\"},\n    {\"number\": 31, \"type\": \"choice\"},\n    {\"number\": 32, \"type\": \"choice\"},\n    {\"number\": 33, \"type\": \"choice\"},\n    {\"number\": 34, \"type\": \"choice\"},\n    {\"number\": 35, \"type\": \"choice\"},\n    {\"number\": 36, \"type\": \"fill\"},\n    {\"number\": 37, \"type\": \"fill\"},\n    {\"number\": 38, \"type\": \"fill\"},\n    {\"number\": 39, \"type\": \"fill\"},\n    {\"number\": 40, \"type\": \"fill\"},\n    {\"number\": 41, \"type\": \"fill\"},\n    {\"number\": 42, \"type\": \"fill\"},\n    {\"number\": 43, \"type\": \"fill\"},\n    {\"number\": 44, \"type\": \"fill\"},\n    {\"number\": 45, \"type\": \"fill\"}\n  ],\n  \"answers\": [\n    {\"number\": 36, \"content\": \"to\"},\n    {\"number\": 37, \"content\": \"easily\"},\n    {\"number\": 38, \"content\": \"flexible\"},\n    {\"number\": 39, \"content\": \"painting\"},\n    {\"number\": 40, \"content\": \"a\"},\n    {\"number\": 43, \"content\": \"to adapt\"},\n    {\"number\": 44, \"content\": \"without\"},\n    {\"number\": 45, \"content\": \"but\"}\n  ],\n  \"scores\": {\"total\": null, \"max\": 30},\n  \"sections\": [\"exam_info\", \"questions\", \"answers\"]\n}"
+        },
+        {
+          "pageNumber": 6,
+          "fileName": "YL英语小分.png",
+          "processingTime": 17973,
+          "outputLength": 1491,
+          "promptTokens": 0,
+          "completionTokens": 0,
+          "extraction": {
+            "page_type": "score-report",
+            "questions": [
+              {
+                "number": 1,
+                "type": "choice"
+              },
+              {
+                "number": 2,
+                "type": "choice"
+              },
+              {
+                "number": 3,
+                "type": "choice"
+              },
+              {
+                "number": 4,
+                "type": "choice"
+              },
+              {
+                "number": 5,
+                "type": "choice"
+              },
+              {
+                "number": 6,
+                "type": "choice"
+              },
+              {
+                "number": 7,
+                "type": "choice"
+              },
+              {
+                "number": 8,
+                "type": "choice"
+              },
+              {
+                "number": 9,
+                "type": "choice"
+              },
+              {
+                "number": 10,
+                "type": "choice"
+              },
+              {
+                "number": 11,
+                "type": "choice"
+              },
+              {
+                "number": 12,
+                "type": "choice"
+              },
+              {
+                "number": 13,
+                "type": "choice"
+              },
+              {
+                "number": 14,
+                "type": "choice"
+              },
+              {
+                "number": 15,
+                "type": "choice"
+              },
+              {
+                "number": 16,
+                "type": "choice"
+              },
+              {
+                "number": 17,
+                "type": "choice"
+              },
+              {
+                "number": 18,
+                "type": "choice"
+              },
+              {
+                "number": 19,
+                "type": "choice"
+              },
+              {
+                "number": 20,
+                "type": "choice"
+              },
+              {
+                "number": 21,
+                "type": "choice"
+              },
+              {
+                "number": 22,
+                "type": "choice"
+              },
+              {
+                "number": 23,
+                "type": "choice"
+              },
+              {
+                "number": 24,
+                "type": "choice"
+              },
+              {
+                "number": 25,
+                "type": "choice"
+              },
+              {
+                "number": 26,
+                "type": "choice"
+              },
+              {
+                "number": 27,
+                "type": "choice"
+              },
+              {
+                "number": 28,
+                "type": "choice"
+              },
+              {
+                "number": 29,
+                "type": "choice"
+              },
+              {
+                "number": 30,
+                "type": "choice"
+              },
+              {
+                "number": 31,
+                "type": "choice"
+              },
+              {
+                "number": 32,
+                "type": "choice"
+              },
+              {
+                "number": 33,
+                "type": "choice"
+              },
+              {
+                "number": 34,
+                "type": "choice"
+              },
+              {
+                "number": 35,
+                "type": "choice"
+              },
+              {
+                "number": 36,
+                "type": "subjective"
+              },
+              {
+                "number": 37,
+                "type": "subjective"
+              }
+            ],
+            "answers": [],
+            "scores": {
+              "total": 60,
+              "max": 100
+            },
+            "sections": [
+              "exam_info",
+              "questions",
+              "scores"
+            ]
+          },
+          "rawResponse": "{\n  \"page_type\": \"score-report\",\n  \"questions\": [\n    {\"number\":1, \"type\":\"choice\"},\n    {\"number\":2, \"type\":\"choice\"},\n    {\"number\":3, \"type\":\"choice\"},\n    {\"number\":4, \"type\":\"choice\"},\n    {\"number\":5, \"type\":\"choice\"},\n    {\"number\":6, \"type\":\"choice\"},\n    {\"number\":7, \"type\":\"choice\"},\n    {\"number\":8, \"type\":\"choice\"},\n    {\"number\":9, \"type\":\"choice\"},\n    {\"number\":10, \"type\":\"choice\"},\n    {\"number\":11, \"type\":\"choice\"},\n    {\"number\":12, \"type\":\"choice\"},\n    {\"number\":13, \"type\":\"choice\"},\n    {\"number\":14, \"type\":\"choice\"},\n    {\"number\":15, \"type\":\"choice\"},\n    {\"number\":16, \"type\":\"choice\"},\n    {\"number\":17, \"type\":\"choice\"},\n    {\"number\":18, \"type\":\"choice\"},\n    {\"number\":19, \"type\":\"choice\"},\n    {\"number\":20, \"type\":\"choice\"},\n    {\"number\":21, \"type\":\"choice\"},\n    {\"number\":22, \"type\":\"choice\"},\n    {\"number\":23, \"type\":\"choice\"},\n    {\"number\":24, \"type\":\"choice\"},\n    {\"number\":25, \"type\":\"choice\"},\n    {\"number\":26, \"type\":\"choice\"},\n    {\"number\":27, \"type\":\"choice\"},\n    {\"number\":28, \"type\":\"choice\"},\n    {\"number\":29, \"type\":\"choice\"},\n    {\"number\":30, \"type\":\"choice\"},\n    {\"number\":31, \"type\":\"choice\"},\n    {\"number\":32, \"type\":\"choice\"},\n    {\"number\":33, \"type\":\"choice\"},\n    {\"number\":34, \"type\":\"choice\"},\n    {\"number\":35, \"type\":\"choice\"},\n    {\"number\":36, \"type\":\"subjective\"},\n    {\"number\":37, \"type\":\"subjective\"}\n  ],\n  \"answers\": [],\n  \"scores\": {\"total\":60, \"max\":100},\n  \"sections\": [\"exam_info\", \"questions\", \"scores\"]\n}"
+        }
+      ]
+    },
+    {
+      "sampleId": "real-003",
+      "caseId": "case-003",
+      "subject": "物理",
+      "totalPages": 5,
+      "totalProcessingTime": 84103,
+      "totalOutputLength": 3219,
+      "totalPromptTokens": 0,
+      "totalCompletionTokens": 0,
+      "questions": [
+        {
+          "number": 1,
+          "type": "choice"
+        },
+        {
+          "number": 2,
+          "type": "choice"
+        },
+        {
+          "number": 3,
+          "type": "choice"
+        },
+        {
+          "number": 4,
+          "type": "choice"
+        },
+        {
+          "number": 5,
+          "type": "choice"
+        },
+        {
+          "number": 6,
+          "type": "choice"
+        },
+        {
+          "number": 7,
+          "type": "choice"
+        },
+        {
+          "number": 8,
+          "type": "choice"
+        },
+        {
+          "number": 9,
+          "type": "choice"
+        },
+        {
+          "number": 10,
+          "type": "choice"
+        },
+        {
+          "number": 11,
+          "type": "subjective"
+        },
+        {
+          "number": 12,
+          "type": "subjective"
+        },
+        {
+          "number": 13,
+          "type": "subjective"
+        },
+        {
+          "number": 14,
+          "type": "subjective"
+        },
+        {
+          "number": 15,
+          "type": "subjective"
+        }
+      ],
+      "answers": [
+        {
+          "number": 1,
+          "content": "A"
+        },
+        {
+          "number": 2,
+          "content": "A"
+        },
+        {
+          "number": 3,
+          "content": "B"
+        },
+        {
+          "number": 4,
+          "content": "A"
+        },
+        {
+          "number": 5,
+          "content": "A"
+        },
+        {
+          "number": 6,
+          "content": "C"
+        },
+        {
+          "number": 7,
+          "content": "A"
+        },
+        {
+          "number": 8,
+          "content": "B"
+        },
+        {
+          "number": 9,
+          "content": "A"
+        },
+        {
+          "number": 10,
+          "content": "B"
+        },
+        {
+          "number": 11,
+          "content": "(1)下缓慢；(2)1.2×10^5；(3)1/2"
+        },
+        {
+          "number": 12,
+          "content": "(1)变大；(2)减小；(3)变大"
+        },
+        {
+          "number": 13,
+          "content": "解:D，l3=90cm，l3'=60cm"
+        },
+        {
+          "number": 14,
+          "content": "解：ΔP₁V₁ = P₀V₀ ⇒ V₀=0.16m³；2) P₂V₂=P₃V₀ ⇒ P₃=2000Pa；P₃/P₀=20%，97%P₀=9700Pa，9700Pa>2000Pa，该航天员服不合格"
+        },
+        {
+          "number": 15,
+          "content": "解：对B PV_B +0.1P = P₁V_A，P₁=3.1P；2) 因为V_B:V_A=3:1，设V_B=3，V_A=1，V_B+V_A=4；则V_B'=3×2/3=2，V_A'=4-V_B'=2；PV_B' +0.1P = P₂V_A' ⇒ P₂=(PV_B' +0.1P)/V_A'=1.05P；3) ρ=m/V，m₁=ρV_B，m₂=ρV_B'，漏出后质量m₃=m₁-m₂，m₃:m₂=1:2"
+        }
+      ],
+      "scores": {
+        "total": 51,
+        "max": 100
+      },
+      "sections": [
+        "exam_info",
+        "questions",
+        "answers",
+        "scores"
+      ],
+      "pages": [
+        {
+          "pageNumber": 1,
+          "fileName": "物理试卷1.jpg",
+          "processingTime": 13932,
+          "outputLength": 481,
+          "promptTokens": 0,
+          "completionTokens": 0,
+          "extraction": {
+            "page_type": "paper",
+            "questions": [
+              {
+                "number": 1,
+                "type": "choice"
+              },
+              {
+                "number": 2,
+                "type": "choice"
+              },
+              {
+                "number": 3,
+                "type": "choice"
+              },
+              {
+                "number": 4,
+                "type": "choice"
+              },
+              {
+                "number": 5,
+                "type": "choice"
+              },
+              {
+                "number": 6,
+                "type": "choice"
+              },
+              {
+                "number": 7,
+                "type": "choice"
+              },
+              {
+                "number": 8,
+                "type": "choice"
+              },
+              {
+                "number": 9,
+                "type": "choice"
+              }
+            ],
+            "answers": [],
+            "scores": {
+              "total": null,
+              "max": null
+            },
+            "sections": [
+              "exam_info",
+              "questions"
+            ]
+          },
+          "rawResponse": "{\n  \"page_type\": \"paper\",\n  \"questions\": [\n    {\"number\": 1, \"type\": \"choice\"},\n    {\"number\": 2, \"type\": \"choice\"},\n    {\"number\": 3, \"type\": \"choice\"},\n    {\"number\": 4, \"type\": \"choice\"},\n    {\"number\": 5, \"type\": \"choice\"},\n    {\"number\": 6, \"type\": \"choice\"},\n    {\"number\": 7, \"type\": \"choice\"},\n    {\"number\": 8, \"type\": \"choice\"},\n    {\"number\": 9, \"type\": \"choice\"}\n  ],\n  \"answers\": [],\n  \"scores\": {\"total\": null, \"max\": null},\n  \"sections\": [\"exam_info\", \"questions\"]\n}"
+        },
+        {
+          "pageNumber": 2,
+          "fileName": "物理试卷2.jpg",
+          "processingTime": 14961,
+          "outputLength": 383,
+          "promptTokens": 0,
+          "completionTokens": 0,
+          "extraction": {
+            "page_type": "paper",
+            "questions": [
+              {
+                "number": 10,
+                "type": "choice"
+              },
+              {
+                "number": 11,
+                "type": "subjective"
+              },
+              {
+                "number": 12,
+                "type": "subjective"
+              },
+              {
+                "number": 13,
+                "type": "subjective"
+              },
+              {
+                "number": 14,
+                "type": "subjective"
+              },
+              {
+                "number": 15,
+                "type": "subjective"
+              }
+            ],
+            "answers": [],
+            "scores": {
+              "total": null,
+              "max": null
+            },
+            "sections": [
+              "questions"
+            ]
+          },
+          "rawResponse": "{\n  \"page_type\": \"paper\",\n  \"questions\": [\n    {\"number\": 10, \"type\": \"choice\"},\n    {\"number\": 11, \"type\": \"subjective\"},\n    {\"number\": 12, \"type\": \"subjective\"},\n    {\"number\": 13, \"type\": \"subjective\"},\n    {\"number\": 14, \"type\": \"subjective\"},\n    {\"number\": 15, \"type\": \"subjective\"}\n  ],\n  \"answers\": [],\n  \"scores\": {\"total\": null, \"max\": null},\n  \"sections\": [\"questions\"]\n}"
+        },
+        {
+          "pageNumber": 3,
+          "fileName": "YL物理答题卡1.jpg",
+          "processingTime": 26922,
+          "outputLength": 1102,
+          "promptTokens": 0,
+          "completionTokens": 0,
+          "extraction": {
+            "page_type": "answer-sheet",
+            "questions": [
+              {
+                "number": 1,
+                "type": "choice"
+              },
+              {
+                "number": 2,
+                "type": "choice"
+              },
+              {
+                "number": 3,
+                "type": "choice"
+              },
+              {
+                "number": 4,
+                "type": "choice"
+              },
+              {
+                "number": 5,
+                "type": "choice"
+              },
+              {
+                "number": 6,
+                "type": "choice"
+              },
+              {
+                "number": 7,
+                "type": "choice"
+              },
+              {
+                "number": 8,
+                "type": "choice"
+              },
+              {
+                "number": 9,
+                "type": "choice"
+              },
+              {
+                "number": 10,
+                "type": "choice"
+              },
+              {
+                "number": 11,
+                "type": "subjective"
+              },
+              {
+                "number": 12,
+                "type": "subjective"
+              },
+              {
+                "number": 13,
+                "type": "subjective"
+              }
+            ],
+            "answers": [
+              {
+                "number": 1,
+                "content": "A"
+              },
+              {
+                "number": 2,
+                "content": "A"
+              },
+              {
+                "number": 3,
+                "content": "B"
+              },
+              {
+                "number": 4,
+                "content": "A"
+              },
+              {
+                "number": 5,
+                "content": "A"
+              },
+              {
+                "number": 6,
+                "content": "C"
+              },
+              {
+                "number": 7,
+                "content": "A"
+              },
+              {
+                "number": 8,
+                "content": "B"
+              },
+              {
+                "number": 9,
+                "content": "A"
+              },
+              {
+                "number": 10,
+                "content": "B"
+              },
+              {
+                "number": 11,
+                "content": "(1)下缓慢；(2)1.2×10^5；(3)1/2"
+              },
+              {
+                "number": 12,
+                "content": "(1)变大；(2)减小；(3)变大"
+              },
+              {
+                "number": 13,
+                "content": "解:D，l3=90cm，l3'=60cm"
+              }
+            ],
+            "scores": {
+              "total": null,
+              "max": null
+            },
+            "sections": [
+              "exam_info",
+              "questions",
+              "answers"
+            ]
+          },
+          "rawResponse": "{\n  \"page_type\": \"answer-sheet\",\n  \"questions\": [\n    {\"number\":1,\"type\":\"choice\"},\n    {\"number\":2,\"type\":\"choice\"},\n    {\"number\":3,\"type\":\"choice\"},\n    {\"number\":4,\"type\":\"choice\"},\n    {\"number\":5,\"type\":\"choice\"},\n    {\"number\":6,\"type\":\"choice\"},\n    {\"number\":7,\"type\":\"choice\"},\n    {\"number\":8,\"type\":\"choice\"},\n    {\"number\":9,\"type\":\"choice\"},\n    {\"number\":10,\"type\":\"choice\"},\n    {\"number\":11,\"type\":\"subjective\"},\n    {\"number\":12,\"type\":\"subjective\"},\n    {\"number\":13,\"type\":\"subjective\"}\n  ],\n  \"answers\": [\n    {\"number\":1,\"content\":\"A\"},\n    {\"number\":2,\"content\":\"A\"},\n    {\"number\":3,\"content\":\"B\"},\n    {\"number\":4,\"content\":\"A\"},\n    {\"number\":5,\"content\":\"A\"},\n    {\"number\":6,\"content\":\"C\"},\n    {\"number\":7,\"content\":\"A\"},\n    {\"number\":8,\"content\":\"B\"},\n    {\"number\":9,\"content\":\"A\"},\n    {\"number\":10,\"content\":\"B\"},\n    {\"number\":11,\"content\":\"(1)下缓慢；(2)1.2×10^5；(3)1/2\"},\n    {\"number\":12,\"content\":\"(1)变大；(2)减小；(3)变大\"},\n    {\"number\":13,\"content\":\"解:D，l3=90cm，l3'=60cm\"}\n  ],\n  \"scores\": {\"total\":null,\"max\":null},\n  \"sections\": [\"exam_info\", \"questions\", \"answers\"]\n}"
+        },
+        {
+          "pageNumber": 4,
+          "fileName": "YL物理答题卡2.jpg",
+          "processingTime": 11875,
+          "outputLength": 599,
+          "promptTokens": 0,
+          "completionTokens": 0,
+          "extraction": {
+            "page_type": "mixed",
+            "questions": [
+              {
+                "number": 14,
+                "type": "subjective"
+              },
+              {
+                "number": 15,
+                "type": "subjective"
+              }
+            ],
+            "answers": [
+              {
+                "number": 14,
+                "content": "解：ΔP₁V₁ = P₀V₀ ⇒ V₀=0.16m³；2) P₂V₂=P₃V₀ ⇒ P₃=2000Pa；P₃/P₀=20%，97%P₀=9700Pa，9700Pa>2000Pa，该航天员服不合格"
+              },
+              {
+                "number": 15,
+                "content": "解：对B PV_B +0.1P = P₁V_A，P₁=3.1P；2) 因为V_B:V_A=3:1，设V_B=3，V_A=1，V_B+V_A=4；则V_B'=3×2/3=2，V_A'=4-V_B'=2；PV_B' +0.1P = P₂V_A' ⇒ P₂=(PV_B' +0.1P)/V_A'=1.05P；3) ρ=m/V，m₁=ρV_B，m₂=ρV_B'，漏出后质量m₃=m₁-m₂，m₃:m₂=1:2"
+              }
+            ],
+            "scores": {
+              "total": null,
+              "max": null
+            },
+            "sections": [
+              "questions",
+              "answers"
+            ]
+          },
+          "rawResponse": "{\n  \"page_type\": \"mixed\",\n  \"questions\": [\n    {\"number\": 14, \"type\": \"subjective\"},\n    {\"number\": 15, \"type\": \"subjective\"}\n  ],\n  \"answers\": [\n    {\"number\": 14, \"content\": \"解：ΔP₁V₁ = P₀V₀ ⇒ V₀=0.16m³；2) P₂V₂=P₃V₀ ⇒ P₃=2000Pa；P₃/P₀=20%，97%P₀=9700Pa，9700Pa>2000Pa，该航天员服不合格\"},\n    {\"number\": 15, \"content\": \"解：对B PV_B +0.1P = P₁V_A，P₁=3.1P；2) 因为V_B:V_A=3:1，设V_B=3，V_A=1，V_B+V_A=4；则V_B'=3×2/3=2，V_A'=4-V_B'=2；PV_B' +0.1P = P₂V_A' ⇒ P₂=(PV_B' +0.1P)/V_A'=1.05P；3) ρ=m/V，m₁=ρV_B，m₂=ρV_B'，漏出后质量m₃=m₁-m₂，m₃:m₂=1:2\"}\n  ],\n  \"scores\": {\"total\": null, \"max\": null},\n  \"sections\": [\"questions\", \"answers\"]\n}"
+        },
+        {
+          "pageNumber": 5,
+          "fileName": "YL物理小分.png",
+          "processingTime": 16413,
+          "outputLength": 654,
+          "promptTokens": 0,
+          "completionTokens": 0,
+          "extraction": {
+            "page_type": "score-report",
+            "questions": [
+              {
+                "number": 1,
+                "type": "choice"
+              },
+              {
+                "number": 2,
+                "type": "choice"
+              },
+              {
+                "number": 3,
+                "type": "choice"
+              },
+              {
+                "number": 4,
+                "type": "choice"
+              },
+              {
+                "number": 5,
+                "type": "choice"
+              },
+              {
+                "number": 6,
+                "type": "choice"
+              },
+              {
+                "number": 7,
+                "type": "choice"
+              },
+              {
+                "number": 8,
+                "type": "choice"
+              },
+              {
+                "number": 9,
+                "type": "choice"
+              },
+              {
+                "number": 10,
+                "type": "choice"
+              },
+              {
+                "number": 11,
+                "type": "subjective"
+              },
+              {
+                "number": 13,
+                "type": "subjective"
+              },
+              {
+                "number": 14,
+                "type": "subjective"
+              },
+              {
+                "number": 15,
+                "type": "subjective"
+              }
+            ],
+            "answers": [],
+            "scores": {
+              "total": 51,
+              "max": 100
+            },
+            "sections": [
+              "exam_info",
+              "questions",
+              "scores"
+            ]
+          },
+          "rawResponse": "{\n  \"page_type\": \"score-report\",\n  \"questions\": [\n    {\"number\":1,\"type\":\"choice\"},\n    {\"number\":2,\"type\":\"choice\"},\n    {\"number\":3,\"type\":\"choice\"},\n    {\"number\":4,\"type\":\"choice\"},\n    {\"number\":5,\"type\":\"choice\"},\n    {\"number\":6,\"type\":\"choice\"},\n    {\"number\":7,\"type\":\"choice\"},\n    {\"number\":8,\"type\":\"choice\"},\n    {\"number\":9,\"type\":\"choice\"},\n    {\"number\":10,\"type\":\"choice\"},\n    {\"number\":11,\"type\":\"subjective\"},\n    {\"number\":13,\"type\":\"subjective\"},\n    {\"number\":14,\"type\":\"subjective\"},\n    {\"number\":15,\"type\":\"subjective\"}\n  ],\n  \"answers\": [],\n  \"scores\": {\"total\":51,\"max\":100},\n  \"sections\": [\"exam_info\",\"questions\",\"scores\"]\n}"
+        }
+      ]
+    },
+    {
+      "sampleId": "real-004",
+      "caseId": "case-004",
+      "subject": "化学",
+      "totalPages": 6,
+      "totalProcessingTime": 87856,
+      "totalOutputLength": 3702,
+      "totalPromptTokens": 0,
+      "totalCompletionTokens": 0,
+      "questions": [
+        {
+          "number": 1,
+          "type": "choice"
+        },
+        {
+          "number": 2,
+          "type": "choice"
+        },
+        {
+          "number": 3,
+          "type": "choice"
+        },
+        {
+          "number": 4,
+          "type": "choice"
+        },
+        {
+          "number": 5,
+          "type": "choice"
+        },
+        {
+          "number": 6,
+          "type": "choice"
+        },
+        {
+          "number": 7,
+          "type": "choice"
+        },
+        {
+          "number": 8,
+          "type": "choice"
+        },
+        {
+          "number": 9,
+          "type": "choice"
+        },
+        {
+          "number": 10,
+          "type": "choice"
+        },
+        {
+          "number": 11,
+          "type": "choice"
+        },
+        {
+          "number": 12,
+          "type": "choice"
+        },
+        {
+          "number": 13,
+          "type": "choice"
+        },
+        {
+          "number": 14,
+          "type": "choice"
+        },
+        {
+          "number": 15,
+          "type": "choice"
+        },
+        {
+          "number": 16,
+          "type": "choice"
+        },
+        {
+          "number": 17,
+          "type": "choice"
+        },
+        {
+          "number": 18,
+          "type": "choice"
+        },
+        {
+          "number": 19,
+          "type": "choice"
+        },
+        {
+          "number": 20,
+          "type": "choice"
+        },
+        {
+          "number": 21,
+          "type": "subjective"
+        },
+        {
+          "number": 22,
+          "type": "subjective"
+        },
+        {
+          "number": 23,
+          "type": "subjective"
+        },
+        {
+          "number": 24,
+          "type": "subjective"
+        }
+      ],
+      "answers": [
+        {
+          "number": 1,
+          "content": "A"
+        },
+        {
+          "number": 2,
+          "content": "B"
+        },
+        {
+          "number": 3,
+          "content": "A"
+        },
+        {
+          "number": 4,
+          "content": "A"
+        },
+        {
+          "number": 5,
+          "content": "A"
+        },
+        {
+          "number": 6,
+          "content": "A"
+        },
+        {
+          "number": 7,
+          "content": "B"
+        },
+        {
+          "number": 8,
+          "content": "A"
+        },
+        {
+          "number": 9,
+          "content": "A"
+        },
+        {
+          "number": 10,
+          "content": "A"
+        },
+        {
+          "number": 11,
+          "content": "A"
+        },
+        {
+          "number": 12,
+          "content": "A"
+        },
+        {
+          "number": 13,
+          "content": "A"
+        },
+        {
+          "number": 14,
+          "content": "A"
+        },
+        {
+          "number": 15,
+          "content": "A"
+        },
+        {
+          "number": 16,
+          "content": "A"
+        },
+        {
+          "number": 17,
+          "content": "A"
+        },
+        {
+          "number": 18,
+          "content": "B"
+        },
+        {
+          "number": 19,
+          "content": "B"
+        },
+        {
+          "number": 20,
+          "content": "A"
+        },
+        {
+          "number": 21,
+          "content": "(1)2,3-二甲基戊烷；(2)苯酚钠与CO₂、H₂O反应生成苯酚和NaHCO₃；(3)CH₂=CH₂ + NaCl + H₂O；(4)1；(5)苯酚与溴水的取代反应；(6)CH₃CH₂Cl与NaOH的水解反应；(7)苯与液溴的取代反应"
+        },
+        {
+          "number": 22,
+          "content": "(1)碳碳双键；(2)加成反应；(3)羟基；(4)羧基；(5)加成反应"
+        },
+        {
+          "number": 23,
+          "content": "(1)③；(2)①；(3)④；(4)②；(5)；(6)①④；(7)③①"
+        },
+        {
+          "number": 24,
+          "content": "I(1)：4-甲基-1-苯酚、能、不能；I(2)：氧化反应；I(3)：；I(4)：B；II(1)：苯酯"
+        }
+      ],
+      "scores": {
+        "total": 58,
+        "max": 100
+      },
+      "sections": [
+        "exam_info",
+        "questions",
+        "answers",
+        "scores"
+      ],
+      "pages": [
+        {
+          "pageNumber": 1,
+          "fileName": "化学试卷1.jpg",
+          "processingTime": 12944,
+          "outputLength": 519,
+          "promptTokens": 0,
+          "completionTokens": 0,
+          "extraction": {
+            "page_type": "paper",
+            "questions": [
+              {
+                "number": 1,
+                "type": "choice"
+              },
+              {
+                "number": 2,
+                "type": "choice"
+              },
+              {
+                "number": 3,
+                "type": "choice"
+              },
+              {
+                "number": 4,
+                "type": "choice"
+              },
+              {
+                "number": 5,
+                "type": "choice"
+              },
+              {
+                "number": 6,
+                "type": "choice"
+              },
+              {
+                "number": 7,
+                "type": "choice"
+              },
+              {
+                "number": 8,
+                "type": "choice"
+              },
+              {
+                "number": 9,
+                "type": "choice"
+              },
+              {
+                "number": 10,
+                "type": "choice"
+              }
+            ],
+            "answers": [],
+            "scores": {
+              "total": null,
+              "max": null
+            },
+            "sections": [
+              "exam_info",
+              "questions"
+            ]
+          },
+          "rawResponse": "{\n  \"page_type\": \"paper\",\n  \"questions\": [\n    {\"number\": 1, \"type\": \"choice\"},\n    {\"number\": 2, \"type\": \"choice\"},\n    {\"number\": 3, \"type\": \"choice\"},\n    {\"number\": 4, \"type\": \"choice\"},\n    {\"number\": 5, \"type\": \"choice\"},\n    {\"number\": 6, \"type\": \"choice\"},\n    {\"number\": 7, \"type\": \"choice\"},\n    {\"number\": 8, \"type\": \"choice\"},\n    {\"number\": 9, \"type\": \"choice\"},\n    {\"number\": 10, \"type\": \"choice\"}\n  ],\n  \"answers\": [],\n  \"scores\": {\"total\": null, \"max\": null},\n  \"sections\": [\"exam_info\", \"questions\"]\n}"
+        },
+        {
+          "pageNumber": 2,
+          "fileName": "化学试卷2.jpg",
+          "processingTime": 8178,
+          "outputLength": 477,
+          "promptTokens": 0,
+          "completionTokens": 0,
+          "extraction": {
+            "page_type": "paper",
+            "questions": [
+              {
+                "number": 11,
+                "type": "choice"
+              },
+              {
+                "number": 12,
+                "type": "choice"
+              },
+              {
+                "number": 13,
+                "type": "choice"
+              },
+              {
+                "number": 14,
+                "type": "choice"
+              },
+              {
+                "number": 15,
+                "type": "choice"
+              },
+              {
+                "number": 16,
+                "type": "choice"
+              },
+              {
+                "number": 17,
+                "type": "choice"
+              },
+              {
+                "number": 18,
+                "type": "choice"
+              },
+              {
+                "number": 19,
+                "type": "choice"
+              }
+            ],
+            "answers": [],
+            "scores": {
+              "total": null,
+              "max": null
+            },
+            "sections": [
+              "questions"
+            ]
+          },
+          "rawResponse": "{\n  \"page_type\": \"paper\",\n  \"questions\": [\n    {\"number\": 11, \"type\": \"choice\"},\n    {\"number\": 12, \"type\": \"choice\"},\n    {\"number\": 13, \"type\": \"choice\"},\n    {\"number\": 14, \"type\": \"choice\"},\n    {\"number\": 15, \"type\": \"choice\"},\n    {\"number\": 16, \"type\": \"choice\"},\n    {\"number\": 17, \"type\": \"choice\"},\n    {\"number\": 18, \"type\": \"choice\"},\n    {\"number\": 19, \"type\": \"choice\"}\n  ],\n  \"answers\": [],\n  \"scores\": {\"total\": null, \"max\": null},\n  \"sections\": [\"questions\"]\n}"
+        },
+        {
+          "pageNumber": 3,
+          "fileName": "化学试卷3.jpg",
+          "processingTime": 9982,
+          "outputLength": 352,
+          "promptTokens": 0,
+          "completionTokens": 0,
+          "extraction": {
+            "page_type": "paper",
+            "questions": [
+              {
+                "number": 20,
+                "type": "choice"
+              },
+              {
+                "number": 21,
+                "type": "subjective"
+              },
+              {
+                "number": 22,
+                "type": "subjective"
+              },
+              {
+                "number": 23,
+                "type": "subjective"
+              },
+              {
+                "number": 24,
+                "type": "subjective"
+              }
+            ],
+            "answers": [],
+            "scores": {
+              "total": null,
+              "max": 40
+            },
+            "sections": [
+              "exam_info",
+              "questions"
+            ]
+          },
+          "rawResponse": "{\n  \"page_type\": \"paper\",\n  \"questions\": [\n    {\"number\": 20, \"type\": \"choice\"},\n    {\"number\": 21, \"type\": \"subjective\"},\n    {\"number\": 22, \"type\": \"subjective\"},\n    {\"number\": 23, \"type\": \"subjective\"},\n    {\"number\": 24, \"type\": \"subjective\"}\n  ],\n  \"answers\": [],\n  \"scores\": {\"total\": null, \"max\": 40},\n  \"sections\": [\"exam_info\", \"questions\"]\n}"
+        },
+        {
+          "pageNumber": 4,
+          "fileName": "YL化学答题卡1.jpg",
+          "processingTime": 27934,
+          "outputLength": 1804,
+          "promptTokens": 0,
+          "completionTokens": 0,
+          "extraction": {
+            "page_type": "answer-sheet",
+            "questions": [
+              {
+                "number": 1,
+                "type": "choice"
+              },
+              {
+                "number": 2,
+                "type": "choice"
+              },
+              {
+                "number": 3,
+                "type": "choice"
+              },
+              {
+                "number": 4,
+                "type": "choice"
+              },
+              {
+                "number": 5,
+                "type": "choice"
+              },
+              {
+                "number": 6,
+                "type": "choice"
+              },
+              {
+                "number": 7,
+                "type": "choice"
+              },
+              {
+                "number": 8,
+                "type": "choice"
+              },
+              {
+                "number": 9,
+                "type": "choice"
+              },
+              {
+                "number": 10,
+                "type": "choice"
+              },
+              {
+                "number": 11,
+                "type": "choice"
+              },
+              {
+                "number": 12,
+                "type": "choice"
+              },
+              {
+                "number": 13,
+                "type": "choice"
+              },
+              {
+                "number": 14,
+                "type": "choice"
+              },
+              {
+                "number": 15,
+                "type": "choice"
+              },
+              {
+                "number": 16,
+                "type": "choice"
+              },
+              {
+                "number": 17,
+                "type": "choice"
+              },
+              {
+                "number": 18,
+                "type": "choice"
+              },
+              {
+                "number": 19,
+                "type": "choice"
+              },
+              {
+                "number": 20,
+                "type": "choice"
+              },
+              {
+                "number": 21,
+                "type": "subjective"
+              },
+              {
+                "number": 22,
+                "type": "subjective"
+              }
+            ],
+            "answers": [
+              {
+                "number": 1,
+                "content": "A"
+              },
+              {
+                "number": 2,
+                "content": "B"
+              },
+              {
+                "number": 3,
+                "content": "A"
+              },
+              {
+                "number": 4,
+                "content": "A"
+              },
+              {
+                "number": 5,
+                "content": "A"
+              },
+              {
+                "number": 6,
+                "content": "A"
+              },
+              {
+                "number": 7,
+                "content": "B"
+              },
+              {
+                "number": 8,
+                "content": "A"
+              },
+              {
+                "number": 9,
+                "content": "A"
+              },
+              {
+                "number": 10,
+                "content": "A"
+              },
+              {
+                "number": 11,
+                "content": "A"
+              },
+              {
+                "number": 12,
+                "content": "A"
+              },
+              {
+                "number": 13,
+                "content": "A"
+              },
+              {
+                "number": 14,
+                "content": "A"
+              },
+              {
+                "number": 15,
+                "content": "A"
+              },
+              {
+                "number": 16,
+                "content": "A"
+              },
+              {
+                "number": 17,
+                "content": "A"
+              },
+              {
+                "number": 18,
+                "content": "B"
+              },
+              {
+                "number": 19,
+                "content": "B"
+              },
+              {
+                "number": 20,
+                "content": "A"
+              },
+              {
+                "number": 21,
+                "content": "(1)2,3-二甲基戊烷；(2)苯酚钠与CO₂、H₂O反应生成苯酚和NaHCO₃；(3)CH₂=CH₂ + NaCl + H₂O；(4)1；(5)苯酚与溴水的取代反应；(6)CH₃CH₂Cl与NaOH的水解反应；(7)苯与液溴的取代反应"
+              },
+              {
+                "number": 22,
+                "content": "(1)碳碳双键；(2)加成反应；(3)羟基；(4)羧基；(5)加成反应"
+              }
+            ],
+            "scores": {
+              "total": null,
+              "max": 100
+            },
+            "sections": [
+              "exam_info",
+              "questions",
+              "answers"
+            ]
+          },
+          "rawResponse": "{\n  \"page_type\": \"answer-sheet\",\n  \"questions\": [\n    {\"number\":1,\"type\":\"choice\"},\n    {\"number\":2,\"type\":\"choice\"},\n    {\"number\":3,\"type\":\"choice\"},\n    {\"number\":4,\"type\":\"choice\"},\n    {\"number\":5,\"type\":\"choice\"},\n    {\"number\":6,\"type\":\"choice\"},\n    {\"number\":7,\"type\":\"choice\"},\n    {\"number\":8,\"type\":\"choice\"},\n    {\"number\":9,\"type\":\"choice\"},\n    {\"number\":10,\"type\":\"choice\"},\n    {\"number\":11,\"type\":\"choice\"},\n    {\"number\":12,\"type\":\"choice\"},\n    {\"number\":13,\"type\":\"choice\"},\n    {\"number\":14,\"type\":\"choice\"},\n    {\"number\":15,\"type\":\"choice\"},\n    {\"number\":16,\"type\":\"choice\"},\n    {\"number\":17,\"type\":\"choice\"},\n    {\"number\":18,\"type\":\"choice\"},\n    {\"number\":19,\"type\":\"choice\"},\n    {\"number\":20,\"type\":\"choice\"},\n    {\"number\":21,\"type\":\"subjective\"},\n    {\"number\":22,\"type\":\"subjective\"}\n  ],\n  \"answers\": [\n    {\"number\":1,\"content\":\"A\"},\n    {\"number\":2,\"content\":\"B\"},\n    {\"number\":3,\"content\":\"A\"},\n    {\"number\":4,\"content\":\"A\"},\n    {\"number\":5,\"content\":\"A\"},\n    {\"number\":6,\"content\":\"A\"},\n    {\"number\":7,\"content\":\"B\"},\n    {\"number\":8,\"content\":\"A\"},\n    {\"number\":9,\"content\":\"A\"},\n    {\"number\":10,\"content\":\"A\"},\n    {\"number\":11,\"content\":\"A\"},\n    {\"number\":12,\"content\":\"A\"},\n    {\"number\":13,\"content\":\"A\"},\n    {\"number\":14,\"content\":\"A\"},\n    {\"number\":15,\"content\":\"A\"},\n    {\"number\":16,\"content\":\"A\"},\n    {\"number\":17,\"content\":\"A\"},\n    {\"number\":18,\"content\":\"B\"},\n    {\"number\":19,\"content\":\"B\"},\n    {\"number\":20,\"content\":\"A\"},\n    {\"number\":21,\"content\":\"(1)2,3-二甲基戊烷；(2)苯酚钠与CO₂、H₂O反应生成苯酚和NaHCO₃；(3)CH₂=CH₂ + NaCl + H₂O；(4)1；(5)苯酚与溴水的取代反应；(6)CH₃CH₂Cl与NaOH的水解反应；(7)苯与液溴的取代反应\"},\n    {\"number\":22,\"content\":\"(1)碳碳双键；(2)加成反应；(3)羟基；(4)羧基；(5)加成反应\"}\n  ],\n  \"scores\": {\"total\": null, \"max\": 100},\n  \"sections\": [\"exam_info\", \"questions\", \"answers\"]\n}"
+        },
+        {
+          "pageNumber": 5,
+          "fileName": "YL化学答题卡2.jpg",
+          "processingTime": 20988,
+          "outputLength": 403,
+          "promptTokens": 0,
+          "completionTokens": 0,
+          "extraction": {
+            "page_type": "answer-sheet",
+            "questions": [
+              {
+                "number": 23,
+                "type": "subjective"
+              },
+              {
+                "number": 24,
+                "type": "subjective"
+              }
+            ],
+            "answers": [
+              {
+                "number": 23,
+                "content": "(1)③；(2)①；(3)④；(4)②；(5)；(6)①④；(7)③①"
+              },
+              {
+                "number": 24,
+                "content": "I(1)：4-甲基-1-苯酚、能、不能；I(2)：氧化反应；I(3)：；I(4)：B；II(1)：苯酯"
+              }
+            ],
+            "scores": {
+              "total": null,
+              "max": 18
+            },
+            "sections": [
+              "questions",
+              "answers",
+              "scores"
+            ]
+          },
+          "rawResponse": "{\n  \"page_type\": \"answer-sheet\",\n  \"questions\": [\n    {\"number\": 23, \"type\": \"subjective\"},\n    {\"number\": 24, \"type\": \"subjective\"}\n  ],\n  \"answers\": [\n    {\"number\": 23, \"content\": \"(1)③；(2)①；(3)④；(4)②；(5)；(6)①④；(7)③①\"},\n    {\"number\": 24, \"content\": \"I(1)：4-甲基-1-苯酚、能、不能；I(2)：氧化反应；I(3)：；I(4)：B；II(1)：苯酯\"}\n  ],\n  \"scores\": {\"total\": null, \"max\": 18},\n  \"sections\": [\"questions\", \"answers\", \"scores\"]\n}"
+        },
+        {
+          "pageNumber": 6,
+          "fileName": "YL化学小分.png",
+          "processingTime": 7830,
+          "outputLength": 147,
+          "promptTokens": 0,
+          "completionTokens": 0,
+          "extraction": {
+            "page_type": "score-report",
+            "questions": [],
+            "answers": [],
+            "scores": {
+              "total": 58,
+              "max": 100
+            },
+            "sections": [
+              "exam_info",
+              "scores"
+            ]
+          },
+          "rawResponse": "{\n  \"page_type\": \"score-report\",\n  \"questions\": [],\n  \"answers\": [],\n  \"scores\": {\"total\": 58, \"max\": 100},\n  \"sections\": [\"exam_info\", \"scores\"]\n}"
+        }
+      ]
+    },
+    {
+      "sampleId": "real-005",
+      "caseId": "case-005",
+      "subject": "地理",
+      "totalPages": 5,
+      "totalProcessingTime": 102491,
+      "totalOutputLength": 5987,
+      "totalPromptTokens": 0,
+      "totalCompletionTokens": 0,
+      "questions": [
+        {
+          "number": 1,
+          "type": "choice"
+        },
+        {
+          "number": 2,
+          "type": "choice"
+        },
+        {
+          "number": 3,
+          "type": "choice"
+        },
+        {
+          "number": 4,
+          "type": "choice"
+        },
+        {
+          "number": 5,
+          "type": "choice"
+        },
+        {
+          "number": 6,
+          "type": "choice"
+        },
+        {
+          "number": 7,
+          "type": "choice"
+        },
+        {
+          "number": 8,
+          "type": "choice"
+        },
+        {
+          "number": 9,
+          "type": "choice"
+        },
+        {
+          "number": 10,
+          "type": "choice"
+        },
+        {
+          "number": 11,
+          "type": "choice"
+        },
+        {
+          "number": 12,
+          "type": "choice"
+        },
+        {
+          "number": 13,
+          "type": "choice"
+        },
+        {
+          "number": 14,
+          "type": "choice"
+        },
+        {
+          "number": 15,
+          "type": "choice"
+        },
+        {
+          "number": 16,
+          "type": "choice"
+        },
+        {
+          "number": 17,
+          "type": "choice"
+        },
+        {
+          "number": 18,
+          "type": "choice"
+        },
+        {
+          "number": 19,
+          "type": "choice"
+        },
+        {
+          "number": 20,
+          "type": "choice"
+        },
+        {
+          "number": 21,
+          "type": "choice"
+        },
+        {
+          "number": 22,
+          "type": "choice"
+        },
+        {
+          "number": 23,
+          "type": "choice"
+        },
+        {
+          "number": 24,
+          "type": "choice"
+        },
+        {
+          "number": 25,
+          "type": "choice"
+        },
+        {
+          "number": 26,
+          "type": "choice"
+        },
+        {
+          "number": 27,
+          "type": "choice"
+        },
+        {
+          "number": 28,
+          "type": "choice"
+        },
+        {
+          "number": 29,
+          "type": "choice"
+        },
+        {
+          "number": 30,
+          "type": "choice"
+        },
+        {
+          "number": 31,
+          "type": "subjective"
+        },
+        {
+          "number": 32,
+          "type": "subjective"
+        },
+        {
+          "number": 33,
+          "type": "subjective"
+        }
+      ],
+      "answers": [
+        {
+          "number": 9,
+          "content": "A"
+        },
+        {
+          "number": 15,
+          "content": "A"
+        },
+        {
+          "number": 1,
+          "content": "D"
+        },
+        {
+          "number": 2,
+          "content": "B"
+        },
+        {
+          "number": 3,
+          "content": "B"
+        },
+        {
+          "number": 4,
+          "content": "B"
+        },
+        {
+          "number": 5,
+          "content": "B"
+        },
+        {
+          "number": 6,
+          "content": "B"
+        },
+        {
+          "number": 7,
+          "content": "B"
+        },
+        {
+          "number": 8,
+          "content": "B"
+        },
+        {
+          "number": 10,
+          "content": "B"
+        },
+        {
+          "number": 11,
+          "content": "B"
+        },
+        {
+          "number": 12,
+          "content": "B"
+        },
+        {
+          "number": 13,
+          "content": "A"
+        },
+        {
+          "number": 14,
+          "content": "A"
+        },
+        {
+          "number": 16,
+          "content": "B"
+        },
+        {
+          "number": 17,
+          "content": "B"
+        },
+        {
+          "number": 18,
+          "content": "C"
+        },
+        {
+          "number": 19,
+          "content": "C"
+        },
+        {
+          "number": 20,
+          "content": "B"
+        },
+        {
+          "number": 21,
+          "content": "A"
+        },
+        {
+          "number": 22,
+          "content": "B"
+        },
+        {
+          "number": 23,
+          "content": "A"
+        },
+        {
+          "number": 24,
+          "content": "B"
+        },
+        {
+          "number": 25,
+          "content": "A"
+        },
+        {
+          "number": 26,
+          "content": "B"
+        },
+        {
+          "number": 27,
+          "content": "B"
+        },
+        {
+          "number": 28,
+          "content": "B"
+        },
+        {
+          "number": 29,
+          "content": "A"
+        },
+        {
+          "number": 30,
+          "content": "B"
+        },
+        {
+          "number": 31,
+          "content": "(1) ①东南高西北低 ②整体海拔低，最高处仅694米；(2) ①潮汐能：比利时的海岸线漫长，有丰富的潮汐能；②水能：地势东南高西北低，可以利用落差修水电站；③核能：比利时经济发达，欧洲的核电技术先进；④风能：平原广阔，风能充足；(3) ①气候温和湿润，农业发达，有利于农业发展；②平原面积广阔，可用耕地面积多；③经济高度发达，对外交流密切，可以更好的融通不同风味的美食"
+        },
+        {
+          "number": 32,
+          "content": "(1) 地形：四周高中间低，盆地中间地形平坦；气候：热带草原气候，终年高温，有明显的旱雨两季，降水稀少；(2) 利：①交通方便，有铁路方便运输；②需指：南非经济实力强，需求大；不利：①当地穷苦落后，治安条件不好；②处在国境线边，易被战乱冲突打断生产；(3) 我支持关闭：①传统产业经济效益低，靠补贴；②传统厂采地下海水对当地的生产资源有破坏，易造成地表沉降；③传统厂竞争不过美国产品，生产效率低下，竞争力不行"
+        },
+        {
+          "number": 33,
+          "content": "（1）平原面积小，①当地的耕种面积少，只分布在滨海平原区；②红宝石青柚树冠大，不利于密植提高产量；③当地为热带季风气候，有明显的旱雨两季，因怕涝渍使排水渠占地多。（2）变化：冬季不开花；原因：①广东梅州纬度高于洛坤府，冬季气温低于洛坤府，红宝石青柚喜湿热；②广东梅州纬度较高，降水量不如洛坤府，红宝石青柚喜温。"
+        }
+      ],
+      "scores": {
+        "total": 68,
+        "max": 100
+      },
+      "sections": [
+        "exam_info",
+        "questions",
+        "answers",
+        "scores"
+      ],
+      "pages": [
+        {
+          "pageNumber": 1,
+          "fileName": "地理试卷1.jpg",
+          "processingTime": 17484,
+          "outputLength": 890,
+          "promptTokens": 0,
+          "completionTokens": 0,
+          "extraction": {
+            "page_type": "paper",
+            "questions": [
+              {
+                "number": 1,
+                "type": "choice"
+              },
+              {
+                "number": 2,
+                "type": "choice"
+              },
+              {
+                "number": 3,
+                "type": "choice"
+              },
+              {
+                "number": 4,
+                "type": "choice"
+              },
+              {
+                "number": 5,
+                "type": "choice"
+              },
+              {
+                "number": 6,
+                "type": "choice"
+              },
+              {
+                "number": 7,
+                "type": "choice"
+              },
+              {
+                "number": 8,
+                "type": "choice"
+              },
+              {
+                "number": 9,
+                "type": "choice"
+              },
+              {
+                "number": 10,
+                "type": "choice"
+              },
+              {
+                "number": 11,
+                "type": "choice"
+              },
+              {
+                "number": 12,
+                "type": "choice"
+              },
+              {
+                "number": 13,
+                "type": "choice"
+              },
+              {
+                "number": 14,
+                "type": "choice"
+              },
+              {
+                "number": 15,
+                "type": "choice"
+              },
+              {
+                "number": 16,
+                "type": "choice"
+              },
+              {
+                "number": 17,
+                "type": "choice"
+              },
+              {
+                "number": 18,
+                "type": "choice"
+              },
+              {
+                "number": 19,
+                "type": "choice"
+              }
+            ],
+            "answers": [
+              {
+                "number": 9,
+                "content": "A"
+              },
+              {
+                "number": 15,
+                "content": "A"
+              }
+            ],
+            "scores": {
+              "total": null,
+              "max": 60
+            },
+            "sections": [
+              "exam_info",
+              "questions"
+            ]
+          },
+          "rawResponse": "{\n  \"page_type\": \"paper\",\n  \"questions\": [\n    {\"number\":1, \"type\":\"choice\"},\n    {\"number\":2, \"type\":\"choice\"},\n    {\"number\":3, \"type\":\"choice\"},\n    {\"number\":4, \"type\":\"choice\"},\n    {\"number\":5, \"type\":\"choice\"},\n    {\"number\":6, \"type\":\"choice\"},\n    {\"number\":7, \"type\":\"choice\"},\n    {\"number\":8, \"type\":\"choice\"},\n    {\"number\":9, \"type\":\"choice\"},\n    {\"number\":10, \"type\":\"choice\"},\n    {\"number\":11, \"type\":\"choice\"},\n    {\"number\":12, \"type\":\"choice\"},\n    {\"number\":13, \"type\":\"choice\"},\n    {\"number\":14, \"type\":\"choice\"},\n    {\"number\":15, \"type\":\"choice\"},\n    {\"number\":16, \"type\":\"choice\"},\n    {\"number\":17, \"type\":\"choice\"},\n    {\"number\":18, \"type\":\"choice\"},\n    {\"number\":19, \"type\":\"choice\"}\n  ],\n  \"answers\": [\n    {\"number\":9, \"content\":\"A\"},\n    {\"number\":15, \"content\":\"A\"}\n  ],\n  \"scores\": {\"total\": null, \"max\": 60},\n  \"sections\": [\"exam_info\", \"questions\"]\n}"
+        },
+        {
+          "pageNumber": 2,
+          "fileName": "地理试卷2.jpg",
+          "processingTime": 11621,
+          "outputLength": 679,
+          "promptTokens": 0,
+          "completionTokens": 0,
+          "extraction": {
+            "page_type": "paper",
+            "questions": [
+              {
+                "number": 20,
+                "type": "choice"
+              },
+              {
+                "number": 21,
+                "type": "choice"
+              },
+              {
+                "number": 22,
+                "type": "choice"
+              },
+              {
+                "number": 23,
+                "type": "choice"
+              },
+              {
+                "number": 24,
+                "type": "choice"
+              },
+              {
+                "number": 25,
+                "type": "choice"
+              },
+              {
+                "number": 26,
+                "type": "choice"
+              },
+              {
+                "number": 27,
+                "type": "choice"
+              },
+              {
+                "number": 28,
+                "type": "choice"
+              },
+              {
+                "number": 29,
+                "type": "choice"
+              },
+              {
+                "number": 30,
+                "type": "choice"
+              },
+              {
+                "number": 31,
+                "type": "subjective"
+              },
+              {
+                "number": 32,
+                "type": "subjective"
+              },
+              {
+                "number": 33,
+                "type": "subjective"
+              }
+            ],
+            "answers": [],
+            "scores": {
+              "total": null,
+              "max": null
+            },
+            "sections": [
+              "questions"
+            ]
+          },
+          "rawResponse": "{\n  \"page_type\": \"paper\",\n  \"questions\": [\n    {\"number\": 20, \"type\": \"choice\"},\n    {\"number\": 21, \"type\": \"choice\"},\n    {\"number\": 22, \"type\": \"choice\"},\n    {\"number\": 23, \"type\": \"choice\"},\n    {\"number\": 24, \"type\": \"choice\"},\n    {\"number\": 25, \"type\": \"choice\"},\n    {\"number\": 26, \"type\": \"choice\"},\n    {\"number\": 27, \"type\": \"choice\"},\n    {\"number\": 28, \"type\": \"choice\"},\n    {\"number\": 29, \"type\": \"choice\"},\n    {\"number\": 30, \"type\": \"choice\"},\n    {\"number\": 31, \"type\": \"subjective\"},\n    {\"number\": 32, \"type\": \"subjective\"},\n    {\"number\": 33, \"type\": \"subjective\"}\n  ],\n  \"answers\": [],\n  \"scores\": {\"total\": null, \"max\": null},\n  \"sections\": [\"questions\"]\n}"
+        },
+        {
+          "pageNumber": 3,
+          "fileName": "HZ地理答题卡1.jpg",
+          "processingTime": 38517,
+          "outputLength": 2718,
+          "promptTokens": 0,
+          "completionTokens": 0,
+          "extraction": {
+            "page_type": "answer-sheet",
+            "questions": [
+              {
+                "number": 1,
+                "type": "choice"
+              },
+              {
+                "number": 2,
+                "type": "choice"
+              },
+              {
+                "number": 3,
+                "type": "choice"
+              },
+              {
+                "number": 4,
+                "type": "choice"
+              },
+              {
+                "number": 5,
+                "type": "choice"
+              },
+              {
+                "number": 6,
+                "type": "choice"
+              },
+              {
+                "number": 7,
+                "type": "choice"
+              },
+              {
+                "number": 8,
+                "type": "choice"
+              },
+              {
+                "number": 9,
+                "type": "choice"
+              },
+              {
+                "number": 10,
+                "type": "choice"
+              },
+              {
+                "number": 11,
+                "type": "choice"
+              },
+              {
+                "number": 12,
+                "type": "choice"
+              },
+              {
+                "number": 13,
+                "type": "choice"
+              },
+              {
+                "number": 14,
+                "type": "choice"
+              },
+              {
+                "number": 15,
+                "type": "choice"
+              },
+              {
+                "number": 16,
+                "type": "choice"
+              },
+              {
+                "number": 17,
+                "type": "choice"
+              },
+              {
+                "number": 18,
+                "type": "choice"
+              },
+              {
+                "number": 19,
+                "type": "choice"
+              },
+              {
+                "number": 20,
+                "type": "choice"
+              },
+              {
+                "number": 21,
+                "type": "choice"
+              },
+              {
+                "number": 22,
+                "type": "choice"
+              },
+              {
+                "number": 23,
+                "type": "choice"
+              },
+              {
+                "number": 24,
+                "type": "choice"
+              },
+              {
+                "number": 25,
+                "type": "choice"
+              },
+              {
+                "number": 26,
+                "type": "choice"
+              },
+              {
+                "number": 27,
+                "type": "choice"
+              },
+              {
+                "number": 28,
+                "type": "choice"
+              },
+              {
+                "number": 29,
+                "type": "choice"
+              },
+              {
+                "number": 30,
+                "type": "choice"
+              },
+              {
+                "number": 31,
+                "type": "subjective"
+              },
+              {
+                "number": 32,
+                "type": "subjective"
+              }
+            ],
+            "answers": [
+              {
+                "number": 1,
+                "content": "D"
+              },
+              {
+                "number": 2,
+                "content": "B"
+              },
+              {
+                "number": 3,
+                "content": "B"
+              },
+              {
+                "number": 4,
+                "content": "B"
+              },
+              {
+                "number": 5,
+                "content": "B"
+              },
+              {
+                "number": 6,
+                "content": "B"
+              },
+              {
+                "number": 7,
+                "content": "B"
+              },
+              {
+                "number": 8,
+                "content": "B"
+              },
+              {
+                "number": 9,
+                "content": "B"
+              },
+              {
+                "number": 10,
+                "content": "B"
+              },
+              {
+                "number": 11,
+                "content": "B"
+              },
+              {
+                "number": 12,
+                "content": "B"
+              },
+              {
+                "number": 13,
+                "content": "A"
+              },
+              {
+                "number": 14,
+                "content": "A"
+              },
+              {
+                "number": 15,
+                "content": "B"
+              },
+              {
+                "number": 16,
+                "content": "B"
+              },
+              {
+                "number": 17,
+                "content": "B"
+              },
+              {
+                "number": 18,
+                "content": "C"
+              },
+              {
+                "number": 19,
+                "content": "C"
+              },
+              {
+                "number": 20,
+                "content": "B"
+              },
+              {
+                "number": 21,
+                "content": "A"
+              },
+              {
+                "number": 22,
+                "content": "B"
+              },
+              {
+                "number": 23,
+                "content": "A"
+              },
+              {
+                "number": 24,
+                "content": "B"
+              },
+              {
+                "number": 25,
+                "content": "A"
+              },
+              {
+                "number": 26,
+                "content": "B"
+              },
+              {
+                "number": 27,
+                "content": "B"
+              },
+              {
+                "number": 28,
+                "content": "B"
+              },
+              {
+                "number": 29,
+                "content": "A"
+              },
+              {
+                "number": 30,
+                "content": "B"
+              },
+              {
+                "number": 31,
+                "content": "(1) ①东南高西北低 ②整体海拔低，最高处仅694米；(2) ①潮汐能：比利时的海岸线漫长，有丰富的潮汐能；②水能：地势东南高西北低，可以利用落差修水电站；③核能：比利时经济发达，欧洲的核电技术先进；④风能：平原广阔，风能充足；(3) ①气候温和湿润，农业发达，有利于农业发展；②平原面积广阔，可用耕地面积多；③经济高度发达，对外交流密切，可以更好的融通不同风味的美食"
+              },
+              {
+                "number": 32,
+                "content": "(1) 地形：四周高中间低，盆地中间地形平坦；气候：热带草原气候，终年高温，有明显的旱雨两季，降水稀少；(2) 利：①交通方便，有铁路方便运输；②需指：南非经济实力强，需求大；不利：①当地穷苦落后，治安条件不好；②处在国境线边，易被战乱冲突打断生产；(3) 我支持关闭：①传统产业经济效益低，靠补贴；②传统厂采地下海水对当地的生产资源有破坏，易造成地表沉降；③传统厂竞争不过美国产品，生产效率低下，竞争力不行"
+              }
+            ],
+            "scores": {
+              "total": null,
+              "max": null
+            },
+            "sections": [
+              "exam_info",
+              "questions",
+              "answers"
+            ]
+          },
+          "rawResponse": "{\n  \"page_type\": \"answer-sheet\",\n  \"questions\": [\n    {\"number\":1,\"type\":\"choice\"},\n    {\"number\":2,\"type\":\"choice\"},\n    {\"number\":3,\"type\":\"choice\"},\n    {\"number\":4,\"type\":\"choice\"},\n    {\"number\":5,\"type\":\"choice\"},\n    {\"number\":6,\"type\":\"choice\"},\n    {\"number\":7,\"type\":\"choice\"},\n    {\"number\":8,\"type\":\"choice\"},\n    {\"number\":9,\"type\":\"choice\"},\n    {\"number\":10,\"type\":\"choice\"},\n    {\"number\":11,\"type\":\"choice\"},\n    {\"number\":12,\"type\":\"choice\"},\n    {\"number\":13,\"type\":\"choice\"},\n    {\"number\":14,\"type\":\"choice\"},\n    {\"number\":15,\"type\":\"choice\"},\n    {\"number\":16,\"type\":\"choice\"},\n    {\"number\":17,\"type\":\"choice\"},\n    {\"number\":18,\"type\":\"choice\"},\n    {\"number\":19,\"type\":\"choice\"},\n    {\"number\":20,\"type\":\"choice\"},\n    {\"number\":21,\"type\":\"choice\"},\n    {\"number\":22,\"type\":\"choice\"},\n    {\"number\":23,\"type\":\"choice\"},\n    {\"number\":24,\"type\":\"choice\"},\n    {\"number\":25,\"type\":\"choice\"},\n    {\"number\":26,\"type\":\"choice\"},\n    {\"number\":27,\"type\":\"choice\"},\n    {\"number\":28,\"type\":\"choice\"},\n    {\"number\":29,\"type\":\"choice\"},\n    {\"number\":30,\"type\":\"choice\"},\n    {\"number\":31,\"type\":\"subjective\"},\n    {\"number\":32,\"type\":\"subjective\"}\n  ],\n  \"answers\": [\n    {\"number\":1,\"content\":\"D\"},\n    {\"number\":2,\"content\":\"B\"},\n    {\"number\":3,\"content\":\"B\"},\n    {\"number\":4,\"content\":\"B\"},\n    {\"number\":5,\"content\":\"B\"},\n    {\"number\":6,\"content\":\"B\"},\n    {\"number\":7,\"content\":\"B\"},\n    {\"number\":8,\"content\":\"B\"},\n    {\"number\":9,\"content\":\"B\"},\n    {\"number\":10,\"content\":\"B\"},\n    {\"number\":11,\"content\":\"B\"},\n    {\"number\":12,\"content\":\"B\"},\n    {\"number\":13,\"content\":\"A\"},\n    {\"number\":14,\"content\":\"A\"},\n    {\"number\":15,\"content\":\"B\"},\n    {\"number\":16,\"content\":\"B\"},\n    {\"number\":17,\"content\":\"B\"},\n    {\"number\":18,\"content\":\"C\"},\n    {\"number\":19,\"content\":\"C\"},\n    {\"number\":20,\"content\":\"B\"},\n    {\"number\":21,\"content\":\"A\"},\n    {\"number\":22,\"content\":\"B\"},\n    {\"number\":23,\"content\":\"A\"},\n    {\"number\":24,\"content\":\"B\"},\n    {\"number\":25,\"content\":\"A\"},\n    {\"number\":26,\"content\":\"B\"},\n    {\"number\":27,\"content\":\"B\"},\n    {\"number\":28,\"content\":\"B\"},\n    {\"number\":29,\"content\":\"A\"},\n    {\"number\":30,\"content\":\"B\"},\n    {\"number\":31,\"content\":\"(1) ①东南高西北低 ②整体海拔低，最高处仅694米；(2) ①潮汐能：比利时的海岸线漫长，有丰富的潮汐能；②水能：地势东南高西北低，可以利用落差修水电站；③核能：比利时经济发达，欧洲的核电技术先进；④风能：平原广阔，风能充足；(3) ①气候温和湿润，农业发达，有利于农业发展；②平原面积广阔，可用耕地面积多；③经济高度发达，对外交流密切，可以更好的融通不同风味的美食\"},\n    {\"number\":32,\"content\":\"(1) 地形：四周高中间低，盆地中间地形平坦；气候：热带草原气候，终年高温，有明显的旱雨两季，降水稀少；(2) 利：①交通方便，有铁路方便运输；②需指：南非经济实力强，需求大；不利：①当地穷苦落后，治安条件不好；②处在国境线边，易被战乱冲突打断生产；(3) 我支持关闭：①传统产业经济效益低，靠补贴；②传统厂采地下海水对当地的生产资源有破坏，易造成地表沉降；③传统厂竞争不过美国产品，生产效率低下，竞争力不行\"}\n  ],\n  \"scores\": {\"total\":null,\"max\":null},\n  \"sections\": [\"exam_info\", \"questions\", \"answers\"]\n}"
+        },
+        {
+          "pageNumber": 4,
+          "fileName": "HZ地理答题卡2.jpg",
+          "processingTime": 18025,
+          "outputLength": 385,
+          "promptTokens": 0,
+          "completionTokens": 0,
+          "extraction": {
+            "page_type": "mixed",
+            "questions": [
+              {
+                "number": 33,
+                "type": "subjective"
+              }
+            ],
+            "answers": [
+              {
+                "number": 33,
+                "content": "（1）平原面积小，①当地的耕种面积少，只分布在滨海平原区；②红宝石青柚树冠大，不利于密植提高产量；③当地为热带季风气候，有明显的旱雨两季，因怕涝渍使排水渠占地多。（2）变化：冬季不开花；原因：①广东梅州纬度高于洛坤府，冬季气温低于洛坤府，红宝石青柚喜湿热；②广东梅州纬度较高，降水量不如洛坤府，红宝石青柚喜温。"
+              }
+            ],
+            "scores": {
+              "total": null,
+              "max": 10
+            },
+            "sections": [
+              "exam_info",
+              "questions",
+              "answers",
+              "scores"
+            ]
+          },
+          "rawResponse": "{\n  \"page_type\": \"mixed\",\n  \"questions\": [{\"number\": 33, \"type\": \"subjective\"}],\n  \"answers\": [{\"number\": 33, \"content\": \"（1）平原面积小，①当地的耕种面积少，只分布在滨海平原区；②红宝石青柚树冠大，不利于密植提高产量；③当地为热带季风气候，有明显的旱雨两季，因怕涝渍使排水渠占地多。（2）变化：冬季不开花；原因：①广东梅州纬度高于洛坤府，冬季气温低于洛坤府，红宝石青柚喜湿热；②广东梅州纬度较高，降水量不如洛坤府，红宝石青柚喜温。\"}],\n  \"scores\": {\"total\": null, \"max\": 10},\n  \"sections\": [\"exam_info\", \"questions\", \"answers\", \"scores\"]\n}"
+        },
+        {
+          "pageNumber": 5,
+          "fileName": "HZ地理小分.png",
+          "processingTime": 16844,
+          "outputLength": 1315,
+          "promptTokens": 0,
+          "completionTokens": 0,
+          "extraction": {
+            "page_type": "score-report",
+            "questions": [
+              {
+                "number": 1,
+                "type": "choice"
+              },
+              {
+                "number": 2,
+                "type": "choice"
+              },
+              {
+                "number": 3,
+                "type": "choice"
+              },
+              {
+                "number": 4,
+                "type": "choice"
+              },
+              {
+                "number": 5,
+                "type": "choice"
+              },
+              {
+                "number": 6,
+                "type": "choice"
+              },
+              {
+                "number": 7,
+                "type": "choice"
+              },
+              {
+                "number": 8,
+                "type": "choice"
+              },
+              {
+                "number": 9,
+                "type": "choice"
+              },
+              {
+                "number": 10,
+                "type": "choice"
+              },
+              {
+                "number": 11,
+                "type": "choice"
+              },
+              {
+                "number": 12,
+                "type": "choice"
+              },
+              {
+                "number": 13,
+                "type": "choice"
+              },
+              {
+                "number": 14,
+                "type": "choice"
+              },
+              {
+                "number": 15,
+                "type": "choice"
+              },
+              {
+                "number": 16,
+                "type": "choice"
+              },
+              {
+                "number": 17,
+                "type": "choice"
+              },
+              {
+                "number": 18,
+                "type": "choice"
+              },
+              {
+                "number": 19,
+                "type": "choice"
+              },
+              {
+                "number": 20,
+                "type": "choice"
+              },
+              {
+                "number": 21,
+                "type": "choice"
+              },
+              {
+                "number": 22,
+                "type": "choice"
+              },
+              {
+                "number": 23,
+                "type": "choice"
+              },
+              {
+                "number": 24,
+                "type": "choice"
+              },
+              {
+                "number": 25,
+                "type": "choice"
+              },
+              {
+                "number": 26,
+                "type": "choice"
+              },
+              {
+                "number": 27,
+                "type": "choice"
+              },
+              {
+                "number": 28,
+                "type": "choice"
+              },
+              {
+                "number": 29,
+                "type": "choice"
+              },
+              {
+                "number": 30,
+                "type": "choice"
+              },
+              {
+                "number": 31,
+                "type": "subjective"
+              },
+              {
+                "number": 32,
+                "type": "subjective"
+              },
+              {
+                "number": 33,
+                "type": "subjective"
+              }
+            ],
+            "answers": [],
+            "scores": {
+              "total": 68,
+              "max": 100
+            },
+            "sections": [
+              "exam_info",
+              "questions",
+              "scores"
+            ]
+          },
+          "rawResponse": "{\n  \"page_type\": \"score-report\",\n  \"questions\": [\n    {\"number\":1,\"type\":\"choice\"},\n    {\"number\":2,\"type\":\"choice\"},\n    {\"number\":3,\"type\":\"choice\"},\n    {\"number\":4,\"type\":\"choice\"},\n    {\"number\":5,\"type\":\"choice\"},\n    {\"number\":6,\"type\":\"choice\"},\n    {\"number\":7,\"type\":\"choice\"},\n    {\"number\":8,\"type\":\"choice\"},\n    {\"number\":9,\"type\":\"choice\"},\n    {\"number\":10,\"type\":\"choice\"},\n    {\"number\":11,\"type\":\"choice\"},\n    {\"number\":12,\"type\":\"choice\"},\n    {\"number\":13,\"type\":\"choice\"},\n    {\"number\":14,\"type\":\"choice\"},\n    {\"number\":15,\"type\":\"choice\"},\n    {\"number\":16,\"type\":\"choice\"},\n    {\"number\":17,\"type\":\"choice\"},\n    {\"number\":18,\"type\":\"choice\"},\n    {\"number\":19,\"type\":\"choice\"},\n    {\"number\":20,\"type\":\"choice\"},\n    {\"number\":21,\"type\":\"choice\"},\n    {\"number\":22,\"type\":\"choice\"},\n    {\"number\":23,\"type\":\"choice\"},\n    {\"number\":24,\"type\":\"choice\"},\n    {\"number\":25,\"type\":\"choice\"},\n    {\"number\":26,\"type\":\"choice\"},\n    {\"number\":27,\"type\":\"choice\"},\n    {\"number\":28,\"type\":\"choice\"},\n    {\"number\":29,\"type\":\"choice\"},\n    {\"number\":30,\"type\":\"choice\"},\n    {\"number\":31,\"type\":\"subjective\"},\n    {\"number\":32,\"type\":\"subjective\"},\n    {\"number\":33,\"type\":\"subjective\"}\n  ],\n  \"answers\": [],\n  \"scores\": {\"total\":68,\"max\":100},\n  \"sections\": [\"exam_info\",\"questions\",\"scores\"]\n}"
+        }
+      ]
+    }
+  ]
+}

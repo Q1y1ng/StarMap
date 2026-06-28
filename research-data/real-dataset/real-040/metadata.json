@@ -1,0 +1,11 @@
+{
+  "sampleId": "real-040",
+  "subject": "地理",
+  "grade": "高一",
+  "examType": "期中考试",
+  "totalScore": 150,
+  "questionCount": 10,
+  "source": "exambench-v1",
+  "hasOutput": false,
+  "hasImages": false
+}

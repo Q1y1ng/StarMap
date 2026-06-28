@@ -1,0 +1,14 @@
+{
+  "caseId": "case-003",
+  "subject": "物理",
+  "grade": "高二",
+  "score": 51,
+  "totalScore": 100,
+  "scoreRate": 0.51,
+  "processingTime": 7506,
+  "outputLength": 7400,
+  "generatedAt": "2026-06-14T12:52:57.178Z",
+  "model": "doubao-seed-2-0-mini-260428",
+  "examTitle": "高二诊四物理",
+  "school": "西安市第八十九中学"
+}

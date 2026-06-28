@@ -1,0 +1,68 @@
+{
+  "fileName": "英语试卷3.jpg",
+  "processingTime": 31704,
+  "extraction": {
+    "page_type": "paper",
+    "questions": [
+      {
+        "number": 12,
+        "type": "choice"
+      },
+      {
+        "number": 13,
+        "type": "choice"
+      },
+      {
+        "number": 14,
+        "type": "choice"
+      },
+      {
+        "number": 15,
+        "type": "choice"
+      },
+      {
+        "number": 16,
+        "type": "choice"
+      },
+      {
+        "number": 17,
+        "type": "choice"
+      },
+      {
+        "number": 18,
+        "type": "choice"
+      },
+      {
+        "number": 19,
+        "type": "choice"
+      },
+      {
+        "number": 20,
+        "type": "choice"
+      }
+    ],
+    "answers": [
+      {
+        "number": 13,
+        "content": "B"
+      },
+      {
+        "number": 14,
+        "content": "A"
+      },
+      {
+        "number": 15,
+        "content": "D"
+      }
+    ],
+    "scores": {
+      "total": null,
+      "max": 10
+    },
+    "sections": [
+      "exam_info",
+      "questions"
+    ]
+  },
+  "rawResponse": "{\n  \"page_type\": \"paper\",\n  \"questions\": [\n    {\"number\": 12, \"type\": \"choice\"},\n    {\"number\": 13, \"type\": \"choice\"},\n    {\"number\": 14, \"type\": \"choice\"},\n    {\"number\": 15, \"type\": \"choice\"},\n    {\"number\": 16, \"type\": \"choice\"},\n    {\"number\": 17, \"type\": \"choice\"},\n    {\"number\": 18, \"type\": \"choice\"},\n    {\"number\": 19, \"type\": \"choice\"},\n    {\"number\": 20, \"type\": \"choice\"}\n  ],\n  \"answers\": [\n    {\"number\": 13, \"content\": \"B\"},\n    {\"number\": 14, \"content\": \"A\"},\n    {\"number\": 15, \"content\": \"D\"}\n  ],\n  \"scores\": {\"total\": null, \"max\": 10},\n  \"sections\": [\"exam_info\", \"questions\"]\n}"
+}

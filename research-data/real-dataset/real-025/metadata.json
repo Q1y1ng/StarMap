@@ -1,0 +1,11 @@
+{
+  "sampleId": "real-025",
+  "subject": "语文",
+  "grade": "高二",
+  "examType": "期末考试",
+  "totalScore": 150,
+  "questionCount": 10,
+  "source": "exambench-v1",
+  "hasOutput": false,
+  "hasImages": false
+}

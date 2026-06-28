@@ -1,0 +1,15 @@
+{
+  "sampleId": "real-004",
+  "subject": "化学",
+  "grade": "高二",
+  "examType": "诊断考试",
+  "totalScore": 100,
+  "questionCount": 0,
+  "source": "case-study",
+  "score": 58,
+  "scoreRate": 0.58,
+  "processingTime": 10346,
+  "outputLength": 4518,
+  "hasOutput": true,
+  "hasImages": false
+}

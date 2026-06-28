@@ -1,0 +1,597 @@
+// ──────────────────────────────────────────────
+// 高中 AI 学情分析系统 — Prisma Schema
+// Database: PostgreSQL
+// ──────────────────────────────────────────────
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// ── 学生 ──
+model Student {
+  id            String   @id @default(uuid()) @db.Uuid
+  studentNumber String   @unique @db.VarChar(32)
+  name          String   @db.VarChar(64)
+  grade         String   @db.VarChar(16) // 高一 / 高二 / 高三
+  class         String   @db.VarChar(32)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  scores                  Score[]
+  studentKnowledgeMastery StudentKnowledgeMastery[]
+  weaknessAnalyses        WeaknessAnalysis[]
+  learningSuggestions     LearningSuggestion[]
+
+  @@map("students")
+}
+
+// ── 考试分类 / 一次完整考试（Phase 22）──
+model ExamSession {
+  id           String   @id @default(uuid()) @db.Uuid
+  name         String   @db.VarChar(128) // 考试名称（如"高二下诊断四"）
+  grade        String   @db.VarChar(16) // 年级
+  semester     String?  @db.VarChar(32) // 学期（上/下）
+  examType     String?  @db.VarChar(32) // 考试类型（月考/期中/期末/模拟/高考）
+  date         DateTime // 考试日期
+  averageScore Float?   // 平均分（所有科目平均）
+  totalScore   Int?     // 满分（所有科目总分）
+  growthIndex  String?  @db.VarChar(64) // 成长指数（"持续进步"/"需关注"等）
+  summary      String?  @db.Text        // AI 考试总结
+  userId       String?  @db.Uuid
+  user         User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  subjects Exam[] // 该考试包含的各科试卷
+
+  @@index([userId])
+  @@index([grade])
+  @@index([date])
+  @@map("exam_sessions")
+}
+
+// ── 考试 / 试卷（Phase 22：归属于 ExamSession）──
+model Exam {
+  id             String       @id @default(uuid()) @db.Uuid
+  title          String       @db.VarChar(128) // 考试名称（如"2026 高一下期中"）
+  subject        String       @db.VarChar(32) // 科目
+  grade          String       @db.VarChar(16) // 年级
+  examDate       DateTime     // 考试日期
+  totalScore     Int          // 满分
+  fileUrl        String?      @db.VarChar(512) // 试卷文件路径
+  fileType       String?      @db.VarChar(16) // pdf / image / docx
+  aiStatus       AiStatus     @default(PENDING) // 分析状态
+  userId         String?      @db.Uuid
+  user           User?        @relation(fields: [userId], references: [id], onDelete: SetNull)
+  examSessionId  String?      @db.Uuid // 所属考试分类（Phase 22）
+  examSession    ExamSession? @relation(fields: [examSessionId], references: [id], onDelete: SetNull)
+  createdAt      DateTime     @default(now())
+  updatedAt      DateTime     @updatedAt
+
+  scores                  Score[]
+  examKnowledgePoints     ExamKnowledgePoint[]
+  weaknessAnalyses        WeaknessAnalysis[]
+  aiAnalysisLogs          AiAnalysisLog[]
+  analysisReports         AnalysisReport[]
+  questions               Question[]
+  questionResults         QuestionResult[]
+  knowledgeMasteryHistories KnowledgeMasteryHistory[]
+  examDifficulty          ExamDifficulty?
+  wrongQuestions          WrongQuestion[]
+  scoreBreakdowns         ScoreBreakdown[]
+  documentArtifacts       DocumentArtifact[]
+  examArtifacts           ExamArtifact[]
+
+  @@index([aiStatus])
+  @@index([userId])
+  @@index([examSessionId])
+  @@map("exams")
+}
+
+// ── 成绩 ──
+model Score {
+  id        String   @id @default(uuid()) @db.Uuid
+  studentId String   @db.Uuid
+  examId    String   @db.Uuid
+  score     Int // 得分
+  maxScore  Int // 该科满分
+  classRank Int? // 班级排名
+  gradeRank Int? // 年级排名
+  details   Json? // 每题得分明细 [{ questionNumber, score, maxScore }]
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  student Student @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  exam    Exam    @relation(fields: [examId], references: [id], onDelete: Cascade)
+
+  @@unique([studentId, examId])
+  @@map("scores")
+}
+
+// ── 知识点 ──
+model KnowledgePoint {
+  id       String  @id @default(uuid()) @db.Uuid
+  name     String  @db.VarChar(128) // 知识点名称（如"二次函数顶点式"）
+  subject  String  @db.VarChar(32) // 所属科目
+  category String? @db.VarChar(64) // 领域分类（代数 / 几何 / 概率 / 函数）
+
+  examKnowledgePoints     ExamKnowledgePoint[]
+  studentKnowledgeMastery StudentKnowledgeMastery[]
+  weaknessAnalyses        WeaknessAnalysis[]
+
+  @@map("knowledge_points")
+}
+
+// ── 试卷-知识点关联 ──
+model ExamKnowledgePoint {
+  id               String   @id @default(uuid()) @db.Uuid
+  examId           String   @db.Uuid
+  knowledgePointId String   @db.Uuid
+  questionNumbers  String[] // 对应题号 ["2", "3", "8"]
+  totalPoints      Int // 该知识点总分
+  weight           Float // 权重占比（0–1）
+
+  exam           Exam           @relation(fields: [examId], references: [id], onDelete: Cascade)
+  knowledgePoint KnowledgePoint @relation(fields: [knowledgePointId], references: [id], onDelete: Cascade)
+
+  @@unique([examId, knowledgePointId])
+  @@map("exam_knowledge_points")
+}
+
+// ── 学生知识点掌握率 ──
+model StudentKnowledgeMastery {
+  id               String   @id @default(uuid()) @db.Uuid
+  studentId        String   @db.Uuid
+  knowledgePointId String   @db.Uuid
+  masteryLevel     Float // 掌握率 0–100
+  historyData      Json? // [{ examId, score, date, mastery }]
+  lastAssessedAt   DateTime @default(now())
+
+  student        Student        @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  knowledgePoint KnowledgePoint @relation(fields: [knowledgePointId], references: [id], onDelete: Cascade)
+
+  @@unique([studentId, knowledgePointId])
+  @@map("student_knowledge_mastery")
+}
+
+// ── 薄弱点分析 ──
+model WeaknessAnalysis {
+  id               String   @id @default(uuid()) @db.Uuid
+  studentId        String   @db.Uuid
+  examId           String   @db.Uuid
+  knowledgePointId String   @db.Uuid
+  weaknessScore    Float // 薄弱指数 0–100（越高越弱）
+  diagnosis        String   @db.Text // AI 诊断文本
+  priority         Int      @default(1) // 优先级排序
+  createdAt        DateTime @default(now())
+
+  student             Student              @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  exam                Exam                 @relation(fields: [examId], references: [id], onDelete: Cascade)
+  knowledgePoint      KnowledgePoint       @relation(fields: [knowledgePointId], references: [id], onDelete: Cascade)
+  learningSuggestions LearningSuggestion[] @relation("WeaknessToSuggestions")
+
+  @@index([studentId, examId])
+  @@map("weakness_analyses")
+}
+
+// ── 学习建议 ──
+model LearningSuggestion {
+  id                 String         @id @default(uuid()) @db.Uuid
+  studentId          String         @db.Uuid
+  weaknessAnalysisId String?        @db.Uuid
+  content            String         @db.Text // 建议内容
+  type               SuggestionType // PRACTICE / REVIEW / VIDEO / READING
+  resourceUrl        String?        @db.VarChar(512) // 推荐资源链接
+  priority           Int            @default(1) // 优先级
+  isCompleted        Boolean        @default(false) // 是否已完成
+  createdAt          DateTime       @default(now())
+  updatedAt          DateTime       @updatedAt
+
+  student          Student           @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  weaknessAnalysis WeaknessAnalysis? @relation("WeaknessToSuggestions", fields: [weaknessAnalysisId], references: [id], onDelete: SetNull)
+
+  @@map("learning_suggestions")
+}
+
+// ── AI 分析日志（审计） ──
+model AiAnalysisLog {
+  id           String         @id @default(uuid()) @db.Uuid
+  examId       String         @db.Uuid
+  studentId    String?        @db.Uuid
+  type         AnalysisType // KNOWLEDGE_POINT / WEAKNESS / SUGGESTION / TREND
+  inputData    Json // 发送给 AI 的原始数据
+  outputData   Json // AI 返回的原始数据
+  modelVersion String         @db.VarChar(32) // "deepseek-v4-flash"
+  tokenUsage   Json? // { prompt, completion }
+  duration     Int? // 耗时（ms）
+  status       AnalysisStatus @default(PENDING) // PENDING / SUCCESS / FAILED
+  errorMessage String?        @db.Text
+  createdAt    DateTime       @default(now())
+
+  exam Exam @relation(fields: [examId], references: [id], onDelete: Cascade)
+
+  @@index([examId, type])
+  @@map("ai_analysis_logs")
+}
+
+// ── 分析报告（AI 分析结果快照） ──
+model AnalysisReport {
+  id               String         @id @default(uuid()) @db.Uuid
+  examId           String         @db.Uuid
+  subject          String         @db.VarChar(32)
+  summary          String         @db.Text
+  knowledgePoints  Json // [{ name, score, total, mastery }]
+  weaknesses       Json // [{ name, scoreRate, diagnosis }]
+  strengths        Json // [{ name, scoreRate, comment }]
+  studySuggestions Json // [{ content, type, priority }]
+  inputContent     String         @db.Text // 原始考试内容
+  rawOutput        String?        @db.Text // AI 原始返回
+  promptTokens     Int?
+  completionTokens Int?
+  totalTokens      Int?
+  durationMs       Int?
+  ocrMode          OcrMode?
+  ocrEngine        OcrEngine?
+  ocrQuality       Float?
+  ocrDurationMs    Int?
+  status           AnalysisStatus @default(SUCCESS)
+  createdAt        DateTime       @default(now())
+
+  analysisFeedback AnalysisFeedback? // 用户评价（Phase 6）
+
+  exam Exam @relation(fields: [examId], references: [id], onDelete: Cascade)
+
+  @@index([examId])
+  @@map("analysis_reports")
+}
+
+// ── 题目 ──
+model Question {
+  id           String   @id @default(uuid()) @db.Uuid
+  examId       String   @db.Uuid
+  questionNo   Int
+  questionType String   @db.VarChar(32)
+  fullScore    Float
+  questionText String   @db.Text
+  subQuestions Json?
+  pageNumber   Int?
+  sortOrder    Int      @default(0)
+  createdAt    DateTime @default(now())
+
+  questionResults QuestionResult[]
+  wrongQuestions  WrongQuestion[]
+
+  exam Exam @relation(fields: [examId], references: [id], onDelete: Cascade)
+
+  @@index([examId])
+  @@map("questions")
+}
+
+// ── 题目成绩（Phase 4） ──
+model QuestionResult {
+  id         String   @id @default(uuid()) @db.Uuid
+  questionId String   @db.Uuid
+  examId     String   @db.Uuid
+  score      Float
+  fullScore  Float
+  lostScore  Float?   // 扣分 = fullScore - score（Phase 13）
+  scoreRate  Float
+  isCorrect  Boolean
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  question Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  exam     Exam     @relation(fields: [examId], references: [id], onDelete: Cascade)
+
+  @@unique([questionId, examId])
+  @@index([examId])
+  @@map("question_results")
+}
+
+// ── 知识点历史掌握率（Phase 5：成长轨迹） ──
+model KnowledgeMasteryHistory {
+  id             String   @id @default(uuid()) @db.Uuid
+  subject        String   @db.VarChar(32)
+  knowledgePoint String   @db.VarChar(128) // 冗余存储知识点名称，避免每次 JOIN
+  examId         String   @db.Uuid
+  mastery        Float    // 掌握率 0–1
+  score          Float    // 该知识点累计得分
+  fullScore      Float    // 该知识点累计满分
+  examDate       DateTime // 冗余存储考试日期，方便时间排序
+  createdAt      DateTime @default(now())
+
+  exam Exam @relation(fields: [examId], references: [id], onDelete: Cascade)
+
+  @@unique([subject, knowledgePoint, examId])
+  @@index([subject, knowledgePoint, examDate])
+  @@index([examId])
+  @@map("knowledge_mastery_history")
+}
+
+// ── 学习画像（Phase 5：成长轨迹） ──
+model LearningProfile {
+  id              String   @id @default(uuid()) @db.Uuid
+  userId          String?  @db.Uuid
+  subject         String   @db.VarChar(32)
+  strongPoints    Json     @default("[]") // [{ name, mastery }]
+  weakPoints      Json     @default("[]")
+  improvingPoints Json     @default("[]") // [{ name, delta }]
+  decliningPoints Json     @default("[]")
+  generatedAt     DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  user User? @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@unique([userId, subject])
+  @@map("learning_profiles")
+}
+
+// ── 分析反馈（Phase 6：质量验证） ──
+model AnalysisFeedback {
+  id        String   @id @default(uuid()) @db.Uuid
+  reportId  String   @unique @db.Uuid // 每个分析报告一个反馈
+  accurate  Boolean  // 分析是否准确
+  helpful   Boolean  // 学习建议是否有帮助
+  comment   String?  @db.Text // 其他反馈（可选）
+  createdAt DateTime @default(now())
+
+  report AnalysisReport @relation(fields: [reportId], references: [id], onDelete: Cascade)
+
+  @@index([reportId])
+  @@map("analysis_feedback")
+}
+
+// ── 考试难度（Phase 7：难度引擎） ──
+model ExamDifficulty {
+  id                      String   @id @default(uuid()) @db.Uuid
+  examId                  String   @unique @db.Uuid
+  difficultyScore         Float    // 0.5 ~ 2.0
+  averageScoreRate        Float    // 0~1
+  questionCount           Int
+  objectiveQuestionRatio  Float    // 0~1
+  subjectiveQuestionRatio Float    // 0~1
+  knowledgeCoverage       Int      // 独立知识点数量
+  difficultyLevel         String   // "Easy" | "Normal" | "Hard" | "Very Hard"
+  createdAt               DateTime @default(now())
+
+  exam Exam @relation(fields: [examId], references: [id], onDelete: Cascade)
+
+  @@map("exam_difficulties")
+}
+
+// ── 错题本（Phase 7-B） ──
+model WrongQuestion {
+  id              String   @id @default(uuid()) @db.Uuid
+  questionId      String   @unique @db.Uuid
+  examId          String   @db.Uuid
+  subject         String   @db.VarChar(32)
+  knowledgePoint  String   @db.VarChar(128)
+  wrongCount      Int      @default(1)
+  latestScoreRate Float
+  priorityScore   Float
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  question Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  exam     Exam     @relation(fields: [examId], references: [id], onDelete: Cascade)
+
+  @@index([subject])
+  @@index([priorityScore])
+  @@map("wrong_questions")
+}
+
+// ── 小分识别结果（Phase 13） ──
+model ScoreBreakdown {
+  id         String   @id @default(uuid()) @db.Uuid
+  examId     String   @db.Uuid
+  questionNo Int
+  fullScore  Float
+  score      Float
+  lostScore  Float    // fullScore - score
+  source     String   @default("SCORE_BREAKDOWN") // SCORE_BREAKDOWN / ANSWER_SHEET
+  createdAt  DateTime @default(now())
+
+  exam Exam @relation(fields: [examId], references: [id], onDelete: Cascade)
+
+  @@unique([examId, questionNo])
+  @@index([examId])
+  @@map("score_breakdowns")
+}
+
+// ── 学习计划（Phase 8） ──
+model StudyPlan {
+  id               String   @id @default(uuid()) @db.Uuid
+  userId           String?  @db.Uuid
+  subject          String   @db.VarChar(32)
+  planDate         DateTime
+  tasks            Json     @default("[]")
+  estimatedMinutes Int      @default(0)
+  priority         Float    @default(0)
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  user User? @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@unique([userId, subject, planDate])
+  @@index([userId, subject, planDate])
+  @@map("study_plans")
+}
+
+// ── 知识图谱节点（Phase 9） ──
+model KnowledgeNode {
+  id          String   @id @default(uuid()) @db.Uuid
+  subject     String   @db.VarChar(32)
+  name        String   @db.VarChar(128)
+  parentId    String?  @db.Uuid
+  level       Int      @default(0)
+  description String?  @db.Text
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  parent    KnowledgeNode?  @relation("NodeChildren", fields: [parentId], references: [id], onDelete: SetNull)
+  children  KnowledgeNode[] @relation("NodeChildren")
+  edgesOut  KnowledgeEdge[] @relation("EdgeFrom")
+  edgesIn   KnowledgeEdge[] @relation("EdgeTo")
+
+  @@unique([subject, name])
+  @@index([subject, level])
+  @@index([parentId])
+  @@map("knowledge_nodes")
+}
+
+// ── 学习风险预警（Phase 10） ──
+model LearningRisk {
+  id             String   @id @default(uuid()) @db.Uuid
+  userId         String?  @db.Uuid
+  subject        String   @db.VarChar(32)
+  knowledgePoint String   @db.VarChar(128)
+  riskScore      Float    // 风险分数 0–100
+  riskLevel      String   @db.VarChar(16) // Low / Medium / High / Critical
+  trendSlope     Float    // 趋势斜率（负值表示下降）
+  sampleSize     Int      @default(0) // 参与计算的考试次数
+  latestMastery  Float    // 最近一次掌握率
+  createdAt      DateTime @default(now())
+
+  user User? @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@unique([userId, subject, knowledgePoint])
+  @@index([userId, subject, riskLevel])
+  @@index([riskScore])
+  @@map("learning_risks")
+}
+
+// ── 知识图谱边（Phase 9） ──
+model KnowledgeEdge {
+  id           String   @id @default(uuid()) @db.Uuid
+  sourceId     String   @db.Uuid
+  targetId     String   @db.Uuid
+  relationType String   @db.VarChar(32) // contains / prerequisite / related
+  createdAt    DateTime @default(now())
+
+  source KnowledgeNode @relation("EdgeFrom", fields: [sourceId], references: [id], onDelete: Cascade)
+  target KnowledgeNode @relation("EdgeTo", fields: [targetId], references: [id], onDelete: Cascade)
+
+  @@unique([sourceId, targetId, relationType])
+  @@index([sourceId])
+  @@index([targetId])
+  @@map("knowledge_edges")
+}
+
+// ── 用户（Phase 11） ──
+model User {
+  id           String   @id @default(uuid()) @db.Uuid
+  username     String   @unique @db.VarChar(64)
+  passwordHash String   @db.VarChar(256)
+  role         String   @default("USER") @db.VarChar(16) // USER / ADMIN
+  name         String   @db.VarChar(64)
+  apiKey       String?  @db.VarChar(512) // DeepSeek API Key（可选，覆盖环境变量）
+  model        String?  @db.VarChar(64)  // 模型标识（deepseek-chat / deepseek-reasoner 等）
+  doubaoApiKey String?  @db.VarChar(512) // Doubao Vision API Key（可选，覆盖环境变量）
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  exams        Exam[]
+  examSessions ExamSession[]
+  learningProfiles LearningProfile[]
+  studyPlans       StudyPlan[]
+  learningRisks    LearningRisk[]
+
+  @@map("users")
+}
+
+// ── 原始文档工件（Phase 14-R：Document Intelligence & Traceability） ──
+// 保留每次 OCR 的原始输出和格式化结果，支持溯源和重生成
+model DocumentArtifact {
+  id                String   @id @default(uuid()) @db.Uuid
+  examId            String?  @db.Uuid
+  type              String   @db.VarChar(32) // "paper" | "answerSheet" | "scoreBreakdown"
+  sourceFile        String   @db.VarChar(256)
+  rawOcrText        String   @db.Text        // OCR 原始输出（Markdown）
+  formattedMarkdown String   @db.Text        // 格式化后的 Markdown
+  ocrEngine         String?  @db.VarChar(16)
+  ocrMode           String?  @db.VarChar(16)
+  ocrQuality        Float?
+  ocrDurationMs     Int?
+  pageNumber        Int?
+  createdAt         DateTime @default(now())
+
+  exam Exam? @relation(fields: [examId], references: [id], onDelete: Cascade)
+
+  @@index([examId])
+  @@map("document_artifacts")
+}
+
+// ── 统一考试档案 PDF（Phase 15） ──
+// 保存每次上传生成的统一 PDF，支持复现和溯源
+model ExamArtifact {
+  id          String   @id @default(uuid()) @db.Uuid
+  examId      String   @db.Uuid
+  pdfPath     String   @db.VarChar(512) // 统一 PDF 文件路径
+  pageCount   Int      @default(0)
+  sourceFiles Json                        // [{ filename, size, type }]
+  durationMs  Int?                        // 总处理耗时（ms）
+  createdAt   DateTime @default(now())
+
+  exam Exam @relation(fields: [examId], references: [id], onDelete: Cascade)
+
+  @@index([examId])
+  @@map("exam_artifacts")
+}
+
+// ── Enums ──
+
+enum AiStatus {
+  PENDING
+  PROCESSING
+  COMPLETED
+  FAILED
+
+  @@map("ai_status")
+}
+
+enum AnalysisType {
+  KNOWLEDGE_POINT
+  WEAKNESS
+  SUGGESTION
+  TREND
+
+  @@map("analysis_type")
+}
+
+enum AnalysisStatus {
+  PENDING
+  PROCESSING
+  SUCCESS
+  FAILED
+
+  @@map("analysis_status")
+}
+
+enum SuggestionType {
+  PRACTICE
+  REVIEW
+  VIDEO
+  READING
+
+  @@map("suggestion_type")
+}
+
+enum OcrMode {
+  LOCAL
+  SMART
+  HIGH_ACCURACY
+
+  @@map("ocr_mode")
+}
+
+enum OcrEngine {
+  PADDLE
+  DOUBAO
+
+  @@map("ocr_engine")
+}

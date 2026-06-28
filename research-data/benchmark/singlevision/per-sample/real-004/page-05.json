@@ -1,0 +1,37 @@
+{
+  "fileName": "YL化学答题卡2.jpg",
+  "processingTime": 20988,
+  "extraction": {
+    "page_type": "answer-sheet",
+    "questions": [
+      {
+        "number": 23,
+        "type": "subjective"
+      },
+      {
+        "number": 24,
+        "type": "subjective"
+      }
+    ],
+    "answers": [
+      {
+        "number": 23,
+        "content": "(1)③；(2)①；(3)④；(4)②；(5)；(6)①④；(7)③①"
+      },
+      {
+        "number": 24,
+        "content": "I(1)：4-甲基-1-苯酚、能、不能；I(2)：氧化反应；I(3)：；I(4)：B；II(1)：苯酯"
+      }
+    ],
+    "scores": {
+      "total": null,
+      "max": 18
+    },
+    "sections": [
+      "questions",
+      "answers",
+      "scores"
+    ]
+  },
+  "rawResponse": "{\n  \"page_type\": \"answer-sheet\",\n  \"questions\": [\n    {\"number\": 23, \"type\": \"subjective\"},\n    {\"number\": 24, \"type\": \"subjective\"}\n  ],\n  \"answers\": [\n    {\"number\": 23, \"content\": \"(1)③；(2)①；(3)④；(4)②；(5)；(6)①④；(7)③①\"},\n    {\"number\": 24, \"content\": \"I(1)：4-甲基-1-苯酚、能、不能；I(2)：氧化反应；I(3)：；I(4)：B；II(1)：苯酯\"}\n  ],\n  \"scores\": {\"total\": null, \"max\": 18},\n  \"sections\": [\"questions\", \"answers\", \"scores\"]\n}"
+}

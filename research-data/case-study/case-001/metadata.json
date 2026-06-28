@@ -1,0 +1,15 @@
+{
+  "caseId": "case-001",
+  "subject": "语文",
+  "grade": "高二",
+  "score": 51,
+  "totalScore": 100,
+  "scoreRate": 0.51,
+  "processingTime": 9141,
+  "outputLength": 5213,
+  "generatedAt": "2026-06-14T13:14:34.735Z",
+  "model": "doubao-seed-2-0-mini-260428",
+  "examTitle": "高二诊四语文",
+  "school": "西安市第八十九中学",
+  "studentName": "刘阳乐"
+}

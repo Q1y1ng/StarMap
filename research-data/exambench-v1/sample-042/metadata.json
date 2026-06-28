@@ -1,0 +1,11 @@
+{
+  "sampleId": "sample-042",
+  "subject": "语文",
+  "grade": "高二",
+  "examType": "期末考试",
+  "totalScore": 150,
+  "questionCount": 10,
+  "hasPaper": true,
+  "hasAnswerSheet": true,
+  "hasScoreReport": true
+}

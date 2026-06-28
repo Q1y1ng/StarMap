@@ -1,0 +1,16 @@
+{
+  "sampleId": "real-002",
+  "subject": "英语",
+  "grade": "高二",
+  "examType": "诊断考试",
+  "totalScore": 100,
+  "questionCount": 0,
+  "source": "case-study",
+  "studentName": "刘阳乐",
+  "score": 60,
+  "scoreRate": 0.6,
+  "processingTime": 9434,
+  "outputLength": 7069,
+  "hasOutput": true,
+  "hasImages": false
+}

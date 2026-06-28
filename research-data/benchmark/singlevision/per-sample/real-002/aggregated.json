@@ -1,0 +1,304 @@
+{
+  "sampleId": "real-002",
+  "caseId": "case-002",
+  "subject": "英语",
+  "totalPages": 6,
+  "totalProcessingTime": 139356,
+  "totalOutputLength": 6436,
+  "totalPromptTokens": 0,
+  "totalCompletionTokens": 0,
+  "questions": [
+    {
+      "number": 1,
+      "type": "choice"
+    },
+    {
+      "number": 2,
+      "type": "choice"
+    },
+    {
+      "number": 3,
+      "type": "choice"
+    },
+    {
+      "number": 4,
+      "type": "choice"
+    },
+    {
+      "number": 5,
+      "type": "choice"
+    },
+    {
+      "number": 6,
+      "type": "choice"
+    },
+    {
+      "number": 7,
+      "type": "choice"
+    },
+    {
+      "number": 8,
+      "type": "choice"
+    },
+    {
+      "number": 9,
+      "type": "choice"
+    },
+    {
+      "number": 10,
+      "type": "choice"
+    },
+    {
+      "number": 11,
+      "type": "choice"
+    },
+    {
+      "number": 12,
+      "type": "choice"
+    },
+    {
+      "number": 13,
+      "type": "choice"
+    },
+    {
+      "number": 14,
+      "type": "choice"
+    },
+    {
+      "number": 15,
+      "type": "choice"
+    },
+    {
+      "number": 16,
+      "type": "choice"
+    },
+    {
+      "number": 17,
+      "type": "choice"
+    },
+    {
+      "number": 18,
+      "type": "choice"
+    },
+    {
+      "number": 19,
+      "type": "choice"
+    },
+    {
+      "number": 20,
+      "type": "choice"
+    },
+    {
+      "number": 21,
+      "type": "choice"
+    },
+    {
+      "number": 22,
+      "type": "choice"
+    },
+    {
+      "number": 23,
+      "type": "choice"
+    },
+    {
+      "number": 24,
+      "type": "choice"
+    },
+    {
+      "number": 25,
+      "type": "choice"
+    },
+    {
+      "number": 26,
+      "type": "choice"
+    },
+    {
+      "number": 27,
+      "type": "choice"
+    },
+    {
+      "number": 28,
+      "type": "choice"
+    },
+    {
+      "number": 29,
+      "type": "choice"
+    },
+    {
+      "number": 30,
+      "type": "choice"
+    },
+    {
+      "number": 31,
+      "type": "choice"
+    },
+    {
+      "number": 32,
+      "type": "choice"
+    },
+    {
+      "number": 33,
+      "type": "choice"
+    },
+    {
+      "number": 34,
+      "type": "choice"
+    },
+    {
+      "number": 35,
+      "type": "choice"
+    },
+    {
+      "number": 36,
+      "type": "fill"
+    },
+    {
+      "number": 37,
+      "type": "fill"
+    },
+    {
+      "number": 38,
+      "type": "fill"
+    },
+    {
+      "number": 39,
+      "type": "fill"
+    },
+    {
+      "number": 40,
+      "type": "fill"
+    },
+    {
+      "number": 41,
+      "type": "fill"
+    },
+    {
+      "number": 42,
+      "type": "fill"
+    },
+    {
+      "number": 43,
+      "type": "fill"
+    },
+    {
+      "number": 44,
+      "type": "fill"
+    },
+    {
+      "number": 45,
+      "type": "fill"
+    },
+    {
+      "number": 46,
+      "type": "subjective"
+    }
+  ],
+  "answers": [
+    {
+      "number": 13,
+      "content": "B"
+    },
+    {
+      "number": 14,
+      "content": "A"
+    },
+    {
+      "number": 15,
+      "content": "D"
+    },
+    {
+      "number": 21,
+      "content": "B"
+    },
+    {
+      "number": 22,
+      "content": "B"
+    },
+    {
+      "number": 23,
+      "content": "D"
+    },
+    {
+      "number": 24,
+      "content": "A"
+    },
+    {
+      "number": 25,
+      "content": "A"
+    },
+    {
+      "number": 26,
+      "content": "D"
+    },
+    {
+      "number": 27,
+      "content": "A"
+    },
+    {
+      "number": 28,
+      "content": "C"
+    },
+    {
+      "number": 29,
+      "content": "B"
+    },
+    {
+      "number": 30,
+      "content": "B"
+    },
+    {
+      "number": 31,
+      "content": "B"
+    },
+    {
+      "number": 32,
+      "content": "C"
+    },
+    {
+      "number": 33,
+      "content": "A"
+    },
+    {
+      "number": 36,
+      "content": "to"
+    },
+    {
+      "number": 37,
+      "content": "easily"
+    },
+    {
+      "number": 38,
+      "content": "flexible"
+    },
+    {
+      "number": 39,
+      "content": "painting"
+    },
+    {
+      "number": 40,
+      "content": "a"
+    },
+    {
+      "number": 43,
+      "content": "to adapt"
+    },
+    {
+      "number": 44,
+      "content": "without"
+    },
+    {
+      "number": 45,
+      "content": "but"
+    }
+  ],
+  "scores": {
+    "total": 60,
+    "max": 100
+  },
+  "sections": [
+    "exam_info",
+    "questions",
+    "answers",
+    "scores"
+  ]
+}

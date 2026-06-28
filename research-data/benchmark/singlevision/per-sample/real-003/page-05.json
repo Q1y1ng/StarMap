@@ -1,0 +1,76 @@
+{
+  "fileName": "YL物理小分.png",
+  "processingTime": 16413,
+  "extraction": {
+    "page_type": "score-report",
+    "questions": [
+      {
+        "number": 1,
+        "type": "choice"
+      },
+      {
+        "number": 2,
+        "type": "choice"
+      },
+      {
+        "number": 3,
+        "type": "choice"
+      },
+      {
+        "number": 4,
+        "type": "choice"
+      },
+      {
+        "number": 5,
+        "type": "choice"
+      },
+      {
+        "number": 6,
+        "type": "choice"
+      },
+      {
+        "number": 7,
+        "type": "choice"
+      },
+      {
+        "number": 8,
+        "type": "choice"
+      },
+      {
+        "number": 9,
+        "type": "choice"
+      },
+      {
+        "number": 10,
+        "type": "choice"
+      },
+      {
+        "number": 11,
+        "type": "subjective"
+      },
+      {
+        "number": 13,
+        "type": "subjective"
+      },
+      {
+        "number": 14,
+        "type": "subjective"
+      },
+      {
+        "number": 15,
+        "type": "subjective"
+      }
+    ],
+    "answers": [],
+    "scores": {
+      "total": 51,
+      "max": 100
+    },
+    "sections": [
+      "exam_info",
+      "questions",
+      "scores"
+    ]
+  },
+  "rawResponse": "{\n  \"page_type\": \"score-report\",\n  \"questions\": [\n    {\"number\":1,\"type\":\"choice\"},\n    {\"number\":2,\"type\":\"choice\"},\n    {\"number\":3,\"type\":\"choice\"},\n    {\"number\":4,\"type\":\"choice\"},\n    {\"number\":5,\"type\":\"choice\"},\n    {\"number\":6,\"type\":\"choice\"},\n    {\"number\":7,\"type\":\"choice\"},\n    {\"number\":8,\"type\":\"choice\"},\n    {\"number\":9,\"type\":\"choice\"},\n    {\"number\":10,\"type\":\"choice\"},\n    {\"number\":11,\"type\":\"subjective\"},\n    {\"number\":13,\"type\":\"subjective\"},\n    {\"number\":14,\"type\":\"subjective\"},\n    {\"number\":15,\"type\":\"subjective\"}\n  ],\n  \"answers\": [],\n  \"scores\": {\"total\":51,\"max\":100},\n  \"sections\": [\"exam_info\",\"questions\",\"scores\"]\n}"
+}

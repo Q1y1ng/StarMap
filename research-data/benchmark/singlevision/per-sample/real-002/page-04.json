@@ -1,0 +1,178 @@
+{
+  "fileName": "英语试卷4.jpg",
+  "processingTime": 26715,
+  "extraction": {
+    "page_type": "mixed",
+    "questions": [
+      {
+        "number": 21,
+        "type": "choice"
+      },
+      {
+        "number": 22,
+        "type": "choice"
+      },
+      {
+        "number": 23,
+        "type": "choice"
+      },
+      {
+        "number": 24,
+        "type": "choice"
+      },
+      {
+        "number": 25,
+        "type": "choice"
+      },
+      {
+        "number": 26,
+        "type": "choice"
+      },
+      {
+        "number": 27,
+        "type": "choice"
+      },
+      {
+        "number": 28,
+        "type": "choice"
+      },
+      {
+        "number": 29,
+        "type": "choice"
+      },
+      {
+        "number": 30,
+        "type": "choice"
+      },
+      {
+        "number": 31,
+        "type": "choice"
+      },
+      {
+        "number": 32,
+        "type": "choice"
+      },
+      {
+        "number": 33,
+        "type": "choice"
+      },
+      {
+        "number": 34,
+        "type": "choice"
+      },
+      {
+        "number": 35,
+        "type": "choice"
+      },
+      {
+        "number": 36,
+        "type": "fill"
+      },
+      {
+        "number": 37,
+        "type": "fill"
+      },
+      {
+        "number": 38,
+        "type": "fill"
+      },
+      {
+        "number": 39,
+        "type": "fill"
+      },
+      {
+        "number": 40,
+        "type": "fill"
+      },
+      {
+        "number": 41,
+        "type": "fill"
+      },
+      {
+        "number": 42,
+        "type": "fill"
+      },
+      {
+        "number": 43,
+        "type": "fill"
+      },
+      {
+        "number": 44,
+        "type": "fill"
+      },
+      {
+        "number": 45,
+        "type": "fill"
+      },
+      {
+        "number": 46,
+        "type": "subjective"
+      }
+    ],
+    "answers": [
+      {
+        "number": 21,
+        "content": "B"
+      },
+      {
+        "number": 22,
+        "content": "B"
+      },
+      {
+        "number": 23,
+        "content": "D"
+      },
+      {
+        "number": 24,
+        "content": "A"
+      },
+      {
+        "number": 25,
+        "content": "A"
+      },
+      {
+        "number": 26,
+        "content": "D"
+      },
+      {
+        "number": 27,
+        "content": "A"
+      },
+      {
+        "number": 28,
+        "content": "C"
+      },
+      {
+        "number": 29,
+        "content": "B"
+      },
+      {
+        "number": 30,
+        "content": "B"
+      },
+      {
+        "number": 31,
+        "content": "B"
+      },
+      {
+        "number": 32,
+        "content": "C"
+      },
+      {
+        "number": 33,
+        "content": "A"
+      }
+    ],
+    "scores": {
+      "total": null,
+      "max": 75
+    },
+    "sections": [
+      "exam_info",
+      "questions",
+      "answers",
+      "scores"
+    ]
+  },
+  "rawResponse": "{\n  \"page_type\": \"mixed\",\n  \"questions\": [\n    {\"number\":21,\"type\":\"choice\"},\n    {\"number\":22,\"type\":\"choice\"},\n    {\"number\":23,\"type\":\"choice\"},\n    {\"number\":24,\"type\":\"choice\"},\n    {\"number\":25,\"type\":\"choice\"},\n    {\"number\":26,\"type\":\"choice\"},\n    {\"number\":27,\"type\":\"choice\"},\n    {\"number\":28,\"type\":\"choice\"},\n    {\"number\":29,\"type\":\"choice\"},\n    {\"number\":30,\"type\":\"choice\"},\n    {\"number\":31,\"type\":\"choice\"},\n    {\"number\":32,\"type\":\"choice\"},\n    {\"number\":33,\"type\":\"choice\"},\n    {\"number\":34,\"type\":\"choice\"},\n    {\"number\":35,\"type\":\"choice\"},\n    {\"number\":36,\"type\":\"fill\"},\n    {\"number\":37,\"type\":\"fill\"},\n    {\"number\":38,\"type\":\"fill\"},\n    {\"number\":39,\"type\":\"fill\"},\n    {\"number\":40,\"type\":\"fill\"},\n    {\"number\":41,\"type\":\"fill\"},\n    {\"number\":42,\"type\":\"fill\"},\n    {\"number\":43,\"type\":\"fill\"},\n    {\"number\":44,\"type\":\"fill\"},\n    {\"number\":45,\"type\":\"fill\"},\n    {\"number\":46,\"type\":\"subjective\"}\n  ],\n  \"answers\": [\n    {\"number\":21,\"content\":\"B\"},\n    {\"number\":22,\"content\":\"B\"},\n    {\"number\":23,\"content\":\"D\"},\n    {\"number\":24,\"content\":\"A\"},\n    {\"number\":25,\"content\":\"A\"},\n    {\"number\":26,\"content\":\"D\"},\n    {\"number\":27,\"content\":\"A\"},\n    {\"number\":28,\"content\":\"C\"},\n    {\"number\":29,\"content\":\"B\"},\n    {\"number\":30,\"content\":\"B\"},\n    {\"number\":31,\"content\":\"B\"},\n    {\"number\":32,\"content\":\"C\"},\n    {\"number\":33,\"content\":\"A\"}\n  ],\n  \"scores\": {\"total\":null,\"max\":75},\n  \"sections\": [\"exam_info\",\"questions\",\"answers\",\"scores\"]\n}"
+}

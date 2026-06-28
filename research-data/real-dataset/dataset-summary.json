@@ -1,0 +1,443 @@
+{
+  "totalSamples": 41,
+  "subjectCount": 7,
+  "processedCount": 5,
+  "subjects": {
+    "语文": 4,
+    "英语": 4,
+    "物理": 4,
+    "化学": 4,
+    "地理": 4,
+    "unknown": 17,
+    "数学": 4
+  },
+  "grades": {
+    "高二": 13,
+    "unknown": 17,
+    "高一": 8,
+    "高三": 3
+  },
+  "types": {
+    "诊断考试": 22,
+    "期末考试": 8,
+    "期中考试": 8,
+    "月考": 3
+  },
+  "sources": {
+    "case-study": 5,
+    "uploaded-pdf": 17,
+    "exambench-v1": 19
+  },
+  "samples": [
+    {
+      "sampleId": "real-001",
+      "subject": "语文",
+      "grade": "高二",
+      "examType": "诊断考试",
+      "totalScore": 150,
+      "hasOutput": true,
+      "hasImages": false,
+      "source": "case-study"
+    },
+    {
+      "sampleId": "real-002",
+      "subject": "英语",
+      "grade": "高二",
+      "examType": "诊断考试",
+      "totalScore": 100,
+      "hasOutput": true,
+      "hasImages": false,
+      "source": "case-study"
+    },
+    {
+      "sampleId": "real-003",
+      "subject": "物理",
+      "grade": "高二",
+      "examType": "诊断考试",
+      "totalScore": 100,
+      "hasOutput": true,
+      "hasImages": false,
+      "source": "case-study"
+    },
+    {
+      "sampleId": "real-004",
+      "subject": "化学",
+      "grade": "高二",
+      "examType": "诊断考试",
+      "totalScore": 100,
+      "hasOutput": true,
+      "hasImages": false,
+      "source": "case-study"
+    },
+    {
+      "sampleId": "real-005",
+      "subject": "地理",
+      "grade": "高二",
+      "examType": "诊断考试",
+      "totalScore": 100,
+      "hasOutput": true,
+      "hasImages": false,
+      "source": "case-study"
+    },
+    {
+      "sampleId": "real-006",
+      "subject": "unknown",
+      "grade": "unknown",
+      "examType": "诊断考试",
+      "totalScore": 100,
+      "hasOutput": false,
+      "hasImages": true,
+      "source": "uploaded-pdf"
+    },
+    {
+      "sampleId": "real-007",
+      "subject": "unknown",
+      "grade": "unknown",
+      "examType": "诊断考试",
+      "totalScore": 100,
+      "hasOutput": false,
+      "hasImages": true,
+      "source": "uploaded-pdf"
+    },
+    {
+      "sampleId": "real-008",
+      "subject": "unknown",
+      "grade": "unknown",
+      "examType": "诊断考试",
+      "totalScore": 100,
+      "hasOutput": false,
+      "hasImages": true,
+      "source": "uploaded-pdf"
+    },
+    {
+      "sampleId": "real-009",
+      "subject": "unknown",
+      "grade": "unknown",
+      "examType": "诊断考试",
+      "totalScore": 100,
+      "hasOutput": false,
+      "hasImages": true,
+      "source": "uploaded-pdf"
+    },
+    {
+      "sampleId": "real-010",
+      "subject": "unknown",
+      "grade": "unknown",
+      "examType": "诊断考试",
+      "totalScore": 100,
+      "hasOutput": false,
+      "hasImages": true,
+      "source": "uploaded-pdf"
+    },
+    {
+      "sampleId": "real-011",
+      "subject": "unknown",
+      "grade": "unknown",
+      "examType": "诊断考试",
+      "totalScore": 100,
+      "hasOutput": false,
+      "hasImages": true,
+      "source": "uploaded-pdf"
+    },
+    {
+      "sampleId": "real-012",
+      "subject": "unknown",
+      "grade": "unknown",
+      "examType": "诊断考试",
+      "totalScore": 100,
+      "hasOutput": false,
+      "hasImages": true,
+      "source": "uploaded-pdf"
+    },
+    {
+      "sampleId": "real-013",
+      "subject": "unknown",
+      "grade": "unknown",
+      "examType": "诊断考试",
+      "totalScore": 100,
+      "hasOutput": false,
+      "hasImages": true,
+      "source": "uploaded-pdf"
+    },
+    {
+      "sampleId": "real-014",
+      "subject": "unknown",
+      "grade": "unknown",
+      "examType": "诊断考试",
+      "totalScore": 100,
+      "hasOutput": false,
+      "hasImages": true,
+      "source": "uploaded-pdf"
+    },
+    {
+      "sampleId": "real-015",
+      "subject": "unknown",
+      "grade": "unknown",
+      "examType": "诊断考试",
+      "totalScore": 100,
+      "hasOutput": false,
+      "hasImages": true,
+      "source": "uploaded-pdf"
+    },
+    {
+      "sampleId": "real-016",
+      "subject": "unknown",
+      "grade": "unknown",
+      "examType": "诊断考试",
+      "totalScore": 100,
+      "hasOutput": false,
+      "hasImages": true,
+      "source": "uploaded-pdf"
+    },
+    {
+      "sampleId": "real-017",
+      "subject": "unknown",
+      "grade": "unknown",
+      "examType": "诊断考试",
+      "totalScore": 100,
+      "hasOutput": false,
+      "hasImages": true,
+      "source": "uploaded-pdf"
+    },
+    {
+      "sampleId": "real-018",
+      "subject": "unknown",
+      "grade": "unknown",
+      "examType": "诊断考试",
+      "totalScore": 100,
+      "hasOutput": false,
+      "hasImages": true,
+      "source": "uploaded-pdf"
+    },
+    {
+      "sampleId": "real-019",
+      "subject": "unknown",
+      "grade": "unknown",
+      "examType": "诊断考试",
+      "totalScore": 100,
+      "hasOutput": false,
+      "hasImages": true,
+      "source": "uploaded-pdf"
+    },
+    {
+      "sampleId": "real-020",
+      "subject": "unknown",
+      "grade": "unknown",
+      "examType": "诊断考试",
+      "totalScore": 100,
+      "hasOutput": false,
+      "hasImages": true,
+      "source": "uploaded-pdf"
+    },
+    {
+      "sampleId": "real-021",
+      "subject": "unknown",
+      "grade": "unknown",
+      "examType": "诊断考试",
+      "totalScore": 100,
+      "hasOutput": false,
+      "hasImages": true,
+      "source": "uploaded-pdf"
+    },
+    {
+      "sampleId": "real-022",
+      "subject": "unknown",
+      "grade": "unknown",
+      "examType": "诊断考试",
+      "totalScore": 100,
+      "hasOutput": false,
+      "hasImages": true,
+      "source": "uploaded-pdf"
+    },
+    {
+      "sampleId": "real-023",
+      "subject": "语文",
+      "grade": "高二",
+      "examType": "期末考试",
+      "totalScore": 150,
+      "hasOutput": false,
+      "hasImages": false,
+      "source": "exambench-v1"
+    },
+    {
+      "sampleId": "real-024",
+      "subject": "语文",
+      "grade": "高二",
+      "examType": "期末考试",
+      "totalScore": 150,
+      "hasOutput": false,
+      "hasImages": false,
+      "source": "exambench-v1"
+    },
+    {
+      "sampleId": "real-025",
+      "subject": "语文",
+      "grade": "高二",
+      "examType": "期末考试",
+      "totalScore": 150,
+      "hasOutput": false,
+      "hasImages": false,
+      "source": "exambench-v1"
+    },
+    {
+      "sampleId": "real-026",
+      "subject": "数学",
+      "grade": "高一",
+      "examType": "期中考试",
+      "totalScore": 150,
+      "hasOutput": false,
+      "hasImages": false,
+      "source": "exambench-v1"
+    },
+    {
+      "sampleId": "real-027",
+      "subject": "数学",
+      "grade": "高二",
+      "examType": "期末考试",
+      "totalScore": 150,
+      "hasOutput": false,
+      "hasImages": false,
+      "source": "exambench-v1"
+    },
+    {
+      "sampleId": "real-028",
+      "subject": "数学",
+      "grade": "高一",
+      "examType": "期中考试",
+      "totalScore": 150,
+      "hasOutput": false,
+      "hasImages": false,
+      "source": "exambench-v1"
+    },
+    {
+      "sampleId": "real-029",
+      "subject": "数学",
+      "grade": "高二",
+      "examType": "期末考试",
+      "totalScore": 150,
+      "hasOutput": false,
+      "hasImages": false,
+      "source": "exambench-v1"
+    },
+    {
+      "sampleId": "real-030",
+      "subject": "英语",
+      "grade": "高三",
+      "examType": "月考",
+      "totalScore": 150,
+      "hasOutput": false,
+      "hasImages": false,
+      "source": "exambench-v1"
+    },
+    {
+      "sampleId": "real-031",
+      "subject": "英语",
+      "grade": "高三",
+      "examType": "月考",
+      "totalScore": 150,
+      "hasOutput": false,
+      "hasImages": false,
+      "source": "exambench-v1"
+    },
+    {
+      "sampleId": "real-032",
+      "subject": "英语",
+      "grade": "高三",
+      "examType": "月考",
+      "totalScore": 150,
+      "hasOutput": false,
+      "hasImages": false,
+      "source": "exambench-v1"
+    },
+    {
+      "sampleId": "real-033",
+      "subject": "物理",
+      "grade": "高一",
+      "examType": "期中考试",
+      "totalScore": 150,
+      "hasOutput": false,
+      "hasImages": false,
+      "source": "exambench-v1"
+    },
+    {
+      "sampleId": "real-034",
+      "subject": "物理",
+      "grade": "高一",
+      "examType": "期中考试",
+      "totalScore": 150,
+      "hasOutput": false,
+      "hasImages": false,
+      "source": "exambench-v1"
+    },
+    {
+      "sampleId": "real-035",
+      "subject": "物理",
+      "grade": "高一",
+      "examType": "期中考试",
+      "totalScore": 150,
+      "hasOutput": false,
+      "hasImages": false,
+      "source": "exambench-v1"
+    },
+    {
+      "sampleId": "real-036",
+      "subject": "化学",
+      "grade": "高二",
+      "examType": "期末考试",
+      "totalScore": 150,
+      "hasOutput": false,
+      "hasImages": false,
+      "source": "exambench-v1"
+    },
+    {
+      "sampleId": "real-037",
+      "subject": "化学",
+      "grade": "高二",
+      "examType": "期末考试",
+      "totalScore": 150,
+      "hasOutput": false,
+      "hasImages": false,
+      "source": "exambench-v1"
+    },
+    {
+      "sampleId": "real-038",
+      "subject": "化学",
+      "grade": "高二",
+      "examType": "期末考试",
+      "totalScore": 150,
+      "hasOutput": false,
+      "hasImages": false,
+      "source": "exambench-v1"
+    },
+    {
+      "sampleId": "real-039",
+      "subject": "地理",
+      "grade": "高一",
+      "examType": "期中考试",
+      "totalScore": 150,
+      "hasOutput": false,
+      "hasImages": false,
+      "source": "exambench-v1"
+    },
+    {
+      "sampleId": "real-040",
+      "subject": "地理",
+      "grade": "高一",
+      "examType": "期中考试",
+      "totalScore": 150,
+      "hasOutput": false,
+      "hasImages": false,
+      "source": "exambench-v1"
+    },
+    {
+      "sampleId": "real-041",
+      "subject": "地理",
+      "grade": "高一",
+      "examType": "期中考试",
+      "totalScore": 150,
+      "hasOutput": false,
+      "hasImages": false,
+      "source": "exambench-v1"
+    }
+  ]
+}

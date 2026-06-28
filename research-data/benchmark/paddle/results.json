@@ -1,0 +1,230 @@
+{
+  "status": "OK",
+  "generatedAt": "2026-06-18T10:42:22.361Z",
+  "aggregate": {
+    "method": "PaddleOCR",
+    "pages": 29,
+    "blocks": 2546
+  },
+  "cases": [
+    {
+      "caseId": "case-001",
+      "subject": "语文",
+      "student": "LY",
+      "images": [
+        {
+          "file": "语文试卷1.jpg",
+          "category": "paper",
+          "blocks": 73,
+          "questions": 4
+        },
+        {
+          "file": "语文试卷2.jpg",
+          "category": "paper",
+          "blocks": 76,
+          "questions": 3
+        },
+        {
+          "file": "语文试卷3.jpg",
+          "category": "paper",
+          "blocks": 64,
+          "questions": 8
+        },
+        {
+          "file": "语文试卷4.jpg",
+          "category": "paper",
+          "blocks": 44,
+          "questions": 6
+        },
+        {
+          "file": "YL语文答题卡1.jpg",
+          "category": "answer",
+          "blocks": 63,
+          "questions": 4
+        },
+        {
+          "file": "YL语文答题卡2.jpg",
+          "category": "answer",
+          "blocks": 45,
+          "questions": 1
+        },
+        {
+          "file": "YL语文小分.png",
+          "category": "score",
+          "blocks": 160,
+          "questions": 91
+        }
+      ],
+      "totalBlocks": 525,
+      "totalQuestions": 117
+    },
+    {
+      "caseId": "case-002",
+      "subject": "英语",
+      "student": "LY",
+      "images": [
+        {
+          "file": "英语试卷1.jpg",
+          "category": "paper",
+          "blocks": 69,
+          "questions": 3
+        },
+        {
+          "file": "英语试卷2.jpg",
+          "category": "paper",
+          "blocks": 73,
+          "questions": 9
+        },
+        {
+          "file": "英语试卷3.jpg",
+          "category": "paper",
+          "blocks": 69,
+          "questions": 4
+        },
+        {
+          "file": "英语试卷4.jpg",
+          "category": "paper",
+          "blocks": 138,
+          "questions": 21
+        },
+        {
+          "file": "YL英语答题卡1.jpg",
+          "category": "answer",
+          "blocks": 48,
+          "questions": 1
+        },
+        {
+          "file": "YL英语小分.png",
+          "category": "score",
+          "blocks": 285,
+          "questions": 186
+        }
+      ],
+      "totalBlocks": 682,
+      "totalQuestions": 224
+    },
+    {
+      "caseId": "case-003",
+      "subject": "物理",
+      "student": "LY",
+      "images": [
+        {
+          "file": "物理试卷1.jpg",
+          "category": "paper",
+          "blocks": 78,
+          "questions": 11
+        },
+        {
+          "file": "物理试卷2.jpg",
+          "category": "paper",
+          "blocks": 64,
+          "questions": 7
+        },
+        {
+          "file": "YL物理答题卡1.jpg",
+          "category": "answer",
+          "blocks": 33,
+          "questions": 0
+        },
+        {
+          "file": "YL物理答题卡2.jpg",
+          "category": "answer",
+          "blocks": 13,
+          "questions": 0
+        },
+        {
+          "file": "YL物理小分.png",
+          "category": "score",
+          "blocks": 132,
+          "questions": 71
+        }
+      ],
+      "totalBlocks": 320,
+      "totalQuestions": 89
+    },
+    {
+      "caseId": "case-004",
+      "subject": "化学",
+      "student": "LY",
+      "images": [
+        {
+          "file": "化学试卷1.jpg",
+          "category": "paper",
+          "blocks": 104,
+          "questions": 10
+        },
+        {
+          "file": "化学试卷2.jpg",
+          "category": "paper",
+          "blocks": 104,
+          "questions": 8
+        },
+        {
+          "file": "化学试卷3.jpg",
+          "category": "paper",
+          "blocks": 110,
+          "questions": 6
+        },
+        {
+          "file": "YL化学答题卡1.jpg",
+          "category": "answer",
+          "blocks": 38,
+          "questions": 0
+        },
+        {
+          "file": "YL化学答题卡2.jpg",
+          "category": "answer",
+          "blocks": 23,
+          "questions": 2
+        },
+        {
+          "file": "YL化学小分.png",
+          "category": "score",
+          "blocks": 43,
+          "questions": 6
+        }
+      ],
+      "totalBlocks": 422,
+      "totalQuestions": 32
+    },
+    {
+      "caseId": "case-005",
+      "subject": "地理",
+      "student": "HZ",
+      "images": [
+        {
+          "file": "地理试卷1.jpg",
+          "category": "paper",
+          "blocks": 176,
+          "questions": 19
+        },
+        {
+          "file": "地理试卷2.jpg",
+          "category": "paper",
+          "blocks": 132,
+          "questions": 17
+        },
+        {
+          "file": "HZ地理答题卡1.jpg",
+          "category": "answer",
+          "blocks": 38,
+          "questions": 2
+        },
+        {
+          "file": "HZ地理答题卡2.jpg",
+          "category": "answer",
+          "blocks": 0,
+          "questions": 0
+        },
+        {
+          "file": "HZ地理小分.png",
+          "category": "score",
+          "blocks": 251,
+          "questions": 160
+        }
+      ],
+      "totalBlocks": 597,
+      "totalQuestions": 198
+    }
+  ]
+}

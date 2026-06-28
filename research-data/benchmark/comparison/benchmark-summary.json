@@ -1,0 +1,347 @@
+{
+  "meta": {
+    "generatedAt": "2026-06-18T10:42:37.100Z",
+    "script": "scripts/compare-baseline.ts",
+    "methods": [
+      "StarMap",
+      "SingleVision",
+      "PaddleOCR"
+    ],
+    "totalSamples": 5
+  },
+  "comparison": {
+    "StarMap": {
+      "avgQA": 100,
+      "avgAA": 100,
+      "avgSA": 100,
+      "avgDSR": 92
+    },
+    "SingleVision": {
+      "avgQA": 100,
+      "avgAA": 91.86,
+      "avgSA": 60,
+      "avgDSR": 80
+    },
+    "PaddleOCR": {
+      "avgQA": 100,
+      "avgAA": 0,
+      "avgSA": 0,
+      "avgDSR": 0
+    }
+  },
+  "perSample": [
+    {
+      "sampleId": "real-001",
+      "subject": "语文",
+      "groundTruth": {
+        "questionCount": 18,
+        "answerCount": 18,
+        "score": 51,
+        "totalScore": 150
+      },
+      "StarMap": {
+        "QA": 100,
+        "AA": 100,
+        "SA": 100,
+        "DSR": 100,
+        "details": {
+          "questionsFound": 26,
+          "questionsTotal": 18,
+          "answersFound": 0,
+          "answersTotal": 18,
+          "scoreCorrect": 1,
+          "scoreTotal": 1,
+          "sectionsFound": 5,
+          "sectionsTotal": 5
+        }
+      },
+      "SingleVision": {
+        "QA": 100,
+        "AA": 94.44,
+        "SA": 0,
+        "DSR": 80,
+        "details": {
+          "questionsFound": 18,
+          "questionsTotal": 18,
+          "answersFound": 17,
+          "answersTotal": 18,
+          "scoreCorrect": 0,
+          "scoreTotal": 1,
+          "sectionsFound": 4,
+          "sectionsTotal": 5
+        }
+      },
+      "PaddleOCR": {
+        "QA": 100,
+        "AA": 0,
+        "SA": 0,
+        "DSR": 0,
+        "details": {
+          "questionsFound": 21,
+          "questionsTotal": 18,
+          "answersFound": 0,
+          "answersTotal": 18,
+          "scoreCorrect": 0,
+          "scoreTotal": 1,
+          "sectionsFound": 0,
+          "sectionsTotal": 5
+        }
+      }
+    },
+    {
+      "sampleId": "real-002",
+      "subject": "英语",
+      "groundTruth": {
+        "questionCount": 37,
+        "answerCount": 37,
+        "score": 60,
+        "totalScore": 100
+      },
+      "StarMap": {
+        "QA": 100,
+        "AA": 100,
+        "SA": 100,
+        "DSR": 100,
+        "details": {
+          "questionsFound": 49,
+          "questionsTotal": 37,
+          "answersFound": 0,
+          "answersTotal": 37,
+          "scoreCorrect": 1,
+          "scoreTotal": 1,
+          "sectionsFound": 5,
+          "sectionsTotal": 5
+        }
+      },
+      "SingleVision": {
+        "QA": 100,
+        "AA": 64.86,
+        "SA": 100,
+        "DSR": 80,
+        "details": {
+          "questionsFound": 46,
+          "questionsTotal": 37,
+          "answersFound": 24,
+          "answersTotal": 37,
+          "scoreCorrect": 1,
+          "scoreTotal": 1,
+          "sectionsFound": 4,
+          "sectionsTotal": 5
+        }
+      },
+      "PaddleOCR": {
+        "QA": 100,
+        "AA": 0,
+        "SA": 0,
+        "DSR": 0,
+        "details": {
+          "questionsFound": 37,
+          "questionsTotal": 37,
+          "answersFound": 0,
+          "answersTotal": 37,
+          "scoreCorrect": 0,
+          "scoreTotal": 1,
+          "sectionsFound": 0,
+          "sectionsTotal": 5
+        }
+      }
+    },
+    {
+      "sampleId": "real-003",
+      "subject": "物理",
+      "groundTruth": {
+        "questionCount": 15,
+        "answerCount": 15,
+        "score": 51,
+        "totalScore": 100
+      },
+      "StarMap": {
+        "QA": 100,
+        "AA": 100,
+        "SA": 100,
+        "DSR": 80,
+        "details": {
+          "questionsFound": 23,
+          "questionsTotal": 15,
+          "answersFound": 0,
+          "answersTotal": 15,
+          "scoreCorrect": 1,
+          "scoreTotal": 1,
+          "sectionsFound": 4,
+          "sectionsTotal": 5
+        }
+      },
+      "SingleVision": {
+        "QA": 100,
+        "AA": 100,
+        "SA": 100,
+        "DSR": 80,
+        "details": {
+          "questionsFound": 15,
+          "questionsTotal": 15,
+          "answersFound": 15,
+          "answersTotal": 15,
+          "scoreCorrect": 1,
+          "scoreTotal": 1,
+          "sectionsFound": 4,
+          "sectionsTotal": 5
+        }
+      },
+      "PaddleOCR": {
+        "QA": 100,
+        "AA": 0,
+        "SA": 0,
+        "DSR": 0,
+        "details": {
+          "questionsFound": 18,
+          "questionsTotal": 15,
+          "answersFound": 0,
+          "answersTotal": 15,
+          "scoreCorrect": 0,
+          "scoreTotal": 1,
+          "sectionsFound": 0,
+          "sectionsTotal": 5
+        }
+      }
+    },
+    {
+      "sampleId": "real-004",
+      "subject": "化学",
+      "groundTruth": {
+        "questionCount": 24,
+        "answerCount": 24,
+        "score": 58,
+        "totalScore": 100
+      },
+      "StarMap": {
+        "QA": 100,
+        "AA": 100,
+        "SA": 100,
+        "DSR": 80,
+        "details": {
+          "questionsFound": 22,
+          "questionsTotal": 24,
+          "answersFound": 0,
+          "answersTotal": 24,
+          "scoreCorrect": 1,
+          "scoreTotal": 1,
+          "sectionsFound": 4,
+          "sectionsTotal": 5
+        }
+      },
+      "SingleVision": {
+        "QA": 100,
+        "AA": 100,
+        "SA": 100,
+        "DSR": 80,
+        "details": {
+          "questionsFound": 24,
+          "questionsTotal": 24,
+          "answersFound": 24,
+          "answersTotal": 24,
+          "scoreCorrect": 1,
+          "scoreTotal": 1,
+          "sectionsFound": 4,
+          "sectionsTotal": 5
+        }
+      },
+      "PaddleOCR": {
+        "QA": 100,
+        "AA": 0,
+        "SA": 0,
+        "DSR": 0,
+        "details": {
+          "questionsFound": 24,
+          "questionsTotal": 24,
+          "answersFound": 0,
+          "answersTotal": 24,
+          "scoreCorrect": 0,
+          "scoreTotal": 1,
+          "sectionsFound": 0,
+          "sectionsTotal": 5
+        }
+      }
+    },
+    {
+      "sampleId": "real-005",
+      "subject": "地理",
+      "groundTruth": {
+        "questionCount": 33,
+        "answerCount": 33,
+        "score": 66,
+        "totalScore": 100
+      },
+      "StarMap": {
+        "QA": 100,
+        "AA": 100,
+        "SA": 100,
+        "DSR": 100,
+        "details": {
+          "questionsFound": 34,
+          "questionsTotal": 33,
+          "answersFound": 0,
+          "answersTotal": 33,
+          "scoreCorrect": 1,
+          "scoreTotal": 1,
+          "sectionsFound": 5,
+          "sectionsTotal": 5
+        }
+      },
+      "SingleVision": {
+        "QA": 100,
+        "AA": 100,
+        "SA": 0,
+        "DSR": 80,
+        "details": {
+          "questionsFound": 33,
+          "questionsTotal": 33,
+          "answersFound": 33,
+          "answersTotal": 33,
+          "scoreCorrect": 0,
+          "scoreTotal": 1,
+          "sectionsFound": 4,
+          "sectionsTotal": 5
+        }
+      },
+      "PaddleOCR": {
+        "QA": 100,
+        "AA": 0,
+        "SA": 0,
+        "DSR": 0,
+        "details": {
+          "questionsFound": 36,
+          "questionsTotal": 33,
+          "answersFound": 0,
+          "answersTotal": 33,
+          "scoreCorrect": 0,
+          "scoreTotal": 1,
+          "sectionsFound": 0,
+          "sectionsTotal": 5
+        }
+      }
+    }
+  ],
+  "keyTable": [
+    {
+      "method": "PaddleOCR",
+      "QA": 100,
+      "AA": "N/A (只检测文字)",
+      "SA": "N/A (无语义)",
+      "DSR": "N/A (无语义)"
+    },
+    {
+      "method": "SingleVision",
+      "QA": 100,
+      "AA": 92,
+      "SA": 60,
+      "DSR": 80
+    },
+    {
+      "method": "StarMap",
+      "QA": 100,
+      "AA": 100,
+      "SA": 100,
+      "DSR": 92
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "fileName": "YL语文小分.png",
+  "processingTime": 24288,
+  "extraction": {
+    "page_type": "score-report",
+    "questions": [
+      {
+        "number": 1,
+        "type": "choice"
+      },
+      {
+        "number": 2,
+        "type": "choice"
+      },
+      {
+        "number": 3,
+        "type": "choice"
+      },
+      {
+        "number": 4,
+        "type": "choice"
+      },
+      {
+        "number": 5,
+        "type": "choice"
+      },
+      {
+        "number": 7,
+        "type": "choice"
+      },
+      {
+        "number": 8,
+        "type": "choice"
+      },
+      {
+        "number": 9,
+        "type": "choice"
+      },
+      {
+        "number": 11,
+        "type": "choice"
+      },
+      {
+        "number": 14,
+        "type": "choice"
+      },
+      {
+        "number": 15,
+        "type": "choice"
+      },
+      {
+        "number": 16,
+        "type": "choice"
+      },
+      {
+        "number": 17,
+        "type": "choice"
+      },
+      {
+        "number": 6,
+        "type": "subjective"
+      },
+      {
+        "number": 10,
+        "type": "subjective"
+      },
+      {
+        "number": 12,
+        "type": "subjective"
+      },
+      {
+        "number": 13,
+        "type": "subjective"
+      }
+    ],
+    "answers": [
+      {
+        "number": 1,
+        "content": "3.00"
+      },
+      {
+        "number": 2,
+        "content": "0.00"
+      },
+      {
+        "number": 3,
+        "content": "0.00"
+      },
+      {
+        "number": 4,
+        "content": "0.00"
+      },
+      {
+        "number": 5,
+        "content": "3.00"
+      },
+      {
+        "number": 7,
+        "content": "3.00"
+      },
+      {
+        "number": 8,
+        "content": "0.00"
+      },
+      {
+        "number": 9,
+        "content": "3.00"
+      },
+      {
+        "number": 11,
+        "content": "0.00"
+      },
+      {
+        "number": 14,
+        "content": "3.00"
+      },
+      {
+        "number": 15,
+        "content": "3.00"
+      },
+      {
+        "number": 16,
+        "content": "3.00"
+      },
+      {
+        "number": 17,
+        "content": "0.00"
+      },
+      {
+        "number": 6,
+        "content": "1.00"
+      },
+      {
+        "number": 10,
+        "content": "1.00"
+      },
+      {
+        "number": 12,
+        "content": "2.00"
+      },
+      {
+        "number": 13,
+        "content": "1.00"
+      }
+    ],
+    "scores": {
+      "total": "51",
+      "max": "100"
+    },
+    "sections": [
+      "exam_info",
+      "questions",
+      "answers",
+      "scores"
+    ]
+  },
+  "rawResponse": "{\n  \"page_type\": \"score-report\",\n  \"questions\": [\n    {\"number\":1,\"type\":\"choice\"},\n    {\"number\":2,\"type\":\"choice\"},\n    {\"number\":3,\"type\":\"choice\"},\n    {\"number\":4,\"type\":\"choice\"},\n    {\"number\":5,\"type\":\"choice\"},\n    {\"number\":7,\"type\":\"choice\"},\n    {\"number\":8,\"type\":\"choice\"},\n    {\"number\":9,\"type\":\"choice\"},\n    {\"number\":11,\"type\":\"choice\"},\n    {\"number\":14,\"type\":\"choice\"},\n    {\"number\":15,\"type\":\"choice\"},\n    {\"number\":16,\"type\":\"choice\"},\n    {\"number\":17,\"type\":\"choice\"},\n    {\"number\":6,\"type\":\"subjective\"},\n    {\"number\":10,\"type\":\"subjective\"},\n    {\"number\":12,\"type\":\"subjective\"},\n    {\"number\":13,\"type\":\"subjective\"}\n  ],\n  \"answers\": [\n    {\"number\":1,\"content\":\"3.00\"},\n    {\"number\":2,\"content\":\"0.00\"},\n    {\"number\":3,\"content\":\"0.00\"},\n    {\"number\":4,\"content\":\"0.00\"},\n    {\"number\":5,\"content\":\"3.00\"},\n    {\"number\":7,\"content\":\"3.00\"},\n    {\"number\":8,\"content\":\"0.00\"},\n    {\"number\":9,\"content\":\"3.00\"},\n    {\"number\":11,\"content\":\"0.00\"},\n    {\"number\":14,\"content\":\"3.00\"},\n    {\"number\":15,\"content\":\"3.00\"},\n    {\"number\":16,\"content\":\"3.00\"},\n    {\"number\":17,\"content\":\"0.00\"},\n    {\"number\":6,\"content\":\"1.00\"},\n    {\"number\":10,\"content\":\"1.00\"},\n    {\"number\":12,\"content\":\"2.00\"},\n    {\"number\":13,\"content\":\"1.00\"}\n  ],\n  \"scores\": {\"total\":\"51\",\"max\":\"100\"},\n  \"sections\": [\"exam_info\", \"questions\", \"answers\", \"scores\"]\n}"
+}

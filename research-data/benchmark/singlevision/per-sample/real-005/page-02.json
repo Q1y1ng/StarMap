@@ -1,0 +1,74 @@
+{
+  "fileName": "地理试卷2.jpg",
+  "processingTime": 11621,
+  "extraction": {
+    "page_type": "paper",
+    "questions": [
+      {
+        "number": 20,
+        "type": "choice"
+      },
+      {
+        "number": 21,
+        "type": "choice"
+      },
+      {
+        "number": 22,
+        "type": "choice"
+      },
+      {
+        "number": 23,
+        "type": "choice"
+      },
+      {
+        "number": 24,
+        "type": "choice"
+      },
+      {
+        "number": 25,
+        "type": "choice"
+      },
+      {
+        "number": 26,
+        "type": "choice"
+      },
+      {
+        "number": 27,
+        "type": "choice"
+      },
+      {
+        "number": 28,
+        "type": "choice"
+      },
+      {
+        "number": 29,
+        "type": "choice"
+      },
+      {
+        "number": 30,
+        "type": "choice"
+      },
+      {
+        "number": 31,
+        "type": "subjective"
+      },
+      {
+        "number": 32,
+        "type": "subjective"
+      },
+      {
+        "number": 33,
+        "type": "subjective"
+      }
+    ],
+    "answers": [],
+    "scores": {
+      "total": null,
+      "max": null
+    },
+    "sections": [
+      "questions"
+    ]
+  },
+  "rawResponse": "{\n  \"page_type\": \"paper\",\n  \"questions\": [\n    {\"number\": 20, \"type\": \"choice\"},\n    {\"number\": 21, \"type\": \"choice\"},\n    {\"number\": 22, \"type\": \"choice\"},\n    {\"number\": 23, \"type\": \"choice\"},\n    {\"number\": 24, \"type\": \"choice\"},\n    {\"number\": 25, \"type\": \"choice\"},\n    {\"number\": 26, \"type\": \"choice\"},\n    {\"number\": 27, \"type\": \"choice\"},\n    {\"number\": 28, \"type\": \"choice\"},\n    {\"number\": 29, \"type\": \"choice\"},\n    {\"number\": 30, \"type\": \"choice\"},\n    {\"number\": 31, \"type\": \"subjective\"},\n    {\"number\": 32, \"type\": \"subjective\"},\n    {\"number\": 33, \"type\": \"subjective\"}\n  ],\n  \"answers\": [],\n  \"scores\": {\"total\": null, \"max\": null},\n  \"sections\": [\"questions\"]\n}"
+}

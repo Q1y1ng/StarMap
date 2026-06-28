@@ -1,0 +1,144 @@
+{
+  "sampleId": "real-003",
+  "caseId": "case-003",
+  "subject": "物理",
+  "totalPages": 5,
+  "totalProcessingTime": 84103,
+  "totalOutputLength": 3219,
+  "totalPromptTokens": 0,
+  "totalCompletionTokens": 0,
+  "questions": [
+    {
+      "number": 1,
+      "type": "choice"
+    },
+    {
+      "number": 2,
+      "type": "choice"
+    },
+    {
+      "number": 3,
+      "type": "choice"
+    },
+    {
+      "number": 4,
+      "type": "choice"
+    },
+    {
+      "number": 5,
+      "type": "choice"
+    },
+    {
+      "number": 6,
+      "type": "choice"
+    },
+    {
+      "number": 7,
+      "type": "choice"
+    },
+    {
+      "number": 8,
+      "type": "choice"
+    },
+    {
+      "number": 9,
+      "type": "choice"
+    },
+    {
+      "number": 10,
+      "type": "choice"
+    },
+    {
+      "number": 11,
+      "type": "subjective"
+    },
+    {
+      "number": 12,
+      "type": "subjective"
+    },
+    {
+      "number": 13,
+      "type": "subjective"
+    },
+    {
+      "number": 14,
+      "type": "subjective"
+    },
+    {
+      "number": 15,
+      "type": "subjective"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "content": "A"
+    },
+    {
+      "number": 2,
+      "content": "A"
+    },
+    {
+      "number": 3,
+      "content": "B"
+    },
+    {
+      "number": 4,
+      "content": "A"
+    },
+    {
+      "number": 5,
+      "content": "A"
+    },
+    {
+      "number": 6,
+      "content": "C"
+    },
+    {
+      "number": 7,
+      "content": "A"
+    },
+    {
+      "number": 8,
+      "content": "B"
+    },
+    {
+      "number": 9,
+      "content": "A"
+    },
+    {
+      "number": 10,
+      "content": "B"
+    },
+    {
+      "number": 11,
+      "content": "(1)下缓慢；(2)1.2×10^5；(3)1/2"
+    },
+    {
+      "number": 12,
+      "content": "(1)变大；(2)减小；(3)变大"
+    },
+    {
+      "number": 13,
+      "content": "解:D，l3=90cm，l3'=60cm"
+    },
+    {
+      "number": 14,
+      "content": "解：ΔP₁V₁ = P₀V₀ ⇒ V₀=0.16m³；2) P₂V₂=P₃V₀ ⇒ P₃=2000Pa；P₃/P₀=20%，97%P₀=9700Pa，9700Pa>2000Pa，该航天员服不合格"
+    },
+    {
+      "number": 15,
+      "content": "解：对B PV_B +0.1P = P₁V_A，P₁=3.1P；2) 因为V_B:V_A=3:1，设V_B=3，V_A=1，V_B+V_A=4；则V_B'=3×2/3=2，V_A'=4-V_B'=2；PV_B' +0.1P = P₂V_A' ⇒ P₂=(PV_B' +0.1P)/V_A'=1.05P；3) ρ=m/V，m₁=ρV_B，m₂=ρV_B'，漏出后质量m₃=m₁-m₂，m₃:m₂=1:2"
+    }
+  ],
+  "scores": {
+    "total": 51,
+    "max": 100
+  },
+  "sections": [
+    "exam_info",
+    "questions",
+    "answers",
+    "scores"
+  ]
+}

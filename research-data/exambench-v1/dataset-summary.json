@@ -1,0 +1,60 @@
+{
+  "datasetName": "ExamBench-v1",
+  "datasetVersion": "1.1.0",
+  "totalSamples": 50,
+  "totalQuestions": 500,
+  "totalScoreEntries": 500,
+  "groundTruthCount": 50,
+  "metadataCount": 50,
+  "imageCount": 0,
+  "subjectCoverage": 9,
+  "gradeCoverage": 3,
+  "examTypeCoverage": 3,
+  "distribution": {
+    "subjects": {
+      "数学": 10,
+      "语文": 5,
+      "英语": 5,
+      "物理": 5,
+      "化学": 5,
+      "生物": 5,
+      "历史": 5,
+      "政治": 5,
+      "地理": 5
+    },
+    "grades": {
+      "高一": 20,
+      "高二": 20,
+      "高三": 10
+    },
+    "examTypes": {
+      "期中考试": 20,
+      "期末考试": 20,
+      "月考": 10
+    },
+    "subjectGradeCross": {
+      "数学_高一": 5,
+      "数学_高二": 5,
+      "语文_高二": 5,
+      "英语_高三": 5,
+      "物理_高一": 5,
+      "化学_高二": 5,
+      "生物_高一": 5,
+      "历史_高二": 5,
+      "政治_高三": 5,
+      "地理_高一": 5
+    },
+    "gradeExamTypeCross": {
+      "高一_期中考试": 20,
+      "高二_期末考试": 20,
+      "高三_月考": 10
+    }
+  },
+  "qualityMetrics": {
+    "metadataCompleteRate": 1.0,
+    "groundTruthCompleteRate": 1.0,
+    "fiveSectionCoverageRate": 1.0,
+    "imageFilledRate": 0.0
+  },
+  "generatedAt": "2026-06-14T00:00:00.000Z"
+}
